@@ -12,6 +12,15 @@
 }
 
 /* shopify theme edits */
+.header {
+    padding: 0 80px 10px !important;
+}
+
+header-drawer {
+    grid-column-end: icons;
+    justify-self: end !important;
+}
+
 .header__inline-menu {
     grid-area: icons;
     justify-self: end;
@@ -23,6 +32,19 @@ a.header__menu-item {
 }
 
 .header__icons {
+    display: none;
+}
+
+#menu-drawer {
+    background-image: none;
+}
+
+.menu-drawer__navigation a {
+    display: block;
+    text-align: center;
+}
+
+.menu-drawer__utility-links {
     display: none;
 }
 
@@ -88,6 +110,10 @@ a.header__menu-item {
 }
 
 @media screen and (max-width: 767px) {
+    .header {
+        padding: 0 40px 10px !important;
+    }
+
     .footer__content-top {
         padding: 40px 40px 40px !important;
     }
@@ -386,7 +412,8 @@ a.header__menu-item {
         padding-right: 40px;
     }
 
-    .p1010284_plum-pittstown-gravel_092823-1 {
+    .p1010284_plum-pittstown-gravel_092823-1,
+    .home-support-hero {
         height: 360px;
     }
 }
