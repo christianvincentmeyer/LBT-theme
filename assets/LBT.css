@@ -6,9 +6,27 @@
     font-weight: 100 1000;
 }
 
-:root: {
+::root:: {
     font-family: "InclusiveSans";
+    color: #072A29;
 }
+
+/* shopify theme edits */
+.header__inline-menu {
+    grid-area: icons;
+    justify-self: end;
+}
+
+.header__icons {
+    display: none;
+}
+
+.gradient {
+    background-image: url(https://cdn.shopify.com/s/files/1/0645/6069/3405/files/paper-texture.webp);
+    background-position: fixed;
+}
+
+/* end shopify theme edits */
 
 .page-wrapper {
     grid-row-gap: 24px;

@@ -2,16 +2,7 @@
   "sections": {
     "lbt_home_page_MdFc6E": {
       "type": "LBT-home-page",
-      "settings": {
-        "hero-height": 5,
-        "mobile-hero-height": 3,
-        "image-align": "center",
-        "mobile-image-align": "center",
-        "image-size": "contain",
-        "mobile-image-size": "contain",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+      "settings": {}
     }
   },
   "order": [
