@@ -26,6 +26,10 @@
     background-position: fixed;
 }
 
+.footer {
+    background-image: none;
+}
+
 /* end shopify theme edits */
 
 .page-wrapper {
