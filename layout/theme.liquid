@@ -296,6 +296,18 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    {% comment %} LBT CUSTOM {% endcomment %}
+    {% comment %} LBT CUSTOM {% endcomment %}
+    {% comment %} LBT CUSTOM {% endcomment %}
+
+    <link href="{{ 'normalize.css' | asset_url }}" rel="stylesheet" type="text/css">
+    <link href="{{ 'webflow.css' | asset_url }}" rel="stylesheet" type="text/css">
+    <link href="{{ 'LBT.css' | asset_url }}" rel="stylesheet" type="text/css">
+
+    {% comment %} LBT CUSTOM {% endcomment %}
+    {% comment %} LBT CUSTOM {% endcomment %}
+    {% comment %} LBT CUSTOM {% endcomment %}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
