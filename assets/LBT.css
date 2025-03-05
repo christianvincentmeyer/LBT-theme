@@ -30,6 +30,13 @@
     background-image: none;
 }
 
+.footer__content-top {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+
 /* end shopify theme edits */
 
 .page-wrapper {
