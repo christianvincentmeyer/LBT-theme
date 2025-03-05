@@ -13,7 +13,7 @@
 
 /* shopify theme edits */
 .header {
-    padding: 0 80px 10px !important;
+    padding: 16px 80px !important;
 }
 
 header-drawer {
@@ -35,8 +35,9 @@ a.header__menu-item {
     display: none;
 }
 
-#menu-drawer {
-    background-image: none;
+#menu-drawer,
+.utility-bar {
+    background-image: none !important;
 }
 
 .menu-drawer__navigation a {
