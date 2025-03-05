@@ -28,14 +28,70 @@
 
 .footer {
     background-image: none;
+    padding: 40px 0 !important;
+}
+
+.footer a {
+    padding: 8px 8px;
+}
+
+.footer small a {
+    padding: 0px;
 }
 
 .footer__content-top {
     display: flex !important;
     justify-content: space-between;
-    padding: 0px;
+    padding: 0px 0px 120px !important;
 }
 
+.footer__content-bottom-wrapper--center {
+    flex-direction: column;
+}
+
+.footer__content-bottom-wrapper {
+    row-gap: 0 !important;
+}
+
+.footer__content-bottom {
+    border: none !important;
+}
+
+.footer__copyright {
+    margin-top: 0 !important;
+    margin-bottom: 8px;
+}
+
+.footer-block__details-content {
+    margin: 0 !important;
+}
+
+.copyright__content {
+    font-size: 14px !important;
+}
+
+@media screen and (max-width: 1590px) {
+    .footer__content-top {
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 0px 80px !important;
+    }
+
+    .list-payment {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__content-top {
+        padding: 40px 40px 40px !important;
+    }
+
+    .footer__copyright {
+        margin-top: 0 !important;
+        margin-bottom: 2px;
+    }
+}
 
 /* end shopify theme edits */
 
@@ -96,6 +152,8 @@
     font-weight: 400;
     line-height: 125%;
     text-decoration: none;
+    max-width: 880px;
+    margin: auto;
 }
 
 .p1010284_plum-pittstown-gravel_092823-1,
@@ -301,9 +359,7 @@
         width: 100%;
     }
 
-    .p1010284_plum-pittstown-gravel_092823-1 {
-        height: 360px;
-    }
+
 
     .stacking-wrapper {
         grid-row-gap: 24px;
@@ -323,6 +379,10 @@
     .page-wrapper {
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    .p1010284_plum-pittstown-gravel_092823-1 {
+        height: 360px;
     }
 }
 
