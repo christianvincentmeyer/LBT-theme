@@ -16,9 +16,43 @@ h5,
 .h2,
 .h3,
 .h4,
-.h5 {
+.h5,
+button {
     font-family: "InclusiveSans" !important;
 }
+
+p {
+    font-size: 16px;
+}
+
+input label {
+    font-style: normal !important;
+}
+
+button,
+[type='button'],
+[type='reset'] {
+    border: 0;
+    cursor: pointer;
+    -webkit-appearance: button;
+    padding: var(--Spacing-sm, 16px) var(--Spacing-lg, 24px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    max-width: 250px;
+    border-radius: var(--Spacing-2xs, 4px);
+    background: var(--Colors-Green-Light, #7BC36B);
+    margin: 24px 0 0;
+    width: 250px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #99E587;
+}
+
 
 /* shopify theme edits */
 .page-title {
@@ -327,28 +361,30 @@ a.header__menu-item {
     text-decoration: none;
 }
 
-.h1-0 {
-    color: #072a29;
-    text-align: center;
-    letter-spacing: -.03em;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 100%;
-    text-decoration: none;
+.h1-0,
+h1 {
+    color: #072a29 !important;
+    text-align: center !important;
+    letter-spacing: -.03em !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 48px !important;
+    font-weight: 900 !important;
+    line-height: 100% !important;
+    text-decoration: none !important;
 }
 
-.h2-0 {
-    color: #072a29;
-    letter-spacing: -.03em;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 100%;
-    text-decoration: none;
+.h2-0,
+h2 {
+    color: #072a29 !important;
+    letter-spacing: -.03em !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    line-height: 100% !important;
+    text-decoration: none !important;
 }
 
 .div-block {

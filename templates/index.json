@@ -10,7 +10,7 @@
         "heading_hLiDFK": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Sign up for our newsletter<\/strong>",
+            "heading": "Sign up for our newsletter",
             "heading_size": "h1"
           }
         },
