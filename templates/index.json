@@ -3,9 +3,43 @@
     "lbt_home_page_MdFc6E": {
       "type": "LBT-home-page",
       "settings": {}
+    },
+    "newsletter_wq38kz": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_hLiDFK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Sign up for our newsletter<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_F6dBcN": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new rides and exclusive offers.<\/p>"
+          }
+        },
+        "email_form_Ug89m6": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_hLiDFK",
+        "paragraph_F6dBcN",
+        "email_form_Ug89m6"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "lbt_home_page_MdFc6E"
+    "lbt_home_page_MdFc6E",
+    "newsletter_wq38kz"
   ]
 }
