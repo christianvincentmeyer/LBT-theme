@@ -13,96 +13,37 @@
       "type": "LBT-home-page",
       "settings": {}
     },
-    "newsletter_wq38kz": {
-      "type": "newsletter",
+    "lbt_newsletter_zRitaK": {
+      "type": "LBT-newsletter",
       "blocks": {
-        "heading_hLiDFK": {
+        "heading_qArEnL": {
           "type": "heading",
           "settings": {
-            "heading": "Sign up for our newsletter",
+            "heading": "Subscribe to our emails",
             "heading_size": "h1"
           }
         },
-        "paragraph_F6dBcN": {
+        "paragraph_t34nPC": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new rides and exclusive offers.</p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
-        },
-        "email_form_Ug89m6": {
-          "type": "email_form",
-          "settings": {}
         }
       },
       "block_order": [
-        "heading_hLiDFK",
-        "paragraph_F6dBcN",
-        "email_form_Ug89m6"
+        "heading_qArEnL",
+        "paragraph_t34nPC"
       ],
       "settings": {
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 100
-      }
-    },
-    "multicolumn_aKz7Qt": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_9bkHNf": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qqWKzR": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3JFM3B": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_9bkHNf",
-        "column_qqWKzR",
-        "column_3JFM3B"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Sign Up",
-        "button_link": "shopify://pages/sign-up",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "lbt_home_page_MdFc6E",
-    "newsletter_wq38kz",
-    "multicolumn_aKz7Qt"
+    "lbt_newsletter_zRitaK"
   ]
 }
