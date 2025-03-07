@@ -6,6 +6,9 @@
     font-weight: 100 1000;
 }
 
+
+
+
 h1,
 h2,
 h3,
@@ -123,7 +126,7 @@ a.header__menu-item {
 .footer__content-top {
     display: flex !important;
     justify-content: space-between;
-    padding: 0px 0px 120px !important;
+    padding: 0px 96px 120px !important;
 }
 
 .footer__content-bottom-wrapper--center {
@@ -384,7 +387,7 @@ h1 {
 h2 {
     color: #072a29 !important;
     letter-spacing: -.03em !important;
-    width: 100% !important;
+    /* width: 100% !important; */
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     font-size: 32px !important;
