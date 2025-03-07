@@ -616,7 +616,7 @@ details>* {
 .customer a:hover,
 .inline-richtext a:hover {
   color: rgb(var(--color-link));
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 .icon-arrow {
@@ -2814,7 +2814,7 @@ details[open]>.header__menu-item {
 }
 
 details[open]:hover>.header__menu-item {
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 details[open]>.header__menu-item .icon-caret {
@@ -2824,12 +2824,11 @@ details[open]>.header__menu-item .icon-caret {
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-underline-offset: 0.1rem;
 }
 
 .header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 0.2rem;
+  text-decoration: underline;
 }
 
 .header__submenu {
@@ -3180,7 +3179,7 @@ details-disclosure>details {
 
 .rte a:hover {
   color: rgb(var(--color-link));
-  text-decoration-thickness: 0.2rem;
+  text-decoration-thickness: 0.1rem;
 }
 
 .rte blockquote {
