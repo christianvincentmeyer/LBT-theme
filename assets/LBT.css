@@ -33,6 +33,10 @@ input label {
     font-style: normal !important;
 }
 
+section:last-of-type {
+    padding-bottom: 80px;
+}
+
 button,
 .LBT-sub-button,
 [type='button'],
@@ -52,9 +56,14 @@ button,
     width: 250px;
     font-weight: bold;
     font-size: 14px;
+    letter-spacing: 0.01em !important;
     text-decoration: none;
     color: #072a29 !important;
     display: inline-block;
+}
+
+button {
+    font-weight: bold !important;
 }
 
 button.go1045508862 {
@@ -65,6 +74,12 @@ button.go1045508862 {
 button:hover,
 .LBT-sub-button:hover {
     background-color: #99E587 !important;
+}
+
+.contact__button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 
