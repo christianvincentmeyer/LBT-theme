@@ -46,8 +46,8 @@ button,
     gap: 10px;
     align-self: stretch;
     max-width: 250px;
-    border-radius: var(--Spacing-2xs, 4px) !important;
-    background: var(--Colors-Green-Light, #7BC36B) !important;
+    border-radius: var(--Spacing-2xs, 4px);
+    background: var(--Colors-Green-Light, #7BC36B);
     margin: 16px 0 0;
     width: 250px;
     font-weight: bold;
@@ -59,7 +59,7 @@ button,
 
 button:hover,
 .LBT-sub-button:hover {
-    background-color: #99E587;
+    background-color: #99E587 !important;
 }
 
 
