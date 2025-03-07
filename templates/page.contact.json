@@ -13,7 +13,7 @@
       "type": "main-page",
       "settings": {
         "padding_top": 24,
-        "padding_bottom": 0
+        "padding_bottom": 16
       }
     },
     "form": {

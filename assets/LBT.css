@@ -42,8 +42,14 @@ button,
     gap: 10px;
     align-self: stretch;
     max-width: 250px;
-    border-radius: var(--Spacing-2xs, 4px);
-    background: var(--Colors-Green-Light, #7BC36B);
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border: none !important;
+    border-width: 0 !important;
+    border-radius: var(--Spacing-2xs, 4px) !important;
+    background: var(--Colors-Green-Light, #7BC36B) !important;
     margin: 16px 0 0;
     width: 250px;
     font-weight: bold;
