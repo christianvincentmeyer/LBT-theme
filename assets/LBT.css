@@ -21,7 +21,8 @@ h5,
 .h4,
 .h5,
 button,
-a {
+a,
+p {
     font-family: "InclusiveSans" !important;
 }
 
@@ -80,6 +81,11 @@ button:hover,
     display: flex;
     width: 100%;
     justify-content: center;
+}
+
+.signup-page-CTA {
+    padding: 12px;
+    text-align: center;
 }
 
 
