@@ -485,6 +485,7 @@ h2 {
 @media screen and (max-width: 1590px) {
     .section-hero {
         flex-flow: wrap-reverse;
+        justify-content: center;
         padding-left: 0;
         padding-right: 0;
     }
