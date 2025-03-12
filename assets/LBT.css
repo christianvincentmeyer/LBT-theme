@@ -150,6 +150,10 @@ a.header__menu-item {
         grid-area: heading;
     }
 
+    .header__heading {
+        grid-area: heading;
+    }
+
     .header__icons {
         grid-area: left-icons;
         justify-self: start;
