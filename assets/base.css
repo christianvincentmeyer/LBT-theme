@@ -996,7 +996,10 @@ summary::-webkit-details-marker {
   max-height: 18px;
 }
 
-
+/* product page edits */
+.product .grid__item {
+  width: 100%;
+}
 
 /* component-grid */
 .grid {

@@ -38,6 +38,11 @@ section:last-of-type {
     padding-bottom: 80px;
 }
 
+/* media gallery */
+media-gallery {
+    width: 100%;
+}
+
 /* buttons */
 button,
 .button,
@@ -421,6 +426,10 @@ h1 {
     font-weight: 900 !important;
     line-height: 100% !important;
     text-decoration: none !important;
+}
+
+.product__title h1 {
+    text-align: left !important;
 }
 
 .h2-0,
