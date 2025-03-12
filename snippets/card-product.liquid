@@ -598,11 +598,15 @@
         background: var(--Colors-Surface-Light, #edf7eb);
       }
       .LBT-product-card img {
-        height: 222px;
-        width100%
+        height: 360px;
+        object-fit: cover;
         align-self: stretch;
         border-radius: var(--Spacing-2xs, 4px);
-        background: url(<path-to-image>) / cover no-repeat;
+      }
+      @media screen and (max-width: 1380px) {
+        .LBT-product-card img {
+          height: 360px;
+        }
       }
       .LBT-product-card img.icon {
         height: auto;
