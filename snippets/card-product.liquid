@@ -601,7 +601,11 @@
         height: 222px;
         align-self: stretch;
         border-radius: var(--Spacing-2xs, 4px);
-        background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+        background: url(<path-to-image>) / cover no-repeat;
+      }
+      .LBT-product-card img.icon {
+        height: auto;
+        max-height: 22px;
       }
       .LBT-product-card .card-info-wrapper {
         display: flex;
@@ -615,7 +619,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--Spacing-2xs, 4px);
+        gap: var(--Spacing-2xs, 8px);
         align-self: stretch;
       }
       .LBT-product-card h3 {
@@ -656,6 +660,24 @@
         gap: 4px var(--Spacing-2xs, 4px);
         align-self: stretch;
         flex-wrap: wrap;
+      }
+      .LBT-product-card .event-ride-data span {
+        display: flex;
+        padding: var(--Spacing-2xs, 4px);
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        border-radius: var(--Spacing-2xs, 4px);
+        border: 1px solid var(--Colors-Blue-Light, #7db6b5);
+      }
+      .LBT-product-card .event-ride-data span {
+        display: flex;
+        padding: var(--Spacing-2xs, 4px);
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: var(--Spacing-2xs, 4px);
+        border: 1px solid var(--Colors-Blue-Light, #7db6b5);
       }
       .LBT-product-card .event-ride-data span {
         display: flex;
@@ -703,12 +725,15 @@
         </div>
         <div class="event-ride-data">
           <span>
+            <img class="icon" src="{{'icon-milage.png' | asset_url}}">
             {{ card_product.metafields.custom.distance }}
           </span>
           <span>
+            <img class="icon" src="{{'icon-elevation.png' | asset_url}}">
             {{ card_product.metafields.custom.elevation }}
           </span>
           <span>
+            <img class="icon" src="{{'icon-fitness.png' | asset_url}}">
             {%- if card_product.metafields.custom.recommended_fitness == 1 -%}
               Level 1 fitness
             {%- else -%}
@@ -721,8 +746,8 @@
         <p>
           {{ card_product.metafields.custom.ride_blurb }}
         </p>
-        <a class="LBT-sub-button"> More Details </a>
       </div>
+      <a class="button event-card-button" href="{{ card_product.url }}"> More Details </a>
     </div>
   {%- endif -%}
 {%- else -%}

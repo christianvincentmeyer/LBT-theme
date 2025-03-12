@@ -38,12 +38,14 @@ section:last-of-type {
     padding-bottom: 80px;
 }
 
+/* buttons */
 button,
+.button,
 .LBT-sub-button,
 [type='button'],
 [type='reset'] {
     border: 0;
-    cursor: pointer;
+    cursor: pointer !important;
     -webkit-appearance: button;
     padding: var(--Spacing-sm, 16px) var(--Spacing-lg, 24px);
     justify-content: center;
@@ -52,8 +54,7 @@ button,
     align-self: stretch;
     max-width: 250px;
     border-radius: var(--Spacing-2xs, 4px);
-    background: var(--Colors-Green-Light, #7BC36B);
-    margin: 16px 0 0;
+    background-color: var(--Colors-Green-Light, #7BC36B);
     width: 250px;
     font-weight: bold;
     font-size: 14px;
@@ -61,6 +62,16 @@ button,
     text-decoration: none;
     color: #072a29 !important;
     display: inline-block;
+    text-align: center;
+}
+
+.event-card-button {
+    width: 100%;
+    max-width: none;
+}
+
+.LBT-sub-button {
+    margin: 16px 0 0;
 }
 
 button {
@@ -73,6 +84,7 @@ button.go1045508862 {
 }
 
 button:hover,
+.button:hover,
 .LBT-sub-button:hover {
     background-color: #99E587 !important;
 }
