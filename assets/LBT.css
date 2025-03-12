@@ -67,7 +67,9 @@ button,
 
 .event-card-button {
     width: 100%;
+    margin-top: auto;
     max-width: none;
+    align-self: flex-end !important;
 }
 
 .LBT-sub-button {

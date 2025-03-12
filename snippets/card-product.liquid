@@ -572,127 +572,6 @@
   {%- else -%}
     {% comment %} lichen bike tour cutom card {% endcomment %}
     {%- style -%}
-      .LBT-product-card {
-        display: flex;
-        min-width: 320px;
-        max-width: none;
-        padding: var(--Spacing-md, 16px);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        flex: 1 0 0;
-        border-radius: 8px;
-        border: 1px solid var(--Colors-Blue-Light, #7db6b5);
-        background: var(--Colors-Surface-Light, #edf7eb);
-      }
-      .event-duration-wrapper {
-        display: flex;
-        padding: 4px 8px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        position: absolute;
-        left: 32px;
-        top: 32px;
-        border-radius: var(--Spacing-2xs, 4px);
-        background: var(--Colors-Surface-Light, #edf7eb);
-      }
-      .LBT-product-card img {
-        height: 360px;
-        object-fit: cover;
-        align-self: stretch;
-        border-radius: var(--Spacing-2xs, 4px);
-      }
-      @media screen and (max-width: 1380px) {
-        .LBT-product-card img {
-          height: 360px;
-        }
-      }
-      .LBT-product-card img.icon {
-        height: auto;
-        max-height: 22px;
-      }
-      .LBT-product-card .card-info-wrapper {
-        display: flex;
-        padding-bottom: var(--Spacing-lg, 24px);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: var(--Spacing-md, 16px);
-        align-self: stretch;
-      }
-      .LBT-product-card .card-title-date {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: var(--Spacing-2xs, 8px);
-        align-self: stretch;
-      }
-      .LBT-product-card h3 {
-        align-self: stretch;
-        color: var(--Colors-Surface-Dark, #072a29);
-        /* Display/60 */
-        font-family: 'Inclusive Sans' !important;
-        font-size: 24px;
-        font-style: bold !important;
-        font-weight: 700 !important;
-        line-height: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .LBT-product-card .event-dates {
-        align-self: stretch;
-        color: var(--Colors-Surface-Dark, #072a29);
-        /* Body/30 */
-        font-family: 'Inclusive Sans' !important;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%; /* 20px */
-        letter-spacing: 0.75px;
-      }
-      .LBT-product-card .event-ride-data {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        gap: 4px var(--Spacing-2xs, 4px);
-        align-self: stretch;
-        flex-wrap: wrap;
-      }
-      .LBT-product-card .event-data-point {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        gap: 4px var(--Spacing-2xs, 4px);
-        align-self: stretch;
-        flex-wrap: wrap;
-      }
-      .LBT-product-card .event-ride-data span {
-        display: flex;
-        padding: var(--Spacing-2xs, 4px);
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        border-radius: var(--Spacing-2xs, 4px);
-        border: 1px solid var(--Colors-Blue-Light, #7db6b5);
-      }
-      .LBT-product-card .event-ride-data span {
-        display: flex;
-        padding: var(--Spacing-2xs, 4px);
-        justify-content: center;
-        align-items: center;
-        gap: 4px;
-        border-radius: var(--Spacing-2xs, 4px);
-        border: 1px solid var(--Colors-Blue-Light, #7db6b5);
-      }
-      .LBT-product-card .event-ride-data span {
-        display: flex;
-        padding: var(--Spacing-2xs, 4px);
-        justify-content: center;
-        align-items: center;
-        gap: 4px;
-        border-radius: var(--Spacing-2xs, 4px);
-        border: 1px solid var(--Colors-Blue-Light, #7db6b5);
-      }
     {%- endstyle -%}
     <div class="LBT-product-card">
       <div class="event-duration-wrapper">
@@ -724,8 +603,10 @@
             {{ card_product.title | escape }}
           </h3>
           <div class="event-dates">
-            {{ card_product.metafields.custom.event_start_date.value | date: '%m/%d/%Y' }} -
-            {{ card_product.metafields.custom.event_end_date.value | date: '%m/%d/%Y' }}
+            {{ card_product.metafields.custom.event_start_date.value | date: '%m/%d/%Y' }}
+            {%- if card_product.metafields.custom.recommended_fitness == 1 -%}
+              - {{ card_product.metafields.custom.event_end_date }}
+            {%- endif -%}
           </div>
         </div>
         <div class="event-ride-data">
