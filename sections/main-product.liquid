@@ -523,20 +523,19 @@
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
-                {%- render 'buy-buttons',
-                  block: block,
-                  product: product,
-                  product_form_id: product_form_id,
-                  section_id: section.id,
-                  show_pickup_availability: true
-                -%}
-                {%- if product.metafields.custom.3rd_party_checkout.value != null -%}
-                  <a class="button" href="{{ product.metafields.custom.3rd_party_checkout.value }}">
-                    {{ product.metafields.custom.3rd_party_button_label }}
-                  </a>
+                {%- if product.metafields.custom.third_party_checkout.value.url == null -%}
+                  {%- render 'buy-buttons',
+                    block: block,
+                    product: product,
+                    product_form_id: product_form_id,
+                    section_id: section.id,
+                    show_pickup_availability: true
+                  -%}
                 {%- else -%}
+                  <a class="button" target="_blank" href=" {{ product.metafields.custom.third_party_checkout.value.url }} ">
+                    {{ product.metafields.custom.third_party_checkout.value.text }}
+                  </a>
                 {%- endif -%}
-                {{ product.metafields.custom.location }}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
