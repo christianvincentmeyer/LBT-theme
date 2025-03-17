@@ -26,6 +26,10 @@ p {
     font-family: "InclusiveSans" !important;
 }
 
+h4 {
+    padding: 48px 0 0;
+}
+
 p {
     font-size: 16px;
 }
@@ -36,6 +40,21 @@ input label {
 
 section:last-of-type {
     padding-bottom: 80px;
+}
+
+/* filters */
+#FacetFiltersForm h2 {
+    font-size: 16px !important;
+    padding: 2px;
+}
+
+.facets__wrapper {
+    align-items: start !important;
+}
+
+/* product grid */
+#product-grid {
+    justify-content: start;
 }
 
 /* media gallery */
