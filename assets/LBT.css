@@ -69,6 +69,10 @@ section:last-of-type {
     justify-content: start;
 }
 
+.event-description h4 {
+    padding: 16px 0 0;
+}
+
 .event-description div {
     display: flex;
     flex-direction: row;

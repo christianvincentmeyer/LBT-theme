@@ -210,9 +210,27 @@
                     <h4>Details</h4>
                     <div>
                       <span>
+                        <img class="icon" src="{{'icon-location.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.location }}
+                    </div>
+                    <div>
+                      <span>
                         <img class="icon" src="{{'icon-milage.png' | asset_url}}">
                       </span>
                       {{ product.metafields.custom.distance }}
+                    </div>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-elevation.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.elevation }} of elevation
+                    </div>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-accomidations.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.accommodations }}
                     </div>
                     <div>
                       <span>
@@ -220,10 +238,14 @@
                       </span>
                       {%- if product.metafields.custom.recommended_fitness == 1 -%}
                         Level 1 fitness
-                      {%- else -%}
+                      {%- elsif product.metafields.custom.recommended_fitness == 2 -%}
                         Level 2 fitness
-                      {%- else -%}
+                      {%- elsif product.metafields.custom.recommended_fitness == 3 -%}
                         Level 3 fitness
+                      {%- elsif product.metafields.custom.recommended_fitness == 4 -%}
+                        Level 4 fitness
+                      {%- else -%}
+                        Level 5 fitness
                       {%- endif -%}
                     </div>
                   </div>
