@@ -605,7 +605,7 @@
           <div class="event-dates">
             {{ card_product.metafields.custom.event_start_date.value | date: '%m/%d/%Y' }}
             {%- if card_product.metafields.custom.recommended_fitness == 1 -%}
-              - {{ card_product.metafields.custom.event_end_date }}
+              - {{ card_product.metafields.custom.event_end_date.value | date: '%m/%d/%Y' }}
             {%- endif -%}
           </div>
         </div>

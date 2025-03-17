@@ -72,7 +72,7 @@
     >
   {%- endif -%}
 
-  {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+  {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}'
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
@@ -105,6 +105,14 @@
                     </h2>
                   </a>
                 </div>
+                {%- if product.metafields.custom.is_events != false or product.metafields.custom.is_events != null -%}
+                  <div class="event-dates">
+                    {{ product.metafields.custom.event_start_date.value | date: '%B %d' }}
+                    {%- if product.metafields.custom.recommended_fitness == 1 -%}
+                      - {{ product.metafields.custom.event_end_date.value | date: '%B %d' }}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -195,6 +203,29 @@
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
+                  </div>
+                {%- endif -%}
+                {%- if product.metafields.custom.is_events != false or product.metafields.custom.is_events != null -%}
+                  <div class="event-description">
+                    <h4>Details</h4>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-milage.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.distance }}
+                    </div>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-fitness.png' | asset_url}}">
+                      </span>
+                      {%- if product.metafields.custom.recommended_fitness == 1 -%}
+                        Level 1 fitness
+                      {%- else -%}
+                        Level 2 fitness
+                      {%- else -%}
+                        Level 3 fitness
+                      {%- endif -%}
+                    </div>
                   </div>
                 {%- endif -%}
               {%- when 'sku' -%}
