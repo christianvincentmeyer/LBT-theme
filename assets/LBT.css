@@ -69,6 +69,23 @@ section:last-of-type {
     justify-content: start;
 }
 
+.breakout-info {
+    color: #333;
+}
+
+.price-item {
+    padding-top: 48px;
+    color: var(--Colors-Green-Dark, #0F4E41);
+    /* Display/70 */
+    font-family: "Inclusive Sans";
+    font-size: 32px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 100%;
+    /* 32px */
+    letter-spacing: -0.96px;
+}
+
 .event-description h4 {
     padding: 16px 0 0;
 }
