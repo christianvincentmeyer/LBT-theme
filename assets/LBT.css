@@ -74,7 +74,6 @@ section:last-of-type {
 }
 
 .price-item {
-    padding-top: 48px;
     color: var(--Colors-Green-Dark, #0F4E41);
     /* Display/70 */
     font-family: "Inclusive Sans";
