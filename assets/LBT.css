@@ -42,6 +42,23 @@ section:last-of-type {
     padding-bottom: 80px;
 }
 
+
+.shopify-policy__container h1 {
+    padding: 0 0 24px;
+}
+
+.shopify-policy__container h2 {
+    padding: 24px 0 16px;
+}
+
+.shopify-policy__container h3 {
+    padding: 24px 0 8px;
+}
+
+.shopify-policy__container {
+    margin-bottom: 80px;
+}
+
 /* cookie consent */
 #cb-cookie_consent .cb-cookie_consent-container-text_container {
     font-family: "InclusiveSans" !important;
@@ -270,9 +287,24 @@ a.header__menu-item {
     padding: 40px 0 !important;
 }
 
-.footer a {
-    padding: 8px 8px;
+.footer-block {
+    justify-content: center;
 }
+
+.footer a {
+    padding: 8px 8px !important;
+}
+
+.footer-block__details-content {
+    display: flex;
+}
+
+@media screen and (max-width: 1600px) {
+    .footer-block__details-content {
+        justify-content: center;
+    }
+}
+
 
 .footer small a {
     padding: 0px;
