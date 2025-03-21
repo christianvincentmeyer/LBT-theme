@@ -667,3 +667,19 @@ h2 {
         line-height: 100%;
     }
 }
+
+.quantity__button {
+    width: 33% !important;
+}
+
+cart-remove-button .svg-wrapper {
+    height: 100%;
+}
+
+.cart__empty-text {
+    padding: 24px;
+}
+
+.cart__login-title {
+    padding: 24px;
+}
