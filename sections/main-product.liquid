@@ -226,12 +226,14 @@
                       </span>
                       {{ product.metafields.custom.elevation }} of elevation
                     </div>
-                    <div>
-                      <span>
-                        <img class="icon" src="{{'icon-accomidations.png' | asset_url}}">
-                      </span>
-                      {{ product.metafields.custom.accommodations }}
-                    </div>
+                    {%- if product.metafields.custom.accommodations != null -%}
+                      <div>
+                        <span>
+                          <img class="icon" src="{{'icon-accomidations.png' | asset_url}}">
+                        </span>
+                        {{ product.metafields.custom.accommodations }}
+                      </div>
+                    {%- endif -%}
                     <div>
                       <span>
                         <img class="icon" src="{{'icon-fitness.png' | asset_url}}">
@@ -532,7 +534,11 @@
                     show_pickup_availability: true
                   -%}
                 {%- else -%}
-                  <a class="button" target="_blank" href=" {{ product.metafields.custom.third_party_checkout.value.url }} ">
+                  <a
+                    class="button"
+                    target="_blank"
+                    href=" {{ product.metafields.custom.third_party_checkout.value.url }} "
+                  >
                     {{ product.metafields.custom.third_party_checkout.value.text }}
                   </a>
                 {%- endif -%}
