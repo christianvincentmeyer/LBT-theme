@@ -7,8 +7,6 @@
 }
 
 
-
-
 h1,
 h2,
 h3,
@@ -167,6 +165,20 @@ button,
 
 .product-form__buttons {
     max-width: 250px;
+}
+
+.LBT-card-link img:hover {
+    border: 3px solid #7BC36B;
+}
+
+.link-to-FAQ {
+    padding: 8px 0;
+    width: 240px;
+    color: #0F4E41;
+}
+
+.link-to-FAQ:hover {
+    color: #7BC36B;
 }
 
 .event-card-button {
