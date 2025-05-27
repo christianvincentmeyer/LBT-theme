@@ -1,0 +1,52 @@
+<img
+  class=""
+  src="{{ section.settings.image | image_url }}"
+  alt=""
+  width="200px"
+  height="200px"
+>
+{% schema %}
+{
+  "name": "LBT Routes",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Route Title",
+      "label": "Route Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Route Image"
+    },
+    {
+      "type": "text",
+      "id": "desc",
+      "default": "Route description here",
+      "label": "Route Description"
+    },
+    {
+      "type": "url",
+      "id": "strava_link",
+      "label": "strava link"
+    },
+    {
+      "type": "url",
+      "id": "RWGPS_link",
+      "label": "RWGPS link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "LBT Routes",
+      "category": "section"
+    }
+  ]
+}
+{% endschema %}
