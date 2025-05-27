@@ -1,3 +1,6 @@
+<h2>
+  {{ section.settings.title }}
+</h2>
 <img
   class=""
   src="{{ section.settings.image | image_url }}"
@@ -5,6 +8,16 @@
   width="200px"
   height="200px"
 >
+<p>
+  {{ section.settings.details }}
+</p>
+<p>
+  {{ section.settings.desc }}
+</p>
+<a target="_blank" href="{{ section.settings.strava_link }}"> Strava </a>
+<br>
+<a target="_blank" href="{{ section.settings.RWGPS_link }}"> Ride with GPS </a>
+
 {% schema %}
 {
   "name": "LBT Routes",
@@ -24,6 +37,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "Route Image"
+    },
+    {
+      "type": "text",
+      "id": "details",
+      "default": "Route details here",
+      "label": "Route Details"
     },
     {
       "type": "text",
