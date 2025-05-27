@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -8,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Next Event - Beebe & Beyond Gravel Ramble June 28th in Hillsdale, NY",
+            "link": "shopify://products/beebe-beyond-gravel-ramble"
           }
         }
       },
@@ -30,7 +39,7 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "lbt-main",
+        "menu": "lbt-menu-full",
         "menu_type_desktop": "mega",
         "sticky_header_type": "none",
         "show_line_separator": true,

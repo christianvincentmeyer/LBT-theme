@@ -72,7 +72,7 @@
     >
   {%- endif -%}
 
-  {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+  {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}'
   <div class="page-width">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
@@ -105,6 +105,14 @@
                     </h2>
                   </a>
                 </div>
+                {%- if product.metafields.custom.is_events != false or product.metafields.custom.is_events != null -%}
+                  <div class="event-dates">
+                    {{ product.metafields.custom.event_start_date.value | date: '%B %d' }}
+                    {%- if product.metafields.custom.recommended_fitness == 1 -%}
+                      - {{ product.metafields.custom.event_end_date.value | date: '%B %d' }}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
@@ -195,6 +203,62 @@
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
+                  </div>
+                {%- endif -%}
+                {%- if product.metafields.custom.is_events != false or product.metafields.custom.is_events != null -%}
+                  <div class="event-description">
+                    <h4>Details</h4>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-location.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.location }}
+                    </div>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-milage.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.distance }}
+                    </div>
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-elevation.png' | asset_url}}">
+                      </span>
+                      {{ product.metafields.custom.elevation }}
+                    </div>
+                    {%- if product.metafields.custom.accommodations != null -%}
+                      <div>
+                        <span>
+                          <img class="icon" src="{{'icon-accomidations.png' | asset_url}}">
+                        </span>
+                        {{ product.metafields.custom.accommodations }}
+                      </div>
+                    {%- endif -%}
+                    <div>
+                      <span>
+                        <img class="icon" src="{{'icon-fitness.png' | asset_url}}">
+                      </span>
+                      {%- if product.metafields.custom.recommended_fitness == 1 -%}
+                        Level 1 fitness
+                      {%- elsif product.metafields.custom.recommended_fitness == 2 -%}
+                        Level 2 fitness
+                      {%- elsif product.metafields.custom.recommended_fitness == 3 -%}
+                        Level 3 fitness
+                      {%- elsif product.metafields.custom.recommended_fitness == 4 -%}
+                        Level 4 fitness
+                      {%- else -%}
+                        Level 5 fitness
+                      {%- endif -%}
+                    </div>
+                    <a class="link-to-FAQ" href="https://lichenbiketours.com/pages/faqs#fitness">
+                      Learn about our fitness ratings</a
+                    >
+                  </div>
+                {%- endif -%}
+                {%- if product.metafields.custom.breakout_info != null -%}
+                  <div class="breakout-info">
+                    <h4>Day by Day Breakout</h4>
+                    {{ product.metafields.custom.breakout_info | metafield_tag }}
                   </div>
                 {%- endif -%}
               {%- when 'sku' -%}
@@ -464,13 +528,23 @@
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
-                {%- render 'buy-buttons',
-                  block: block,
-                  product: product,
-                  product_form_id: product_form_id,
-                  section_id: section.id,
-                  show_pickup_availability: true
-                -%}
+                {%- if product.metafields.custom.third_party_checkout.value.url == null -%}
+                  {%- render 'buy-buttons',
+                    block: block,
+                    product: product,
+                    product_form_id: product_form_id,
+                    section_id: section.id,
+                    show_pickup_availability: true
+                  -%}
+                {%- else -%}
+                  <a
+                    class="button"
+                    target="_blank"
+                    href=" {{ product.metafields.custom.third_party_checkout.value.url }} "
+                  >
+                    {{ product.metafields.custom.third_party_checkout.value.text }}
+                  </a>
+                {%- endif -%}
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
