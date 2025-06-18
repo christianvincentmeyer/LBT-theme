@@ -18,38 +18,45 @@
       <div class="text-center">
         {{ section.settings.Routes_copy }}
       </div>
-      <span class="h2-0">Routes</span>
-      <div class="text-center">
-        {{ section.settings.Regions_blurb }}
-      </div>
     </div>
   </div>
-  {%- for block in section.blocks -%}
-    <h2>
-      {{ block.settings.title }}
-    </h2>
-    <img
-      class=""
-      src="{{ section.settings.image | image_url }}"
-      alt=""
-      width="200px"
-      height="200px"
-    >
-    <p>
-      {{ block.settings.details }}
-    </p>
-    <p>{{ block.settings.desc }}</p>
-    <a target="_blank" href="{{ block.settings.strava_link }}"> Strava </a>
-    <br>
-    <a target="_blank" href="{{ block.settings.RWGPS_link }}"> Ride with GPS </a>
-  {%- endfor -%}
+  <div class="text-route-wrapper">
+    <span class="h2-0">Routes</span>
+    <div class="text-center">
+      {{ section.settings.Regions_blurb }}
+    </div>
+  </div>
+  <div class="route-grid">
+    {%- for block in section.blocks -%}
+      <div class="route-card">
+        <h2>
+          {{ block.settings.title }}
+        </h2>
+        <img
+          class=""
+          src="{{ section.settings.image | image_url }}"
+          alt=""
+          width="200px"
+          height="200px"
+        >
+        <p>
+          {{ block.settings.details }}
+        </p>
+        <p>{{ block.settings.desc }}</p>
+        <a target="_blank" href="{{ block.settings.strava_link }}"> Strava </a>
+        <br>
+        <a target="_blank" href="{{ block.settings.RWGPS_link }}"> Ride with GPS </a>
+      </div>
+    {%- endfor -%}
+  </div>
 </div>
 
 {% schema %}
 {
   "name": "LBT Routes",
   "tag": "section",
-  "class": "section",
+  "class": "section section-collection-list",
+  "max_blocks": 15,
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -121,6 +128,15 @@
       "name": "LBT Routes",
       "category": "section",
       "blocks": [
+        {
+          "type": "region"
+        },
+        {
+          "type": "region"
+        },
+        {
+          "type": "region"
+        },
         {
           "type": "region"
         },

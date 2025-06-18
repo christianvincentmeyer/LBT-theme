@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -15,9 +6,89 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "routes_jQHdAH": {
+      "type": "routes",
+      "blocks": {
+        "region_HFteYE": {
+          "type": "region",
+          "settings": {
+            "title": "Route Title",
+            "details": "Route details here",
+            "desc": "Route description here",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "region_PVxwTA": {
+          "type": "region",
+          "settings": {
+            "title": "Route Title",
+            "details": "Route details here",
+            "desc": "Route description here",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "region_FkBJqt": {
+          "type": "region",
+          "settings": {
+            "title": "Route Title",
+            "details": "Route details here",
+            "desc": "Route description here",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "region_DTTwzk": {
+          "type": "region",
+          "settings": {
+            "title": "Route Title",
+            "details": "Route details here",
+            "desc": "Route description here",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "region_DWpcLX": {
+          "type": "region",
+          "settings": {
+            "title": "Route Title",
+            "details": "Route details here",
+            "desc": "Route description here",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "region_d3Ubzw": {
+          "type": "region",
+          "settings": {
+            "title": "Route Title",
+            "details": "Route details here",
+            "desc": "Route description here",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "region_HFteYE",
+        "region_PVxwTA",
+        "region_FkBJqt",
+        "region_DTTwzk",
+        "region_DWpcLX",
+        "region_d3Ubzw"
+      ],
+      "name": "LBT Routes",
+      "settings": {
+        "Routes_headline": "Routes Headline",
+        "Routes_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Regions_blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "routes_jQHdAH"
   ]
 }
