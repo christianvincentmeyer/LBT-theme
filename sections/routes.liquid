@@ -1,22 +1,50 @@
-<h2>
-  {{ section.settings.title }}
-</h2>
-<img
-  class=""
-  src="{{ section.settings.image | image_url }}"
-  alt=""
-  width="200px"
-  height="200px"
->
-<p>
-  {{ section.settings.details }}
-</p>
-<p>
-  {{ section.settings.desc }}
-</p>
-<a target="_blank" href="{{ section.settings.strava_link }}"> Strava </a>
-<br>
-<a target="_blank" href="{{ section.settings.RWGPS_link }}"> Ride with GPS </a>
+<div class="page-wrapper">
+  <div class="section-hero">
+    <img
+      src="{{ section.settings.Routes_hero | image_url }}"
+      loading="lazy"
+      width="1240"
+      height="633.543701171875"
+      alt=""
+      sizes="(max-width: 479px) 93vw, (max-width: 767px) 90vw, (max-width: 991px) 84vw, (max-width: 1675px) 74vw, 1240px"
+      class="home-support-hero"
+    >
+    <div class="text-hero-wrapper">
+      <div class="h1-style">
+        <div class="h1-style">
+          <span class="h1-0">{{ section.settings.Routes_headline }}</span>
+        </div>
+      </div>
+      <div class="text-center">
+        {{ section.settings.Routes_copy }}
+      </div>
+      <span class="h2-0">Routes</span>
+      <div class="text-center">
+        {{ section.settings.Regions_blurb }}
+      </div>
+    </div>
+  </div>
+  {%- for block in section.blocks -%}
+    <h2>
+      {{ block.settings.title }}
+    </h2>
+    <img
+      class=""
+      src="{{ section.settings.image | image_url }}"
+      alt=""
+      width="200px"
+      height="200px"
+    >
+    <p>
+      {{ block.settings.details }}
+    </p>
+    <p>{{ block.settings.desc }}</p>
+    <a target="_blank" href="{{ block.settings.strava_link }}"> Strava </a>
+    <br>
+    <a target="_blank" href="{{ block.settings.RWGPS_link }}"> Ride with GPS </a>
+  {%- endfor -%}
+</div>
+
 {% schema %}
 {
   "name": "LBT Routes",
@@ -27,43 +55,82 @@
   },
   "settings": [
     {
-      "type": "text",
-      "id": "title",
-      "default": "Route Title",
-      "label": "Route Title"
-    },
-    {
       "type": "image_picker",
-      "id": "image",
-      "label": "Route Image"
+      "id": "Routes_hero",
+      "label": "Routes hero image"
     },
     {
       "type": "text",
-      "id": "details",
-      "default": "Route details here",
-      "label": "Route Details"
+      "id": "Routes_headline",
+      "label": "Routes headline"
     },
     {
       "type": "text",
-      "id": "desc",
-      "default": "Route description here",
-      "label": "Route Description"
+      "id": "Routes_copy",
+      "label": "Routes copy"
     },
     {
-      "type": "url",
-      "id": "strava_link",
-      "label": "strava link"
-    },
+      "type": "text",
+      "id": "Regions_blurb",
+      "label": "Regions blurb"
+    }
+  ],
+  "blocks": [
     {
-      "type": "url",
-      "id": "RWGPS_link",
-      "label": "RWGPS link"
+      "type": "region",
+      "name": "region",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Route Title",
+          "label": "Route Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Route Image"
+        },
+        {
+          "type": "text",
+          "id": "details",
+          "default": "Route details here",
+          "label": "Route Details"
+        },
+        {
+          "type": "text",
+          "id": "desc",
+          "default": "Route description here",
+          "label": "Route Description"
+        },
+        {
+          "type": "url",
+          "id": "strava_link",
+          "label": "strava link"
+        },
+        {
+          "type": "url",
+          "id": "RWGPS_link",
+          "label": "RWGPS link"
+        }
+      ]
     }
   ],
   "presets": [
     {
       "name": "LBT Routes",
-      "category": "section"
+      "category": "section",
+      "blocks": [
+        {
+          "type": "region"
+        },
+        {
+          "type": "region"
+        },
+        {
+          "type": "region"
+        }
+      ]
     }
   ]
 }
