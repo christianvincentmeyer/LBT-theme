@@ -3773,4 +3773,5 @@ details-disclosure>details {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  flex-grow: 2;
 }
