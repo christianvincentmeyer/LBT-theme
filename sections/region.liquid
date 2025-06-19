@@ -40,8 +40,14 @@
         </div>
         <p>{{ block.settings.desc }}</p>
         <div class="route-button-flex-wrap">
-          <a class="button route-card-button" target="_blank" href="{{ block.settings.strava_link }}"> Strava </a>
-          <a class="button route-card-button" target="_blank" href="{{ block.settings.RWGPS_link }}"> Ride with GPS </a>
+          {%- if block.settings.strava_link != null -%}
+            <a class="button route-card-button" target="_blank" href="{{ block.settings.strava_link }}"> Strava </a>
+          {% endif %}
+          {%- if block.settings.RWGPS_link != null -%}
+            <a class="button route-card-button" target="_blank" href="{{ block.settings.RWGPS_link }}">
+              Ride with GPS
+            </a>
+          {% endif %}
         </div>
       </div>
     {%- endfor -%}
@@ -84,14 +90,14 @@
         {
           "type": "text",
           "id": "ride_name",
-          "default": "Region name",
-          "label": "Region name"
+          "default": "Ride name",
+          "label": "Ride name"
         },
         {
           "type": "text",
           "id": "desc",
-          "default": "Route description here",
-          "label": "Route Description"
+          "default": "Ride description here",
+          "label": "Ride Description"
         },
         {
           "type": "text",
