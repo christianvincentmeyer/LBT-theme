@@ -1,0 +1,67 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "region_fEHRc4": {
+      "type": "region",
+      "blocks": {
+        "ride_listing_9yW3cD": {
+          "type": "ride_listing",
+          "settings": {
+            "ride_name": "Ride name",
+            "desc": "Ride description here",
+            "mileage": "Ride mileage",
+            "elevation": "Ride elevation",
+            "fitness": "Ride fitness",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "ride_listing_3BLc9P": {
+          "type": "ride_listing",
+          "settings": {
+            "ride_name": "Ride name",
+            "desc": "Ride description here",
+            "mileage": "Ride mileage",
+            "elevation": "Ride elevation",
+            "fitness": "Ride fitness",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        },
+        "ride_listing_H3JryP": {
+          "type": "ride_listing",
+          "settings": {
+            "ride_name": "Ride name",
+            "desc": "Ride description here",
+            "mileage": "Ride mileage",
+            "elevation": "Ride elevation",
+            "fitness": "Ride fitness",
+            "strava_link": "",
+            "RWGPS_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ride_listing_9yW3cD",
+        "ride_listing_3BLc9P",
+        "ride_listing_H3JryP"
+      ],
+      "name": "LBT Region listings",
+      "settings": {
+        "Region_headline": "Region Headline",
+        "Region_copy": "Region copy"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "region_fEHRc4"
+  ]
+}
