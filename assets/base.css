@@ -963,7 +963,8 @@ summary::-webkit-details-marker {
   letter-spacing: 0.75px;
 }
 
-.LBT-product-card .event-ride-data {
+.LBT-product-card .event-ride-data,
+.route-card .event-ride-data {
   display: flex;
   align-items: center;
   align-content: center;
@@ -981,7 +982,8 @@ summary::-webkit-details-marker {
   flex-wrap: wrap;
 }
 
-.LBT-product-card .event-ride-data span {
+.LBT-product-card .event-ride-data span,
+.route-card .event-ride-data span{
   display: flex;
   padding: var(--Spacing-2xs, 4px);
   justify-content: center;
@@ -3714,4 +3716,62 @@ details-disclosure>details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+
+
+/* Routes Styles */
+
+.text-route-wrapper {
+  margin: 0 0 16px;
+}
+
+.text-route-wrapper .h2-0 {
+  margin: 0 0 16px !important;
+  display: block;
+  text-align: center;
+}
+
+.route-grid {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .route-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .route-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.route-card {
+  border: #7DB6B5 1px solid;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.route-card-image{
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.route-button-flex-wrap{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-grow: 2;
 }

@@ -2,13 +2,84 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "routes_kpdph9": {
+      "type": "routes",
+      "blocks": {
+        "region_JkjhnD": {
+          "type": "region",
+          "settings": {
+            "title": "Poughkeepsie",
+            "image": "shopify:\/\/shop_images\/PXL_20250503_170921528.RAW-01.COVER.jpg",
+            "desc": "Poughkeepsie is a city within the Town of Poughkeepsie, New York. It is the county seat of Dutchess County, with a 2020 census population of 31,577. Poughkeepsie is in the Hudson River Valley region, midway between the core of the New York metropolitan area and the state capital of Albany.",
+            "region_link": "shopify:\/\/pages\/region-sample"
+          }
+        },
+        "region_w3hDr6": {
+          "type": "region",
+          "settings": {
+            "title": "Region Title",
+            "desc": "Region description here",
+            "region_link": ""
+          }
+        },
+        "region_QiPNag": {
+          "type": "region",
+          "settings": {
+            "title": "Region Title",
+            "desc": "Region description here",
+            "region_link": ""
+          }
+        },
+        "region_wgyHqC": {
+          "type": "region",
+          "settings": {
+            "title": "Region Title",
+            "desc": "Region description here",
+            "region_link": ""
+          }
+        },
+        "region_QfpftF": {
+          "type": "region",
+          "settings": {
+            "title": "Region Title",
+            "desc": "Region description here",
+            "region_link": ""
+          }
+        },
+        "region_6CYrGA": {
+          "type": "region",
+          "settings": {
+            "title": "Region Title",
+            "desc": "Region description here",
+            "region_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "region_JkjhnD",
+        "region_w3hDr6",
+        "region_QiPNag",
+        "region_wgyHqC",
+        "region_QfpftF",
+        "region_6CYrGA"
+      ],
+      "name": "LBT Routes",
+      "settings": {
+        "Routes_hero": "shopify:\/\/shop_images\/PXL_20250504_140025301.RAW-01.COVER.jpg",
+        "Routes_headline": "Headline",
+        "Routes_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Regions_blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "routes_kpdph9"
   ]
 }

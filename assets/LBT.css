@@ -181,7 +181,8 @@ button,
     color: #7BC36B;
 }
 
-.event-card-button {
+.event-card-button,
+.route-card-button{
     width: 100%;
     margin-top: auto;
     max-width: none;
