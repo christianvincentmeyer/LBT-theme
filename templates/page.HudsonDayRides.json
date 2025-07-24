@@ -92,6 +92,7 @@
         },
         "ride_listing_C6AAEz": {
           "type": "ride_listing",
+          "disabled": true,
           "settings": {
             "ride_name": "Ride name",
             "desc": "Ride description here",

@@ -993,7 +993,8 @@ summary::-webkit-details-marker {
   border: 1px solid var(--Colors-Blue-Light, #7db6b5);
 }
 
-.LBT-product-card img.icon {
+.LBT-product-card img.icon,
+.route-card img.icon{
   height: 18px;
   max-height: 18px;
 }
