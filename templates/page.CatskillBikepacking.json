@@ -22,6 +22,21 @@
       "blocks": {
         "ride_listing_g9VWTE": {
           "type": "ride_listing",
+          "name": "Catskills 190",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
+            "ride_name": "The Catskills 190",
+            "desc": "3 days for an experienced bikepacker with above-average fitness doing long days in the saddle. Or, 5 days for riders averaging 40 miles a day and 3000ft climbing while also having lots of break time off the bike to do other activities like swim, fish, bird watch, and more.",
+            "mileage": "190 miles",
+            "elevation": "18,000ft Climbing",
+            "fitness": "Ride fitness",
+            "strava_link": "",
+            "RWGPS_link": "https://ridewithgps.com/routes/51606587"
+          }
+        },
+        "ride_listing_WPTF7D": {
+          "type": "ride_listing",
+          "disabled": true,
           "settings": {
             "ride_name": "Ride name",
             "desc": "Ride description here",
@@ -34,6 +49,7 @@
         },
         "ride_listing_MK64jG": {
           "type": "ride_listing",
+          "disabled": true,
           "settings": {
             "ride_name": "Ride name",
             "desc": "Ride description here",
@@ -46,6 +62,7 @@
         },
         "ride_listing_8rdXk8": {
           "type": "ride_listing",
+          "disabled": true,
           "settings": {
             "ride_name": "Ride name",
             "desc": "Ride description here",
@@ -59,13 +76,14 @@
       },
       "block_order": [
         "ride_listing_g9VWTE",
+        "ride_listing_WPTF7D",
         "ride_listing_MK64jG",
         "ride_listing_8rdXk8"
       ],
       "name": "LBT Region listings",
       "settings": {
-        "Region_headline": "Region Headline",
-        "Region_copy": "Region copy"
+        "Region_headline": "Catskill Mountains Bikepacking",
+        "Region_copy": "This bikepacking loop brings riders through the valleys, mountain ridges, and watersheds that define the Catskill Mountains. This is a majority-paved route with segments of rough gravel and 4x4 roads, and riders have the option to add more gravel miles by exploring scenic unpaved dead-end roads. All camping on this route is on public lands at lean-tos and other dispersed campsites, and there are daily grocery resupply points. You would find this route a good fit if you are looking for a multi-day trip that’s physically demanding, not the biggest time commitment, and you want to experience the challenges of trail riding and Leave No Trace camping. It’s a really enjoyable route through one of the largest forest preserves in the Northeast."
       }
     }
   },
