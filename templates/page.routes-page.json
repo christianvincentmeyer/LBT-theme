@@ -26,7 +26,7 @@
             "title": "Hudson, NY",
             "image": "shopify://shop_images/PXL_20250422_132322287.RAW-01.COVER_-_Edited.jpg",
             "desc": "Starting/ending near the corner of 7th and Union. Riding up and down hilly, wooded areas and through flatlands with working farms.",
-            "region_link": "shopify://pages/region-sample"
+            "region_link": "shopify://pages/hudson-day-rides"
           }
         },
         "region_w3hDr6": {
@@ -88,7 +88,7 @@
         "Routes_hero": "shopify://shop_images/clifftop_silhouette.jpg",
         "Routes_headline": "Cycling Routes",
         "Routes_copy": "Come to town... and bring your bike! Lichen Bike Tours chooses roads that are always scenic, sometimes unpaved, and especially avoid roads that carry a lot of vehicle traffic. In our routes we have a strong preference for loops over out 'n backs",
-        "Regions_blurb": "Keep checking back for new towns. Bikepacking routes are separated from the town-specific collections of half-day rides."
+        "Regions_blurb": "Keep checking back for new towns. Bikepacking routes are separated from the town-specific collections of rides."
       }
     }
   },

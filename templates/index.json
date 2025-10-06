@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lbt_home_page_MdFc6E": {
@@ -6,6 +15,7 @@
     },
     "featured_collection_eW8kcY": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Upcoming Rides",
         "heading_size": "h1",
@@ -45,7 +55,7 @@
         "paragraph_t34nPC": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics<\/p>"
+            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics</p>"
           }
         }
       },
