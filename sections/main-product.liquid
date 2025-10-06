@@ -222,21 +222,21 @@
                     </div>
                     <div>
                       <span>
-                        <img class="icon" src="{{'icon-elevation.png' | asset_url}}">
+                        <img class="icon" src="{{'icon-elevation.png' | asset_img_url}}">
                       </span>
                       {{ product.metafields.custom.elevation }}
                     </div>
                     {%- if product.metafields.custom.accommodations != null -%}
                       <div>
                         <span>
-                          <img class="icon" src="{{'icon-accomidations.png' | asset_url}}">
+                          <img class="icon" src="{{'icon-accomidations.png' | asset_img_url}}">
                         </span>
                         {{ product.metafields.custom.accommodations }}
                       </div>
                     {%- endif -%}
                     <div>
                       <span>
-                        <img class="icon" src="{{'icon-fitness.png' | asset_url}}">
+                        <img class="icon" src="{{'icon-fitness.png' | asset_img_url}}">
                       </span>
                       {%- if product.metafields.custom.recommended_fitness == 1 -%}
                         Level 1 fitness

@@ -613,15 +613,15 @@
         </div>
         <div class="event-ride-data">
           <span>
-            <img class="icon" src="{{'icon-milage.png' | asset_url}}">
+            <img class="icon" src="{{'icon-milage.png' | asset_img_url}}">
             {{ card_product.metafields.custom.distance }}
           </span>
           <span>
-            <img class="icon" src="{{'icon-elevation.png' | asset_url}}">
+            <img class="icon" src="{{'icon-elevation.png' | asset_img_url}}">
             {{ card_product.metafields.custom.elevation }}
           </span>
           <span>
-            <img class="icon" src="{{'icon-fitness.png' | asset_url}}">
+            <img class="icon" src="{{'icon-fitness.png' | asset_img_url}}">
             {%- if card_product.metafields.custom.recommended_fitness == 1 -%}
               Level 1 fitness
             {%- elsif card_product.metafields.custom.recommended_fitness == 2 -%}
