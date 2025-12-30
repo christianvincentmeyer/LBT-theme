@@ -242,7 +242,8 @@ header-drawer {
 
 a.header__menu-item {
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 500;
+    
 }
 
 .header__icons {
@@ -368,7 +369,8 @@ a.header__menu-item {
 
 @media screen and (max-width: 767px) {
     .header {
-        padding: 0 40px 10px !important;
+        padding: 8px 40px !important;
+        margin: 0 0 16px;
     }
 
     .footer__content-top {
