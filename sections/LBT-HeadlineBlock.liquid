@@ -1,0 +1,73 @@
+{%- style -%}
+  #LBT_headline {
+    width: 100%;
+    background: var(--Colors-Green-Dark, #0f4e41);
+    padding: 80px 0;
+  }
+  #LBT_headline-content {
+    display: flex;
+    max-width: var(--Container-Sizes-Max-Width, 1200px);
+    padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    background: var(--Colors-Green-Dark, #0f4e41);
+  }
+  #LBT_headline-content h1 {
+    color: #edf7eb !important;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Display/90 */
+    font-family: 'Inclusive Sans';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%; /* 58.8px */
+    letter-spacing: -3px;
+  }
+  #LBT_headline-content h2 {
+    color: #edf7eb !important;
+
+    /* Display/60 */
+    font-family: 'Inclusive Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+  }
+{%- endstyle -%}
+
+<div id="LBT_headline">
+  <div id="LBT_headline-content">
+    <h1 class="left">Catskills Grand Loop</h1>
+    <h2>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </h2>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "LBT Headline Block",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [],
+  "presets": [
+    {
+      "name": "LBT Headline Block",
+      "category": "section"
+    }
+  ]
+}
+{% endschema %}

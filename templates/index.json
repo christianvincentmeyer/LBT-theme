@@ -69,10 +69,16 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "lbt_headline_block_EWYMiR": {
+      "type": "LBT-HeadlineBlock",
+      "name": "LBT Headline Block",
+      "settings": {}
     }
   },
   "order": [
     "lbt_home_page_MdFc6E",
+    "lbt_headline_block_EWYMiR",
     "featured_collection_eW8kcY",
     "lbt_newsletter_zRitaK"
   ]
