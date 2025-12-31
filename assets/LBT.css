@@ -243,7 +243,7 @@ header-drawer {
 a.header__menu-item {
     font-size: 16px;
     font-weight: 500;
-    
+
 }
 
 .header__icons {
@@ -254,13 +254,14 @@ a.header__menu-item {
     display: none !important;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
     .header__heading-link {
         grid-area: heading;
     }
 
     .header__heading {
         grid-area: heading;
+        justify-self: center;
     }
 
     .header__icons {
