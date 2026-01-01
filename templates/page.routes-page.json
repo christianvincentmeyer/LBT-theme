@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -24,18 +15,18 @@
           "type": "region",
           "settings": {
             "title": "Hudson, NY",
-            "image": "shopify://shop_images/PXL_20250422_132322287.RAW-01.COVER_-_Edited.jpg",
-            "desc": "Starting/ending near the corner of 7th and Union. Riding up and down hilly, wooded areas and through flatlands with working farms.",
-            "region_link": "shopify://pages/hudson-day-rides"
+            "image": "shopify:\/\/shop_images\/PXL_20250422_132322287.RAW-01.COVER_-_Edited.jpg",
+            "desc": "Starting\/ending near the corner of 7th and Union. Riding up and down hilly, wooded areas and through flatlands with working farms.",
+            "region_link": "shopify:\/\/pages\/hudson-day-rides"
           }
         },
         "region_w3hDr6": {
           "type": "region",
           "settings": {
             "title": "Catskills Bikepacking",
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "image": "shopify:\/\/shop_images\/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
             "desc": "Cycling on roads and doubletrack and dispersed camping in the public forests of the Catskill Mountains.",
-            "region_link": "shopify://pages/catskillsbikepacking"
+            "region_link": "shopify:\/\/pages\/catskillsbikepacking"
           }
         },
         "region_QiPNag": {
@@ -85,7 +76,7 @@
       ],
       "name": "LBT Routes",
       "settings": {
-        "Routes_hero": "shopify://shop_images/clifftop_silhouette.jpg",
+        "Routes_hero": "shopify:\/\/shop_images\/clifftop_silhouette.jpg",
         "Routes_headline": "Cycling Routes",
         "Routes_copy": "Come to town... and bring your bike! Lichen Bike Tours chooses roads that are always scenic, sometimes unpaved, and especially avoid roads that carry a lot of vehicle traffic. In our routes we have a strong preference for loops over out 'n backs",
         "Regions_blurb": "Keep checking back for new towns. Bikepacking routes are separated from the town-specific collections of rides."

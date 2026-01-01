@@ -1,0 +1,47 @@
+{%- style -%}
+  .LBT_heroImageSection {
+    width: 100%;
+  }
+  .LBT_heroImageSection-content {
+    margin: 0 auto;
+  }
+  .heroImage {
+    display: flex;
+    width: 1920px;
+    height: 980px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Spacing-lg, 24px);
+    aspect-ratio: 96/49;
+  }
+{%- endstyle -%}
+
+<div class="LBT_heroImageSection">
+  <div class="LBT_heroImageSection-contentt">
+    <img src="{{ section.settings.image | img_url: "master"}}">
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "LBT HeroImage",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "LBT HeroImage",
+      "category": "section"
+    }
+  ]
+}
+{% endschema %}

@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -24,70 +15,70 @@
           "type": "ride_listing",
           "name": "Shortest",
           "settings": {
-            "image": "shopify://shop_images/short_loop_thumbnail_3_x_2.png",
+            "image": "shopify:\/\/shop_images\/short_loop_thumbnail_3_x_2.png",
             "ride_name": "Shortest Ride South Out 'n Back",
             "desc": "Leave the quiet way out of Hudson and ride on rural, low traffic roads on this lollipop out-and-back route.",
             "mileage": "11 miles",
             "elevation": "800ft climbing",
             "fitness": "Ride fitness",
             "strava_link": "",
-            "RWGPS_link": "https://ridewithgps.com/routes/49395772"
+            "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/49395772"
           }
         },
         "ride_listing_3BLc9P": {
           "type": "ride_listing",
           "name": "4 hills",
           "settings": {
-            "image": "shopify://shop_images/4_hills_thumbnail_-_Edited.png",
+            "image": "shopify:\/\/shop_images\/4_hills_thumbnail_-_Edited.png",
             "ride_name": "4 Hills in Hudson and Catskill",
             "desc": "Here's a loop that takes you up 4 decent hills: Mt Merino Rd, Hamburg Rd, William St, and the full \"hospital hill\". Twice crosses the Rip van Winkle Bridge by riding on the shoulder.",
             "mileage": "15 miles",
             "elevation": "1100ft climbing",
             "fitness": "Ride fitness",
             "strava_link": "",
-            "RWGPS_link": "https://ridewithgps.com/routes/49395549"
+            "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/49395549"
           }
         },
         "ride_listing_bbmRcz": {
           "type": "ride_listing",
           "name": "Medium 30",
           "settings": {
-            "image": "shopify://shop_images/medium_30_thumbnail_3_x_2.png",
+            "image": "shopify:\/\/shop_images\/medium_30_thumbnail_3_x_2.png",
             "ride_name": "Catskill Views and Orchard Covered Hills",
             "desc": "Leave the quiet way out of Hudson and take in a stunning view of the Catskill Front before cycling on the rolling hills of apple orchards and the flat, tilled land of working farms.",
             "mileage": "30 miles",
             "elevation": "2000ft climbing",
             "fitness": "Ride fitness",
             "strava_link": "",
-            "RWGPS_link": "https://ridewithgps.com/routes/49395817"
+            "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/49395817"
           }
         },
         "ride_listing_H3JryP": {
           "type": "ride_listing",
           "name": "Short",
           "settings": {
-            "image": "shopify://shop_images/Short_South_18_thumbnail.png",
+            "image": "shopify:\/\/shop_images\/Short_South_18_thumbnail.png",
             "ride_name": "Short Loop to the South",
             "desc": "Leave the quiet way out of Hudson and ride past apple orchards on this lollipop out-and-back route. Longer version of the shortest ride.",
             "mileage": "18 miles",
             "elevation": "1100ft climbing",
             "fitness": "Ride fitness",
             "strava_link": "",
-            "RWGPS_link": "https://ridewithgps.com/routes/49425212"
+            "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/49425212"
           }
         },
         "ride_listing_Ta4DPn": {
           "type": "ride_listing",
           "name": "Medium 37",
           "settings": {
-            "image": "shopify://shop_images/AHET_flat_ish_loop_thumbnail_3_x_2.png",
+            "image": "shopify:\/\/shop_images\/AHET_flat_ish_loop_thumbnail_3_x_2.png",
             "ride_name": "Flat-ish Loop from the Empire State Trail to Country Roads",
             "desc": "Leaving Hudson to the North on the Albany-Hudson Electric Trail, a rail trail that's part of the Empire State Trail. At Stuyvesant Falls the route departs from the rail trail and takes you back South on very rural farmland roads. It's all quite flat EXCEPT for that one 400ft hill in Philmont.",
             "mileage": "37 miles",
             "elevation": "2000ft climbing",
             "fitness": "Ride fitness",
             "strava_link": "",
-            "RWGPS_link": "https://ridewithgps.com/routes/49804668"
+            "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/49804668"
           }
         },
         "ride_listing_C6AAEz": {

@@ -1,16 +1,12 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "lbt_home_page_MdFc6E": {
       "type": "LBT-home-page",
+      "settings": {}
+    },
+    "lbt_headline_block_EWYMiR": {
+      "type": "LBT-HeadlineBlock",
+      "name": "LBT Headline Block",
       "settings": {}
     },
     "featured_collection_eW8kcY": {
@@ -55,7 +51,7 @@
         "paragraph_t34nPC": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics</p>"
+            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics<\/p>"
           }
         }
       },
@@ -70,16 +66,19 @@
         "padding_bottom": 52
       }
     },
-    "lbt_headline_block_EWYMiR": {
-      "type": "LBT-HeadlineBlock",
-      "name": "LBT Headline Block",
-      "settings": {}
+    "lbt_hero_image_V4T6WN": {
+      "type": "LBT-HeroImage",
+      "name": "LBT HeroImage",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/clifftop_silhouette.jpg"
+      }
     }
   },
   "order": [
     "lbt_home_page_MdFc6E",
     "lbt_headline_block_EWYMiR",
     "featured_collection_eW8kcY",
-    "lbt_newsletter_zRitaK"
+    "lbt_newsletter_zRitaK",
+    "lbt_hero_image_V4T6WN"
   ]
 }

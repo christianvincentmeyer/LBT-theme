@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -24,14 +15,14 @@
           "type": "ride_listing",
           "name": "Catskills 190",
           "settings": {
-            "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
+            "image": "shopify:\/\/shop_images\/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
             "ride_name": "The Catskills 190",
             "desc": "Throughout the route riders will go from valley to valley, watershed to watershed, guided up and over mountain passes with a strong preference for doubletrack and rough gravel. The rest of the miles are on paved roads, which is just a fact of riding in this region. This route follows all designated trail uses, which means that we avoid foot trails. Notes in the route indicate optional excursions along disused logging roads, rugged snowmobile trails, and occasional mountain biking areas. While the majority of the miles are on paved surfaces, the route brings you past dead-end dirt'n'gravel roads that climb up a valley before turning into foot trail, often with great camping sites and vistas. We could include those roads to make the route appear more gravel-y, but have decided to not include them because a good loop should not require backtracking and out-and-back sections.",
             "mileage": "190 miles",
             "elevation": "18,000ft Climbing",
             "fitness": "Ride fitness",
             "strava_link": "",
-            "RWGPS_link": "https://ridewithgps.com/routes/51606587"
+            "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/51606587"
           }
         },
         "ride_listing_WPTF7D": {
