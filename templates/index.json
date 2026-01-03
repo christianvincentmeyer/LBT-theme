@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "lbt_home_page_MdFc6E": {
-      "type": "LBT-home-page",
-      "settings": {}
-    },
     "lbt_headline_block_EWYMiR": {
       "type": "LBT-HeadlineBlock",
       "name": "LBT Headline Block",
@@ -85,10 +81,9 @@
     }
   },
   "order": [
-    "lbt_home_page_MdFc6E",
     "lbt_headline_block_EWYMiR",
+    "lbt_hero_image_V4T6WN",
     "featured_collection_eW8kcY",
-    "lbt_newsletter_zRitaK",
-    "lbt_hero_image_V4T6WN"
+    "lbt_newsletter_zRitaK"
   ]
 }

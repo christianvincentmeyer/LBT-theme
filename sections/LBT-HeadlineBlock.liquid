@@ -7,15 +7,16 @@
 
   .LBT_headline-wrapper {
     display: flex;
-    max-width: var(--Container-Sizes-Max-Width, 1200px);
+    max-width: var(--page-width);
     padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
     margin: 0 auto;
     align-items: center;
     align-self: stretch;
+    justify-content: center;
     background: var(--Colors-Green-Dark, #0f4e41);
   }
   .LBT_headline-content {
-    max-width: 960px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -47,6 +48,30 @@
     font-weight: 700;
     line-height: 120%; /* 28.8px */
   }
+  .anchors-wrapper {
+    display: flex;
+    max-width: var(--Container-Sizes-Md-Width, 800px);
+    padding-top: var(--Spacing-md, 16px);
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+  }
+  .anchors-wrapper a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: var(--Spacing-sm, 8px) var(--Spacing-md, 16px);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--Spacing-lg, 24px);
+    border: 1px solid var(--Colors-Surface-Light, #edf7eb);
+  }
+  .anchors-wrapper a:hover {
+    background-color: #edf7eb;
+    color: #0f4e41;
+  }
 {%- endstyle -%}
 
 <div class="LBT_headline-section">
@@ -57,6 +82,16 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.
       </h2>
+      <div class="anchors-wrapper">
+        <a href="#test"> Highlights </a>
+        <a href="#test"> Camping </a>
+        <a href="#test"> Bike Suggestions </a>
+        <a href="#test"> Train Accessibility </a>
+        <a href="#test"> Traffic </a>
+        <a href="#test"> Water </a>
+        <a href="#test"> Food and Meal Prep </a>
+        <a href="#test"> Bears and other animals </a>
+      </div>
     </div>
   </div>
 </div>
