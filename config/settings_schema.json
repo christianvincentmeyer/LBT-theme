@@ -163,6 +163,16 @@
       },
       {
         "type": "range",
+        "id": "content_width",
+        "min": 600,
+        "max": 1200,
+        "step": 100,
+        "default": 800,
+        "unit": "px",
+        "label": "Content width"
+      },
+      {
+        "type": "range",
         "id": "spacing_sections",
         "min": 0,
         "max": 100,

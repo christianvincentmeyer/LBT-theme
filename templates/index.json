@@ -14,6 +14,14 @@
       "name": "LBT Headline Block",
       "settings": {}
     },
+    "lbt_hero_image_V4T6WN": {
+      "type": "LBT-HeroImage",
+      "name": "LBT HeroImage",
+      "settings": {
+        "image": "shopify://shop_images/clifftop_silhouette.jpg",
+        "color_scheme": "scheme-1"
+      }
+    },
     "featured_collection_eW8kcY": {
       "type": "featured-collection",
       "disabled": true,
@@ -71,17 +79,53 @@
         "padding_bottom": 52
       }
     },
-    "lbt_hero_image_V4T6WN": {
-      "type": "LBT-HeroImage",
-      "name": "LBT HeroImage",
+    "rich_text_b4hXqL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CnQgeA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_QiQHL3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A rigid frame bicycle is well-suited to this route (suspension fork not necessary). The variety of terrains on this route means you should have tires that can handle rough gravel and tree roots without being too knobby for the paved sections. Plan to lower your tire pressure when you go onto the loose, steep 4×4 mileage and any of the optional snowmobile trails that are adjacent to the route. Recommend tires 2 inches (50mm) in width, maybe a little wider than that. You can enjoy this route if you have narrower tires because of the overall percentage of paved road miles, but plan on occasionally hiking your bike down a rocky path instead of riding.<br/><br/>More important are words of caution about brakes and braking while bikepacking: 1) a bicycle loaded with camping equipment, water, and food requires more force to stop than an unloaded bike, 2) some of the downhill segments on the Catskills Grand Loop are very steep, and 3) the Catskills are known to be rainy, misty, and foggy. You must test your brakes and demonstrate that your most forceful braking can stop you while descending a steep hill on a loaded bike. Be prepared for reduced braking power during wet conditions. It’s scary when you don’t have that braking power, the potential for injury increases, and the journey stops being fun.<br/><br/>There are no bike shops along the route.<br/> </p>"
+          }
+        },
+        "button_CCJkdK": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CnQgeA",
+        "text_QiQHL3",
+        "button_CCJkdK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/clifftop_silhouette.jpg",
-        "color_scheme": "scheme-1"
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "lbt_headline_block_EWYMiR",
+    "rich_text_b4hXqL",
     "lbt_hero_image_V4T6WN",
     "featured_collection_eW8kcY",
     "lbt_newsletter_zRitaK"
