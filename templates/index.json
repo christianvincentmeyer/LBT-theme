@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lbt_home_page_MdFc6E": {
@@ -51,7 +60,7 @@
         "paragraph_t34nPC": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics<\/p>"
+            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics</p>"
           }
         }
       },
@@ -70,7 +79,8 @@
       "type": "LBT-HeroImage",
       "name": "LBT HeroImage",
       "settings": {
-        "image": "shopify:\/\/shop_images\/clifftop_silhouette.jpg"
+        "image": "shopify://shop_images/clifftop_silhouette.jpg",
+        "color_scheme": "scheme-1"
       }
     }
   },

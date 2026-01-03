@@ -16,7 +16,7 @@
   }
 {%- endstyle -%}
 
-<div class="LBT_heroImageSection">
+<div class="LBT_heroImageSection color-{{ section.settings.color_scheme }}">
   <div class="LBT_heroImageSection-content">
     <img class="heroImage" src="{{ section.settings.image | img_url: "master"}}">
   </div>
@@ -35,6 +35,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
     }
   ],
   "presets": [
