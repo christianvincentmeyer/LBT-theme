@@ -1,21 +1,27 @@
 {%- style -%}
-  #LBT_headline {
+  .LBT_headline-section {
     width: 100%;
     background: var(--Colors-Green-Dark, #0f4e41);
     padding: 80px 0;
   }
-  #LBT_headline-content {
+
+  .LBT_headline-wrapper {
     display: flex;
     max-width: var(--Container-Sizes-Max-Width, 1200px);
     padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
     margin: 0 auto;
-    flex-direction: column;
     align-items: center;
-    gap: 16px;
     align-self: stretch;
     background: var(--Colors-Green-Dark, #0f4e41);
   }
-  #LBT_headline-content h1 {
+  .LBT_headline-content {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+  }
+  .LBT_headline-content h1 {
     color: #edf7eb !important;
     margin: 0;
     padding: 0;
@@ -32,9 +38,8 @@
     line-height: 105%; /* 58.8px */
     letter-spacing: -3px;
   }
-  #LBT_headline-content h2 {
+  .LBT_headline-content h2 {
     color: #edf7eb !important;
-
     /* Display/60 */
     font-family: 'Inclusive Sans';
     font-size: 24px;
@@ -44,13 +49,15 @@
   }
 {%- endstyle -%}
 
-<div id="LBT_headline">
-  <div id="LBT_headline-content">
-    <h1 class="left">Catskills Grand Loop</h1>
-    <h2>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua.
-    </h2>
+<div class="LBT_headline-section">
+  <div class="LBT_headline-wrapper">
+    <div class="LBT_headline-content">
+      <h1 class="left">Catskills Grand Loop</h1>
+      <h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+      </h2>
+    </div>
   </div>
 </div>
 
