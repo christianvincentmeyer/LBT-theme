@@ -27,6 +27,9 @@
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
+                {% if block.settings.isAnchor == 'isAnchor' %}
+                  id="{{ block.settings.anchorID }}"
+                {% endif %}
                 class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
@@ -36,6 +39,15 @@
               >
                 {{ block.settings.heading }}
               </h2>
+              {% if block.settings.isAnchor == 'isAnchor' %}
+                <script>
+                  var anchorWrapper = document.getElementById('anchor-wrapper');
+
+                  console.log('{{ block.settings.anchorLabel }}');
+
+                  anchorWrapper.innerHTML += '{{ block.settings.anchorID }}';
+                </script>
+              {% endif %}
             {%- when 'caption' -%}
               <p
                 class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -225,6 +237,32 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "select",
+          "id": "isAnchor",
+          "options": [
+            {
+              "value": "isAnchor",
+              "label": "Is an Anchor Headline"
+            },
+            {
+              "value": "default",
+              "label": "Default Headline"
+            }
+          ],
+          "default": "default",
+          "label": "Default Headline"
+        },
+        {
+          "type": "text",
+          "id": "anchorLabel",
+          "label": "Anchor Label"
+        },
+        {
+          "type": "text",
+          "id": "anchorID",
+          "label": "Anchor ID"
         }
       ]
     },
