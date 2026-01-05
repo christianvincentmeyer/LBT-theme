@@ -12,7 +12,11 @@
     "lbt_headline_block_EWYMiR": {
       "type": "LBT-HeadlineBlock",
       "name": "LBT Headline Block",
-      "settings": {}
+      "settings": {
+        "heading_size": "h2",
+        "headline": "Headline",
+        "subhead": "Subhead"
+      }
     },
     "rich_text_b4hXqL": {
       "type": "rich-text",
@@ -56,7 +60,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 40
       }
     },
@@ -77,7 +81,7 @@
             "heading": "Talk about your brand",
             "heading_size": "h1",
             "isAnchor": "isAnchor",
-            "anchorLabel": "TalkAbout",
+            "anchorLabel": "Talk About",
             "anchorID": "Talk"
           }
         },
@@ -110,7 +114,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 8,
         "padding_bottom": 52
       }
     },

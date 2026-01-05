@@ -16,7 +16,7 @@
     background: var(--Colors-Green-Dark, #0f4e41);
   }
   .LBT_headline-content {
-    max-width: {{ settings.content_width }}px;
+    width: {{ settings.content_width }}px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -46,7 +46,20 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 28.8px */
+    line-height: 105%; /* 28.8px */
+    margin: 0;
+    padding: 0;
+  }
+  .LBT_headline-content h3 {
+    color: #edf7eb !important;
+    /* Display/60 */
+    font-family: 'Inclusive Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%; /* 28.8px */
+    margin: 0;
+    padding: 0;
   }
   .anchors-wrapper {
     display: flex;
@@ -77,11 +90,21 @@
 <div class="LBT_headline-section">
   <div class="LBT_headline-wrapper">
     <div class="LBT_headline-content">
-      <h1 class="left">Catskills Grand Loop</h1>
-      <h2>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-      </h2>
+      {% if section.settings.heading_size == 'h1' %}
+        <h1 class="left">
+          {{ section.settings.headline }}
+        </h1>
+        <h2>
+          {{ section.settings.subhead }}
+        </h2>
+      {% else %}
+        <h2 class="left">
+          {{ section.settings.headline }}
+        </h2>
+        <h3>
+          {{ section.settings.subhead }}
+        </h3>
+      {% endif %}
       <div id="anchor-wrapper" class="anchors-wrapper"></div>
     </div>
   </div>
@@ -95,7 +118,34 @@
   "disabled_on": {
     "groups": ["header", "footer"]
   },
-  "settings": [],
+  "settings": [
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h1",
+          "label": "h1"
+        },
+        {
+          "value": "h2",
+          "label": "h2"
+        }
+      ],
+      "default": "h2",
+      "label": "Headline Type"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline"
+    },
+    {
+      "type": "text",
+      "id": "subhead",
+      "label": "Sub-headline"
+    }
+  ],
   "presets": [
     {
       "name": "LBT Headline Block",
