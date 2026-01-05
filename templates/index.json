@@ -13,7 +13,7 @@
       "type": "LBT-HeadlineBlock",
       "name": "LBT Headline Block",
       "settings": {
-        "heading_size": "h2",
+        "heading_size": "h1",
         "headline": "Headline",
         "subhead": "Subhead"
       }
