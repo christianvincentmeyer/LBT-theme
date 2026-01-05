@@ -1,0 +1,127 @@
+{%- style -%}
+  .LBT_CTA-section {
+    width: 100%;
+    padding: 80px 0;
+  }
+  .LBT_CTA-wrapper {
+    display: flex;
+    max-width: var(--page-width);
+    padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
+    margin: 0 auto;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+  }
+  .LBT_CTA-content {
+    width: {{ settings.content_width }}px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    padding: 0 16px;
+  }
+  .LBT_CTA-copy {
+    display: flex;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+  }
+  .LBT_CTA-content h2 {
+    /* Display/60 */
+    font-family: 'Inclusive Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%; /* 28.8px */
+    margin: 0;
+    padding: 0;
+    width:100%;
+  }
+  .LBT_CTA-content a {
+    width: auto;
+    align-self: flex-start;
+  }
+
+  .supportImage {
+    display: block !important;
+    aspect-ratio: 3/2.5;
+    width:100%;
+    flex-grow: 1;
+    margin: 0 auto;
+    background-image: url('{{ section.settings.image | img_url: "master" }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+{%- endstyle -%}
+
+<div class="LBT_CTA-section color-{{ section.settings.color_scheme }}">
+  <div class="LBT_CTA-wrapper">
+    <div class="LBT_CTA-content">
+      <div class="LBT_CTA-copy">
+        <h2 class="left">
+          {{ section.settings.headline }}
+        </h2>
+        <p>
+          {{ section.settings.copy }}
+        </p>
+        <a class="button" href="{{ section.settings.buttonLink }}">
+          {{ section.settings.buttonLabel }}
+        </a>
+      </div>
+      <div class="supportImage"></div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "LBT Rotating CTA",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline"
+    },
+    {
+      "type": "text",
+      "id": "copy",
+      "label": "Support Copy"
+    },
+    {
+      "type": "text",
+      "id": "buttonLabel",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "buttonLink",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "LBT Rotating CTA",
+      "category": "section"
+    }
+  ]
+}
+{% endschema %}

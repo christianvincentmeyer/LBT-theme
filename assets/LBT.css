@@ -150,10 +150,10 @@ button,
     align-items: center;
     gap: 10px;
     align-self: stretch;
-    max-width: 250px;
+    min-width: 120px;
     border-radius: var(--Spacing-2xs, 4px);
     background-color: var(--Colors-Green-Light, #7BC36B);
-    width: 100%;
+    /* width: 100%; */
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.01em !important;
@@ -420,7 +420,7 @@ a.header__menu-item {
 }
 
 .h1-style {
-    color: #072a29;
+    /* color: #072a29; */
     text-align: center;
     letter-spacing: -.03em;
     width: 100%;
@@ -433,7 +433,7 @@ a.header__menu-item {
 }
 
 .text-center {
-    color: #000;
+    /* CTA: #000; */
     text-align: center;
     letter-spacing: .75px;
     margin-top: 0;
@@ -494,7 +494,7 @@ a.header__menu-item {
 }
 
 .h2-style {
-    color: #072a29;
+    /* CTA: #072a29; */
     letter-spacing: -.03em;
     width: 100%;
     margin-top: 0;
@@ -506,7 +506,7 @@ a.header__menu-item {
 }
 
 .text-left {
-    color: #072a29;
+    /* CTA: #072a29; */
     letter-spacing: .75px;
     width: 100%;
     margin-top: 0;
@@ -527,7 +527,7 @@ a.header__menu-item {
 }
 
 .text {
-    color: #072a29;
+    /* color: #072a29; */
     text-align: center;
     letter-spacing: -.03em;
     margin-top: 0;
@@ -563,7 +563,7 @@ a.header__menu-item {
 }
 
 .text-3 {
-    color: #072a29;
+    /* color: #072a29; */
     margin-top: 0;
     margin-bottom: 0;
     font-size: 12px;
@@ -574,7 +574,7 @@ a.header__menu-item {
 
 .h1-0,
 h1 {
-    color: #072a29 !important;
+    /* color: #072a29 !important; */
     letter-spacing: -.03em !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
@@ -590,7 +590,7 @@ h1 {
 
 .h2-0,
 h2 {
-    color: #072a29 !important;
+    /* color: #072a29 !important; */
     letter-spacing: -.03em !important;
     /* width: 100% !important; */
     margin-top: 0 !important;

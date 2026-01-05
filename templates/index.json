@@ -182,6 +182,18 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "lbt_rotation_cta_JRGmBa": {
+      "type": "LBT-RotationCTA",
+      "name": "LBT Rotating CTA",
+      "settings": {
+        "headline": "HHHH",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "buttonLabel": "Test Label right here",
+        "buttonLink": "",
+        "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
+        "color_scheme": "scheme-3"
+      }
     }
   },
   "order": [
@@ -191,6 +203,7 @@
     "rich_text_NwyAVH",
     "lbt_hero_image_V4T6WN",
     "featured_collection_eW8kcY",
-    "lbt_newsletter_zRitaK"
+    "lbt_newsletter_zRitaK",
+    "lbt_rotation_cta_JRGmBa"
   ]
 }
