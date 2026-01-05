@@ -17,6 +17,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .isAnchor{
+    padding: 24px 0 0;
+  }
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
@@ -30,7 +34,7 @@
                 {% if block.settings.isAnchor == 'isAnchor' %}
                   id="{{ block.settings.anchorID }}"
                 {% endif %}
-                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {% if block.settings.isAnchor == 'isAnchor' %} isAnchor{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -41,11 +45,19 @@
               </h2>
               {% if block.settings.isAnchor == 'isAnchor' %}
                 <script>
+                  var anchorButton = `
+                    <a href="%s">%s</a>
+                  `;
                   var anchorWrapper = document.getElementById('anchor-wrapper');
 
-                  console.log('{{ block.settings.anchorLabel }}');
+                  if (anchorWrapper != null) {
+                    let anchorID = '#{{ block.settings.anchorID }}';
+                    let anchorLabel = '{{ block.settings.anchorLabel }}';
 
-                  anchorWrapper.innerHTML += '{{ block.settings.anchorID }}';
+                    const anchorButtonUpdated = anchorButton.replace('%s', anchorID).replace('%s', anchorLabel);
+
+                    anchorWrapper.innerHTML += anchorButtonUpdated;
+                  }
                 </script>
               {% endif %}
             {%- when 'caption' -%}
@@ -185,7 +197,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 40
+      "default": 16
     },
     {
       "type": "range",
@@ -195,7 +207,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
+      "default": 40
     }
   ],
   "blocks": [
