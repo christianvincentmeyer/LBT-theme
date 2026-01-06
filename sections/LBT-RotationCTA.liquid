@@ -43,8 +43,7 @@
     width: auto;
     align-self: flex-start;
   }
-
-  .supportImage {
+  .LBT_CTA-content .supportImage {
     display: block !important;
     aspect-ratio: 3/2.5;
     width:100%;
@@ -54,6 +53,29 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  @media screen and (max-width: 1380px) {
+    .LBT_CTA-section {
+      padding: 40px 0;
+    }
+    .LBT_CTA-content {
+      width: 100%;
+      flex-direction: column-reverse;
+      padding: 0 16px;
+    }
+    .LBT_CTA-copy {
+      max-width: {{ settings.content_width }}px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .LBT_CTA-content .supportImage {
+      aspect-ratio: 96 / 49;
+      margin: 0 auto;
+      background-image: url('{{ section.settings.image | img_url: "master" }}');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 {%- endstyle -%}
 
