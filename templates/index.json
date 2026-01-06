@@ -205,6 +205,16 @@
         "buttonLink": "",
         "color_scheme": "scheme-5"
       }
+    },
+    "lbt_rwgps_hWDhXL": {
+      "type": "LBT-RWGPS",
+      "name": "LBT RWGPS",
+      "settings": {
+        "headline": "RIDE",
+        "copy": "This is a train-accessible route from the Amtrak station in Hudson, NY and from the Amtrak/MetroNorth station in Poughkeepsie, NY. The Catskills Grand Loop is a complete clockwise loop that averages out to 900ft of climbing and 900ft of descending per 10 miles of distance. Catskills Grand Loop is quite scenic and you feel close to the mountains and close to nature. In addition to hiking, there are a couple of opportunities for swimming along the way. For the anglers, there is ample opportunity for trout fishing in the Willowemoc and Beaverkill creeks. Near the start/end is Roundtopia mountain bike trails for some extracurricular riding and early on you really ought to stop at the giant earthwork sculpture grounds Opus 40. The route is best experienced in Summer through early Fall when it’s 50% shaded.",
+        "RWGPS_embed": "<iframe src=\"https://ridewithgps.com/embeds?type=route&amp;id=51606587&amp;sampleGraph=true\" style=\"width: 1px; min-width: 100%; height: 700px; border: none;\" scrolling=\"no\"></iframe>",
+        "color_scheme": "scheme-97888ef9-948c-4574-be66-7bf40393832c"
+      }
     }
   },
   "order": [
@@ -216,6 +226,7 @@
     "featured_collection_eW8kcY",
     "lbt_newsletter_zRitaK",
     "lbt_rotation_cta_JRGmBa",
-    "lbt_rotation_cta_alt_TtCbpL"
+    "lbt_rotation_cta_alt_TtCbpL",
+    "lbt_rwgps_hWDhXL"
   ]
 }

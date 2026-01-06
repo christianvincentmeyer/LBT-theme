@@ -1,9 +1,9 @@
 {%- style -%}
-  .LBT_CTA-section {
+  .LBT_RWGPS-section {
     width: 100%;
     padding: 80px 0;
   }
-  .LBT_CTA-wrapper {
+  .LBT_RWGPS-wrapper {
     display: flex;
     max-width: var(--page-width);
     padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
@@ -12,23 +12,24 @@
     align-self: stretch;
     justify-content: center;
   }
-  .LBT_CTA-content {
-    width: {{ settings.content_width }}px;
+  .LBT_RWGPS-content {
+    /* width: {{ settings.content_width }}px; */
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 16px;
-    padding: 0 16px;
+    padding: 0 80px;
   }
-  .LBT_CTA-copy {
+  .LBT_RWGPS-copy {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width:100%;
     flex-direction: column;
     gap: 16px;
     padding: 0 16px;
   }
-  .LBT_CTA-content h2 {
+  .LBT_RWGPS-content h2 {
     /* Display/60 */
     font-family: 'Inclusive Sans';
     font-size: 24px;
@@ -39,68 +40,58 @@
     padding: 0;
     width:100%;
   }
-  .LBT_CTA-content a {
+  .LBT_RWGPS-content a {
     width: auto;
     align-self: flex-start;
   }
-  .LBT_CTA-content .supportImage {
+  .LBT_RWGPS-content iframe {
     display: block !important;
-    aspect-ratio: 3/2.5;
-    width:100%;
-    flex-grow: 1;
-    margin: 0 auto;
-    background-image: url('{{ section.settings.image | img_url: "master" }}');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    aspect-ratio: 4/ 3;
+    width:100% !important;
+    max-width: 800px !important;
+    min-width: unset !important;
+    height: 640px !important;
   }
   @media screen and (max-width: 1380px) {
-    .LBT_CTA-section {
+    .LBT_RWGPS-section {
       padding: 40px 0;
     }
-    .LBT_CTA-content {
+    .LBT_RWGPS-content {
       width: 100%;
       flex-direction: column-reverse;
       padding: 0 16px;
     }
-    .LBT_CTA-copy {
+    .LBT_RWGPS-copy {
       max-width: {{ settings.content_width }}px;
       padding-left: 16px;
       padding-right: 16px;
     }
-    .LBT_CTA-content .supportImage {
+    .LBT_RWGPS-content iframe {
       aspect-ratio: 96 / 49;
       margin: 0 auto;
-      background-image: url('{{ section.settings.image | img_url: "master" }}');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
     }
   }
 {%- endstyle -%}
 
-<div class="LBT_CTA-section color-{{ section.settings.color_scheme }}">
-  <div class="LBT_CTA-wrapper">
-    <div class="LBT_CTA-content">
-      <div class="LBT_CTA-copy">
+<div class="LBT_RWGPS-section color-{{ section.settings.color_scheme }}">
+  <div class="LBT_RWGPS-wrapper">
+    <div class="LBT_RWGPS-content">
+      <div class="LBT_RWGPS-copy">
         <h2 class="left">
           {{ section.settings.headline }}
         </h2>
         <p>
           {{ section.settings.copy }}
         </p>
-        <a class="button" href="{{ section.settings.buttonLink }}">
-          {{ section.settings.buttonLabel }}
-        </a>
       </div>
-      <div class="supportImage"></div>
+      {{ section.settings.RWGPS_embed }}
     </div>
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "LBT Rotating CTA",
+  "name": "LBT RWGPS",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -118,19 +109,9 @@
       "label": "Support Copy"
     },
     {
-      "type": "text",
-      "id": "buttonLabel",
-      "label": "Button Label"
-    },
-    {
-      "type": "url",
-      "id": "buttonLink",
-      "label": "Button Link"
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+      "type": "html",
+      "id": "RWGPS_embed",
+      "label": "Embed Code"
     },
     {
       "type": "color_scheme",
@@ -141,7 +122,7 @@
   ],
   "presets": [
     {
-      "name": "LBT Rotating CTA",
+      "name": "LBT RWGPS",
       "category": "section"
     }
   ]
