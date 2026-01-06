@@ -18,6 +18,46 @@
         "subhead": "Subhead"
       }
     },
+    "lbt_reviews_YB8XcB": {
+      "type": "LBT-Reviews",
+      "blocks": {
+        "column_nPdM9n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "name": "Henry",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "column_CNXxxx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "name": "Henry",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "column_QapUCM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "name": "Henry",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        }
+      },
+      "block_order": [
+        "column_nPdM9n",
+        "column_CNXxxx",
+        "column_QapUCM"
+      ],
+      "name": "LBT Reviews",
+      "settings": {
+        "headline": "What People are Saying",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "color_scheme": ""
+      }
+    },
     "rich_text_b4hXqL": {
       "type": "rich-text",
       "blocks": {
@@ -218,6 +258,7 @@
     }
   },
   "order": [
+    "lbt_reviews_YB8XcB",
     "lbt_headline_block_EWYMiR",
     "rich_text_b4hXqL",
     "lbt_support_image_7C3YYc",

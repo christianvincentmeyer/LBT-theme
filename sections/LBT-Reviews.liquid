@@ -1,9 +1,9 @@
 {%- style -%}
-  .LBT_CTA-section {
+  .LBT_Reviews-section {
     width: 100%;
     padding: 80px 0;
   }
-  .LBT_CTA-wrapper {
+  .LBT_Reviews-wrapper {
     display: flex;
     max-width: var(--page-width);
     padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
@@ -12,23 +12,24 @@
     align-self: stretch;
     justify-content: center;
   }
-  .LBT_CTA-content {
+  .LBT_Reviews-content {
     width: {{ settings.content_width }}px;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    gap: 16px;
-    padding: 0 16px;
-  }
-  .LBT_CTA-copy {
-    display: flex;
-    align-items: center;
-    width:100%;
     flex-direction: column;
     gap: 16px;
     padding: 0 16px;
   }
-  .LBT_CTA-content h2 {
+  .LBT_Reviews-copy {
+    display: flex;
+    align-items: center;
+    width:100%;
+    text-align: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 160px 32px;
+  }
+  .LBT_Reviews-content h2 {
     /* Display/60 */
     font-family: 'Inclusive Sans';
     font-size: 24px;
@@ -37,70 +38,124 @@
     line-height: 105%; /* 28.8px */
     margin: 0;
     padding: 0;
-    width:100%;
   }
-  .LBT_CTA-content a {
-    width: auto;
-    align-self: flex-start;
+  .LBT_Reviews-content h3 {
+    text-align: center;
+    /* Body/40 */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 166.667% */
+    letter-spacing: 0.75px;
+    padding: 0 0 16px;
+    margin: 0;
   }
-  .LBT_CTA-content .supportImage {
-    display: block !important;
-    aspect-ratio: 3/2.5;
+
+  .testimonals-wrapper{
+    display:flex;
+    gap:24px;
+  }
+  .testimonal{
     width:100%;
-    flex-grow: 1;
-    margin: 0 auto;
-    background-image: url('{{ section.settings.image | img_url: "master" }}');
+    max-width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    padding:0 0 40px;
+  }
+  .testimonal-photo{
+    width:85%;
+    aspect-ratio: 1 / 1;
+    align-self: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
+  .LBT_Reviews-content h4 {
+    text-align: center;
+    /* Title/50 */
+    font-family:"Inclusive Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%; /* 21px */
+    padding:0
+  }
+  .LBT_Reviews-content p {
+    text-align: center;
+    /* Body/30 */
+    font-family: "Inclusive Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+    letter-spacing: 0.75px;
+  }
   @media screen and (max-width: 1380px) {
-    .LBT_CTA-section {
+    .LBT_Reviews-section {
       padding: 40px 0;
     }
-    .LBT_CTA-content {
+    .LBT_Reviews-content {
       width: 100%;
-      flex-direction: column-reverse;
+      /* flex-direction: column-reverse; */
       padding: 0 16px;
     }
-    .LBT_CTA-copy {
+    .testimonals-wrapper{
+      flex-direction: column;
+      gap:24px;
+    }
+    .LBT_Reviews-copy {
       max-width: {{ settings.content_width }}px;
       padding-left: 16px;
       padding-right: 16px;
     }
-    .LBT_CTA-content .supportImage {
-      aspect-ratio: 96 / 49;
-      margin: 0 auto;
-      background-image: url('{{ section.settings.image | img_url: "master" }}');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+    .LBT_Reviews-copy .reviews {
+      aspect-ratio: 4 / 3;
     }
   }
 {%- endstyle -%}
 
-<div class="LBT_CTA-section color-{{ section.settings.color_scheme }}">
-  <div class="LBT_CTA-wrapper">
-    <div class="LBT_CTA-content">
-      <div class="LBT_CTA-copy">
+<div class="LBT_Reviews-section color-{{ section.settings.color_scheme }}">
+  <div class="LBT_Reviews-wrapper">
+    <div class="LBT_Reviews-content">
+      <div class="LBT_Reviews-copy">
         <h2 class="left">
           {{ section.settings.headline }}
         </h2>
-        <p>
+        <h3>
           {{ section.settings.copy }}
-        </p>
-        <a class="button" href="{{ section.settings.buttonLink }}">
-          {{ section.settings.buttonLabel }}
-        </a>
+        </h3>
       </div>
-      <div class="supportImage"></div>
+      <div class="testimonals-wrapper">
+        {%- for block in section.blocks -%}
+          <div class="testimonal">
+            <div class="testimonal-photo testimonial-{{block.id}}">
+              {% comment %} headshot photo as background {% endcomment %}
+            </div>
+            <h4 class="testimonal-name">
+              {{ block.settings.name }}
+            </h4>
+            <p class="testimonal-copy">
+              {{ block.settings.copy }}
+            </p>
+          </div>
+        {%- endfor -%}
+      </div>
     </div>
   </div>
 </div>
 
+{% style %}
+  {%- for block in section.blocks -%}
+      .testimonal-photo.testimonial-{{block.id}}{
+          background-image: url('{{block.settings.image | img_url: "grande"}}');
+      }
+  {%- endfor -%}
+{% endstyle %}
+
 {% schema %}
 {
-  "name": "LBT Rotating CTA",
+  "name": "LBT Reviews",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -117,16 +172,7 @@
       "id": "copy",
       "label": "Support Copy"
     },
-    {
-      "type": "text",
-      "id": "buttonLabel",
-      "label": "Button Label"
-    },
-    {
-      "type": "url",
-      "id": "buttonLink",
-      "label": "Button Link"
-    },
+
     {
       "type": "image_picker",
       "id": "image",
@@ -136,13 +182,47 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-6"
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Testimonal Photo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Testimonal Name"
+        },
+        {
+          "type": "text",
+          "id": "copy",
+          "label": "Testimonal Copy"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "LBT Rotating CTA",
-      "category": "section"
+      "name": "LBT Reviews",
+      "category": "section",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
     }
   ]
 }
