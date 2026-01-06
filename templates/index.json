@@ -194,6 +194,17 @@
         "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
         "color_scheme": "scheme-3"
       }
+    },
+    "lbt_rotation_cta_alt_TtCbpL": {
+      "type": "LBT-RotationCTA-ALT",
+      "name": "LBT Rotating Alt CTA",
+      "settings": {
+        "headline": "TEST",
+        "copy": "Support Copy",
+        "buttonLabel": "",
+        "buttonLink": "",
+        "color_scheme": "scheme-5"
+      }
     }
   },
   "order": [
@@ -204,6 +215,7 @@
     "lbt_hero_image_V4T6WN",
     "featured_collection_eW8kcY",
     "lbt_newsletter_zRitaK",
-    "lbt_rotation_cta_JRGmBa"
+    "lbt_rotation_cta_JRGmBa",
+    "lbt_rotation_cta_alt_TtCbpL"
   ]
 }
