@@ -14,48 +14,8 @@
       "name": "LBT Headline Block",
       "settings": {
         "heading_size": "h1",
-        "headline": "Headline",
-        "subhead": "Subhead"
-      }
-    },
-    "lbt_reviews_YB8XcB": {
-      "type": "LBT-Testimonials",
-      "blocks": {
-        "column_nPdM9n": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
-            "name": "Henry",
-            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        },
-        "column_CNXxxx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
-            "name": "Henry",
-            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        },
-        "column_QapUCM": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
-            "name": "Henry",
-            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          }
-        }
-      },
-      "block_order": [
-        "column_nPdM9n",
-        "column_CNXxxx",
-        "column_QapUCM"
-      ],
-      "name": "LBT Reviews",
-      "settings": {
-        "headline": "What People are Saying",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "color_scheme": ""
+        "headline": "Cycling & Camping AroundHudson, NY is Awesome",
+        "subhead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }
     },
     "rich_text_b4hXqL": {
@@ -64,11 +24,11 @@
         "heading_CnQgeA": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "A headline about bikes",
             "heading_size": "h1",
             "isAnchor": "isAnchor",
-            "anchorLabel": "Test",
-            "anchorID": "Test"
+            "anchorLabel": "About Bikes",
+            "anchorID": "about bikes"
           }
         },
         "text_QiQHL3": {
@@ -104,12 +64,12 @@
         "padding_bottom": 40
       }
     },
-    "lbt_support_image_7C3YYc": {
-      "type": "LBT-SupportImage",
-      "name": "LBT SupportImage",
+    "lbt_hero_image_V4T6WN": {
+      "type": "LBT-HeroImage",
+      "name": "LBT HeroImage",
       "settings": {
-        "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
-        "color_scheme": ""
+        "image": "shopify://shop_images/clifftop_silhouette.jpg",
+        "color_scheme": "scheme-1"
       }
     },
     "rich_text_NwyAVH": {
@@ -158,21 +118,66 @@
         "padding_bottom": 52
       }
     },
-    "lbt_hero_image_V4T6WN": {
-      "type": "LBT-HeroImage",
-      "name": "LBT HeroImage",
+    "lbt_support_image_7C3YYc": {
+      "type": "LBT-SupportImage",
+      "name": "LBT SupportImage",
       "settings": {
-        "image": "shopify://shop_images/clifftop_silhouette.jpg",
-        "color_scheme": "scheme-1"
+        "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+        "color_scheme": ""
+      }
+    },
+    "rich_text_BHJpFJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bMYjFx": {
+          "type": "heading",
+          "settings": {
+            "heading": "The third anchor",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Another Anchor",
+            "anchorID": "3rdAnchor"
+          }
+        },
+        "text_rHzAgr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A rigid frame bicycle is well-suited to this route (suspension fork not necessary). The variety of terrains on this route means you should have tires that can handle rough gravel and tree roots without being too knobby for the paved sections. Plan to lower your tire pressure when you go onto the loose, steep 4×4 mileage and any of the optional snowmobile trails that are adjacent to the route. Recommend tires 2 inches (50mm) in width, maybe a little wider than that. You can enjoy this route if you have narrower tires because of the overall percentage of paved road miles, but plan on occasionally hiking your bike down a rocky path instead of riding.<br/><br/>More important are words of caution about brakes and braking while bikepacking: 1) a bicycle loaded with camping equipment, water, and food requires more force to stop than an unloaded bike, 2) some of the downhill segments on the Catskills Grand Loop are very steep, and 3) the Catskills are known to be rainy, misty, and foggy. You must test your brakes and demonstrate that your most forceful braking can stop you while descending a steep hill on a loaded bike. Be prepared for reduced braking power during wet conditions. It’s scary when you don’t have that braking power, the potential for injury increases, and the journey stops being fun.<br/><br/>There are no bike shops along the route.<br/> </p>"
+          }
+        },
+        "button_wBVByr": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bMYjFx",
+        "text_rHzAgr",
+        "button_wBVByr"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 52
       }
     },
     "featured_collection_eW8kcY": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Upcoming Rides",
+        "title": "CTA for 2026 trips",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
         "show_description": false,
         "description_style": "body",
         "collection": "frontpage",
@@ -193,6 +198,69 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "lbt_rotation_cta_alt_TtCbpL": {
+      "type": "LBT-RotationCTA-ALT",
+      "name": "LBT Rotating Alt CTA",
+      "settings": {
+        "headline": "TEST",
+        "copy": "Support Copy",
+        "buttonLabel": "",
+        "buttonLink": "",
+        "color_scheme": "scheme-5"
+      }
+    },
+    "lbt_rotation_cta_JRGmBa": {
+      "type": "LBT-RotationCTA",
+      "name": "LBT Rotating CTA",
+      "settings": {
+        "headline": "HHHH",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "buttonLabel": "Test Label right here",
+        "buttonLink": "",
+        "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "lbt_reviews_YB8XcB": {
+      "type": "LBT-Testimonials",
+      "blocks": {
+        "column_nPdM9n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "name": "Henry",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "column_CNXxxx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "name": "Henry",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        "column_QapUCM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "name": "Henry",
+            "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        }
+      },
+      "block_order": [
+        "column_nPdM9n",
+        "column_CNXxxx",
+        "column_QapUCM"
+      ],
+      "name": "LBT Reviews",
+      "settings": {
+        "headline": "What People are Saying",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "color_scheme": ""
       }
     },
     "lbt_newsletter_zRitaK": {
@@ -220,34 +288,12 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "lbt_rotation_cta_JRGmBa": {
-      "type": "LBT-RotationCTA",
-      "name": "LBT Rotating CTA",
-      "settings": {
-        "headline": "HHHH",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "buttonLabel": "Test Label right here",
-        "buttonLink": "",
-        "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
-        "color_scheme": "scheme-3"
-      }
-    },
-    "lbt_rotation_cta_alt_TtCbpL": {
-      "type": "LBT-RotationCTA-ALT",
-      "name": "LBT Rotating Alt CTA",
-      "settings": {
-        "headline": "TEST",
-        "copy": "Support Copy",
-        "buttonLabel": "",
-        "buttonLink": "",
-        "color_scheme": "scheme-5"
+        "padding_bottom": 80
       }
     },
     "lbt_rwgps_hWDhXL": {
       "type": "LBT-RWGPS",
+      "disabled": true,
       "name": "LBT RWGPS",
       "settings": {
         "headline": "RIDE",
@@ -258,16 +304,17 @@
     }
   },
   "order": [
-    "lbt_reviews_YB8XcB",
     "lbt_headline_block_EWYMiR",
     "rich_text_b4hXqL",
-    "lbt_support_image_7C3YYc",
-    "rich_text_NwyAVH",
     "lbt_hero_image_V4T6WN",
+    "rich_text_NwyAVH",
+    "lbt_support_image_7C3YYc",
+    "rich_text_BHJpFJ",
     "featured_collection_eW8kcY",
-    "lbt_newsletter_zRitaK",
-    "lbt_rotation_cta_JRGmBa",
     "lbt_rotation_cta_alt_TtCbpL",
+    "lbt_rotation_cta_JRGmBa",
+    "lbt_reviews_YB8XcB",
+    "lbt_newsletter_zRitaK",
     "lbt_rwgps_hWDhXL"
   ]
 }
