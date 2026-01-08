@@ -180,7 +180,7 @@
         "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "frontpage",
+        "collection": "all-rides",
         "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
