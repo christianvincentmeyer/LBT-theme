@@ -376,7 +376,6 @@ a.header__menu-item {
 @media screen and (max-width: 767px) {
     .header {
         padding: 8px 40px !important;
-        margin: 0 0 16px;
     }
 
     .footer__content-top {

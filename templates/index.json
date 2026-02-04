@@ -14,8 +14,16 @@
       "name": "LBT Headline Block",
       "settings": {
         "heading_size": "h1",
-        "headline": "Cycling & Camping AroundHudson, NY is Awesome",
-        "subhead": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "headline": "Cycling and Camping Adventures",
+        "subhead": "In the Hudson Valley, Catskill Mountains, and Beyond"
+      }
+    },
+    "lbt_hero_image_V4T6WN": {
+      "type": "LBT-HeroImage",
+      "name": "LBT HeroImage",
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_Image_169_3.jpg",
+        "color_scheme": "scheme-1"
       }
     },
     "rich_text_b4hXqL": {
@@ -24,17 +32,17 @@
         "heading_CnQgeA": {
           "type": "heading",
           "settings": {
-            "heading": "A headline about bikes",
+            "heading": "What We Offer",
             "heading_size": "h1",
             "isAnchor": "isAnchor",
-            "anchorLabel": "About Bikes",
-            "anchorID": "about bikes"
+            "anchorLabel": "What We Offer",
+            "anchorID": "What"
           }
         },
         "text_QiQHL3": {
           "type": "text",
           "settings": {
-            "text": "<p>A rigid frame bicycle is well-suited to this route (suspension fork not necessary). The variety of terrains on this route means you should have tires that can handle rough gravel and tree roots without being too knobby for the paved sections. Plan to lower your tire pressure when you go onto the loose, steep 4×4 mileage and any of the optional snowmobile trails that are adjacent to the route. Recommend tires 2 inches (50mm) in width, maybe a little wider than that. You can enjoy this route if you have narrower tires because of the overall percentage of paved road miles, but plan on occasionally hiking your bike down a rocky path instead of riding.<br/><br/>More important are words of caution about brakes and braking while bikepacking: 1) a bicycle loaded with camping equipment, water, and food requires more force to stop than an unloaded bike, 2) some of the downhill segments on the Catskills Grand Loop are very steep, and 3) the Catskills are known to be rainy, misty, and foggy. You must test your brakes and demonstrate that your most forceful braking can stop you while descending a steep hill on a loaded bike. Be prepared for reduced braking power during wet conditions. It’s scary when you don’t have that braking power, the potential for injury increases, and the journey stops being fun.<br/><br/>There are no bike shops along the route.<br/> </p>"
+            "text": "<p>Lichen Bike Tours offers small group guided cycling trips with overnight camping where riders are using the frame of their bicycle to carry their own shelter, sleep, and meals. LBT takes care of every detail before and during the trip so that riders can focus on enjoying the adventure with their fellow riders. </p><p>Our 2026 season includes:</p><ul><li>Three WEEKEND OVERNIGHTERS that are BEGINNER FRIENDLY</li><li>6 Days, 5 Nights of CYCLING, CAMPING & SWIMMING in the Catskill Mountains </li><li>One vehicle supported COMFY OVERNIGHTER with COOKED MEALS</li><li>Gravel + MTB Riding in the Taconic Mountains -- No Overnight Required! </li><li>CUSTOM PRIVATE BIKEPACKING TOURS For Hire</li></ul><p>Our trips depart on 2 wheels from Hudson, NY, which is train-accessible on Amtrak</p>"
           }
         },
         "button_CCJkdK": {
@@ -43,9 +51,11 @@
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
+            "button_new_tab": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
           }
         }
       },
@@ -54,7 +64,7 @@
         "text_QiQHL3",
         "button_CCJkdK"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "What We Offer block",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
@@ -64,120 +74,12 @@
         "padding_bottom": 40
       }
     },
-    "lbt_hero_image_V4T6WN": {
-      "type": "LBT-HeroImage",
-      "name": "LBT HeroImage",
-      "settings": {
-        "image": "shopify://shop_images/clifftop_silhouette.jpg",
-        "color_scheme": "scheme-1"
-      }
-    },
-    "rich_text_NwyAVH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_kN9HJL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "isAnchor": "isAnchor",
-            "anchorLabel": "Talk About",
-            "anchorID": "Talk"
-          }
-        },
-        "text_j4QPiT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A rigid frame bicycle is well-suited to this route (suspension fork not necessary). The variety of terrains on this route means you should have tires that can handle rough gravel and tree roots without being too knobby for the paved sections. Plan to lower your tire pressure when you go onto the loose, steep 4×4 mileage and any of the optional snowmobile trails that are adjacent to the route. Recommend tires 2 inches (50mm) in width, maybe a little wider than that. You can enjoy this route if you have narrower tires because of the overall percentage of paved road miles, but plan on occasionally hiking your bike down a rocky path instead of riding.<br/><br/>More important are words of caution about brakes and braking while bikepacking: 1) a bicycle loaded with camping equipment, water, and food requires more force to stop than an unloaded bike, 2) some of the downhill segments on the Catskills Grand Loop are very steep, and 3) the Catskills are known to be rainy, misty, and foggy. You must test your brakes and demonstrate that your most forceful braking can stop you while descending a steep hill on a loaded bike. Be prepared for reduced braking power during wet conditions. It’s scary when you don’t have that braking power, the potential for injury increases, and the journey stops being fun.<br/><br/>There are no bike shops along the route.<br/> </p>"
-          }
-        },
-        "button_9wkMtf": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_kN9HJL",
-        "text_j4QPiT",
-        "button_9wkMtf"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 52
-      }
-    },
-    "lbt_support_image_7C3YYc": {
-      "type": "LBT-SupportImage",
-      "name": "LBT SupportImage",
-      "settings": {
-        "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
-        "color_scheme": ""
-      }
-    },
-    "rich_text_BHJpFJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_bMYjFx": {
-          "type": "heading",
-          "settings": {
-            "heading": "The third anchor",
-            "heading_size": "h1",
-            "isAnchor": "isAnchor",
-            "anchorLabel": "Another Anchor",
-            "anchorID": "3rdAnchor"
-          }
-        },
-        "text_rHzAgr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>A rigid frame bicycle is well-suited to this route (suspension fork not necessary). The variety of terrains on this route means you should have tires that can handle rough gravel and tree roots without being too knobby for the paved sections. Plan to lower your tire pressure when you go onto the loose, steep 4×4 mileage and any of the optional snowmobile trails that are adjacent to the route. Recommend tires 2 inches (50mm) in width, maybe a little wider than that. You can enjoy this route if you have narrower tires because of the overall percentage of paved road miles, but plan on occasionally hiking your bike down a rocky path instead of riding.<br/><br/>More important are words of caution about brakes and braking while bikepacking: 1) a bicycle loaded with camping equipment, water, and food requires more force to stop than an unloaded bike, 2) some of the downhill segments on the Catskills Grand Loop are very steep, and 3) the Catskills are known to be rainy, misty, and foggy. You must test your brakes and demonstrate that your most forceful braking can stop you while descending a steep hill on a loaded bike. Be prepared for reduced braking power during wet conditions. It’s scary when you don’t have that braking power, the potential for injury increases, and the journey stops being fun.<br/><br/>There are no bike shops along the route.<br/> </p>"
-          }
-        },
-        "button_wBVByr": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_bMYjFx",
-        "text_rHzAgr",
-        "button_wBVByr"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection_eW8kcY": {
       "type": "featured-collection",
       "settings": {
-        "title": "CTA for 2026 trips",
+        "title": "Book Space on Upcoming Trips",
         "heading_size": "h1",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
+        "description": "<p>Choose the trip that suits you. Have a look at our <a href=\"/pages/faqs\" title=\"FAQs for LBT Trips\">FAQs for LBT Trips</a></p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all-rides",
@@ -197,30 +99,280 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_NwyAVH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kN9HJL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who Signs Up for Trips Like These?",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Who Signs Up?",
+            "anchorID": "Who"
+          }
+        },
+        "text_j4QPiT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Riders fall into 1 of 3 categories: </p><ol><li>Cyclist who wants to do more camping </li><li>Camper who wants to do more cycling </li><li>New to both</li></ol><p>Shorter trips usually have a few first-timers. Everyone on an LBT trip likes riding for hours at a time, being outdoors all day and night, and socializing on bikes and in camp. Riders have been all ages, races and genders. If you're interested in that, then Lichen Bike Tours is right for you!</p>"
+          }
+        },
+        "button_9wkMtf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_new_tab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kN9HJL",
+        "text_j4QPiT",
+        "button_9wkMtf"
+      ],
+      "name": "Who Signs Up block",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_yHM6rY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rEpWAw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rentals & Advice",
+            "heading_size": "h1"
+          }
+        },
+        "text_NrjEVP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our riders often use their own bicycle, bags, and camping equipment. To reflect this, our trip prices are low, but not too low. </p><p>LBT offers equipment rentals and connects you with a local bike shop that can fit you for a bike rental. Equipment rentals include assistance during the trip and a pre-trip packing session so that we are assured that you have the necessary equipment, it fits on your bike and doesn't interfere with your comfort while riding. </p><h3>Advice</h3><p>If you are very new to doing a camping trip on your bike and you feel like want some help before you take a trip, then honor that feeling and book time with Lichen Bike Tours to receive personalized advice, a list of specific equipment recommendations and a lot of encouragement. These sessions are discounted when purchased with a trip. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_nrTJwU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rEpWAw",
+        "text_NrjEVP",
+        "button_nrTJwU"
+      ],
+      "name": "Rentals and Advice block",
+      "settings": {
+        "image": "shopify://shop_images/8.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "lbt_rotation_cta_alt_TtCbpL": {
-      "type": "LBT-RotationCTA-ALT",
-      "name": "LBT Rotating Alt CTA",
+    "rich_text_jG6bdL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7KKHrr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beebe & Beyond is an All-Day Gravel & Singletrack Ride",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Beyond",
+            "anchorID": "Beyond"
+          }
+        },
+        "text_aCigEV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Go <strong>Beyond</strong> Gravel Roads  -   Onto Singletrack Trails  -   In Beebe Hill State Forest </p><p>Saturday June 27th and Sunday June 28th | Choose Saturday or Sunday, or come both days! </p><p>Leaving from Hillsdale, NY, we ride up gravel roads, rising to the Taconic Mountains and high points in Beebe Hill and Harvey Mountain state forests. Riders can choose to stay on the gravel-only routes or venture onto chonky singletrack.</p>"
+          }
+        },
+        "button_baga8f": {
+          "type": "button",
+          "settings": {
+            "button_label": "All The Details",
+            "button_link": "shopify://pages/beebe-beyond",
+            "button_style_secondary": false,
+            "button_new_tab": false,
+            "button_label_2": "Sign Up on BikeReg.com",
+            "button_link_2": "https://www.bikereg.com/beebe-and-beyond-gravel-ramble",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7KKHrr",
+        "text_aCigEV",
+        "button_baga8f"
+      ],
+      "name": "Beebe block",
       "settings": {
-        "headline": "TEST",
-        "copy": "Support Copy",
-        "buttonLabel": "",
-        "buttonLink": "",
-        "color_scheme": "scheme-5"
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 52
       }
     },
-    "lbt_rotation_cta_JRGmBa": {
-      "type": "LBT-RotationCTA",
-      "name": "LBT Rotating CTA",
+    "lbt_support_image_V8TtrJ": {
+      "type": "LBT-SupportImage",
+      "name": "Beebe SupportImage",
       "settings": {
-        "headline": "HHHH",
-        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "buttonLabel": "Test Label right here",
-        "buttonLink": "",
-        "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
-        "color_scheme": "scheme-3"
+        "image": "shopify://shop_images/6_2d4c9223-2494-40fd-971a-bfa53a98f284.jpg",
+        "color_scheme": ""
+      }
+    },
+    "rich_text_BHJpFJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bMYjFx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Catskills Grand Loop bikepacking route should be your next adventure",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Plan Your Own Bikepacking Trip",
+            "anchorID": "Bikepacking"
+          }
+        },
+        "text_rHzAgr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Catskill Forest Preserve is designated as \"forever wild\" in the NY constitution. Following all DEC trail uses, it's possible to ride in a big loop and end up where you started on a combination of paved roads, rough doubletrack trails, and hilly gravel roads, and camp every night in the woods away from the noisy public campgrounds. </p>"
+          }
+        },
+        "button_wBVByr": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_new_tab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bMYjFx",
+        "text_rHzAgr",
+        "button_wBVByr"
+      ],
+      "name": "Bikepacking block",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 52
+      }
+    },
+    "lbt_support_image_BmkUzB": {
+      "type": "LBT-SupportImage",
+      "name": "Bikepacking SupportImage",
+      "settings": {
+        "image": "shopify://shop_images/4_87afcf4c-4543-4bad-a6ca-7d005e744ba8.jpg",
+        "color_scheme": ""
+      }
+    },
+    "lbt_newsletter_zRitaK": {
+      "type": "LBT-newsletter",
+      "blocks": {
+        "heading_qArEnL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Our Emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_t34nPC": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about social rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qArEnL",
+        "paragraph_t34nPC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "lbt_support_image_2_HYUhqk": {
+      "type": "LBT-SupportImage-2",
+      "disabled": true,
+      "name": "LBT SupportImage-2",
+      "settings": {
+        "image": "shopify://shop_images/Website_Hero_Image_169.jpg",
+        "color_scheme": ""
+      }
+    },
+    "lbt_support_image_3_txTTi6": {
+      "type": "LBT-SupportImage-3",
+      "disabled": true,
+      "name": "LBT SupportImage-3",
+      "settings": {
+        "image": "shopify://shop_images/11.jpg",
+        "color_scheme": ""
+      }
+    },
+    "lbt_support_image_4_tHQrNQ": {
+      "type": "LBT-SupportImage-4",
+      "disabled": true,
+      "name": "LBT SupportImage-4",
+      "settings": {
+        "image": "shopify://shop_images/4.jpg",
+        "color_scheme": ""
+      }
+    },
+    "lbt_support_image_5_J9ej7V": {
+      "type": "LBT-SupportImage-5",
+      "disabled": true,
+      "name": "LBT SupportImage-5",
+      "settings": {
+        "image": "shopify://shop_images/27956edf-137b-4c60-8528-6a9bfdb5d641.jpg",
+        "color_scheme": ""
       }
     },
     "lbt_reviews_YB8XcB": {
@@ -256,39 +408,12 @@
         "column_CNXxxx",
         "column_QapUCM"
       ],
+      "disabled": true,
       "name": "LBT Reviews",
       "settings": {
         "headline": "What People are Saying",
         "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "color_scheme": ""
-      }
-    },
-    "lbt_newsletter_zRitaK": {
-      "type": "LBT-newsletter",
-      "blocks": {
-        "heading_qArEnL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our email newsletter",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_t34nPC": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about invite-only rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_qArEnL",
-        "paragraph_t34nPC"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 80
       }
     },
     "lbt_rwgps_hWDhXL": {
@@ -301,20 +426,52 @@
         "RWGPS_embed": "<iframe src=\"https://ridewithgps.com/embeds?type=route&amp;id=51606587&amp;sampleGraph=true\" style=\"width: 1px; min-width: 100%; height: 700px; border: none;\" scrolling=\"no\"></iframe>",
         "color_scheme": "scheme-97888ef9-948c-4574-be66-7bf40393832c"
       }
+    },
+    "lbt_rotation_cta_alt_TtCbpL": {
+      "type": "LBT-RotationCTA-ALT",
+      "disabled": true,
+      "name": "LBT Rotating Alt CTA",
+      "settings": {
+        "headline": "TEST",
+        "copy": "Support Copy",
+        "buttonLabel": "",
+        "buttonLink": "",
+        "color_scheme": "scheme-5"
+      }
+    },
+    "lbt_rotation_cta_JRGmBa": {
+      "type": "LBT-RotationCTA",
+      "disabled": true,
+      "name": "LBT Rotating CTA",
+      "settings": {
+        "headline": "HHHH",
+        "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "buttonLabel": "Test Label right here",
+        "buttonLink": "",
+        "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
+        "color_scheme": "scheme-3"
+      }
     }
   },
   "order": [
     "lbt_headline_block_EWYMiR",
-    "rich_text_b4hXqL",
     "lbt_hero_image_V4T6WN",
-    "rich_text_NwyAVH",
-    "lbt_support_image_7C3YYc",
-    "rich_text_BHJpFJ",
+    "rich_text_b4hXqL",
     "featured_collection_eW8kcY",
-    "lbt_rotation_cta_alt_TtCbpL",
-    "lbt_rotation_cta_JRGmBa",
-    "lbt_reviews_YB8XcB",
+    "rich_text_NwyAVH",
+    "image_with_text_yHM6rY",
+    "rich_text_jG6bdL",
+    "lbt_support_image_V8TtrJ",
+    "rich_text_BHJpFJ",
+    "lbt_support_image_BmkUzB",
     "lbt_newsletter_zRitaK",
-    "lbt_rwgps_hWDhXL"
+    "lbt_support_image_2_HYUhqk",
+    "lbt_support_image_3_txTTi6",
+    "lbt_support_image_4_tHQrNQ",
+    "lbt_support_image_5_J9ej7V",
+    "lbt_reviews_YB8XcB",
+    "lbt_rwgps_hWDhXL",
+    "lbt_rotation_cta_alt_TtCbpL",
+    "lbt_rotation_cta_JRGmBa"
   ]
 }

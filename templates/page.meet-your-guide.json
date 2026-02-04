@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "lbt_headline_block_9e8HxB": {
+      "type": "LBT-HeadlineBlock",
+      "name": "LBT Headline Block",
+      "settings": {
+        "heading_size": "h1",
+        "headline": "Meet Your Guide",
+        "subhead": ""
+      }
+    },
+    "rich_text_JFiNLU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cka8Vb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Owner and Lead Guide Tyler Burton",
+            "heading_size": "h1",
+            "isAnchor": "default",
+            "anchorLabel": "",
+            "anchorID": ""
+          }
+        },
+        "text_MNbFwn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I come to bikepacking from the camping and outdoors side of things. I'm not a racer, not an endurance athlete, and I'm pretty much done with running after working up to a marathon in 2019 (NYC). I grew up outdoors on monthly weekend outings with the scouts, and twice with them I rode the C&O Canal (vehicle supported), camping in wind and lightning storms and heaving bikes over downed trees. In 2020, I started with a solo trip using my commuting equipment: steel gravel bike, rear rack, massive Ortleib panniers, a Kryptonite U-lock (completely unnecessary), and some handlebar wobbles (inevitable with that setup, yikes). On my bike I felt disburdened and joyful, trusting that everything is already ok because I'm carrying whatever shelter and food I could need. Plus, I was covering more mileage before lunch than I could do in an entire day on foot. I already really liked bikin', but that first trip helped me remember something about myself. </p><p>In 2022 I went back to the C&O on a Pittsburgh-&gt;DC tour with 718outdoors and experienced how multi-day cycling and camping trips are a fun, safe, social, and not necessarily physically draining way to travel or take a vacation. After moving closer to the Catskill Mountains and getting to hike the 33 publicly accessible high peaks over 3500ft, I found that a lot of outdoorsy people are mostly disinterested in spending the night in a tent or hammock. This helped me to realize that my skill with campsite selection, route design, and contingency planning is what's going to allow other people to have new adventures in the woods. Bringing beginner riders and campers on their first trips is part of the reason that LBT exists at all. I started Lichen Bike Tours as a platform for many types of cycling adventures, but always with the purpose of bringing people closer to nature. At whatever age or stage of life we're in, we can observe infinitesimal wonders in the natural world we live with. </p><p>I share details about my guide qualifications and license on the FAQs page.</p><h4>Why \"Lichen\"? What is Lichen? How do you pronounce that?</h4><p>Lichen sounds like Likin'. As in, I'm Likin' Bikin'</p><p>Lichens are the colorful little patches that tend to grow on natural surfaces. When you start noticing them on tree bark, rock faces, and fence posts, you start to see them <em>everywhere</em>. I named this bicycle tour and camping company 'Lichen' because of their ubiquity in the forested areas that I bring riders through. </p><p>Each lichen that you see is a collaborative effort of 2 living organisms: first some variety of a fungus, which brings physical structure and shape, and then there's an algae which generates biological energy through photosynthesis. They symbiotically co-create the environment that allows the whole system to thrive and sustain itself year after year. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cka8Vb",
+        "text_MNbFwn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "lbt_headline_block_9e8HxB",
+    "rich_text_JFiNLU"
+  ]
+}

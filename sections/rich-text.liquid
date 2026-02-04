@@ -95,6 +95,9 @@
               >
                 {%- if block.settings.button_label != blank -%}
                   <a
+                    {% if block.settings.button_new_tab != false %}
+                      target="_blank"
+                    {% endif %} 
                     {% if block.settings.button_link == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
@@ -107,6 +110,9 @@
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
                   <a
+                    {% if block.settings.button_new_tab_secondary != false %}
+                      target="_blank"
+                    {% endif %}
                     {% if block.settings.button_link_2 == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
@@ -366,6 +372,12 @@
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
         },
         {
+          "type": "checkbox",
+          "id": "button_new_tab",
+          "default": false,
+          "label": "Open in new tab (First Button)"
+        },
+        {
           "type": "text",
           "id": "button_label_2",
           "label": "t:sections.rich-text.blocks.buttons.settings.button_label_2.label",
@@ -381,6 +393,12 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_new_tab_secondary",
+          "default": false,
+          "label": "Open in new tab (Second Button)"
         }
       ]
     }

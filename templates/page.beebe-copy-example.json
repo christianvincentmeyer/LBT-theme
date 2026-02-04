@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "lbt_headline_block_9e8HxB": {
+      "type": "LBT-HeadlineBlock",
+      "name": "LBT Headline Block",
+      "settings": {
+        "heading_size": "h1",
+        "headline": "Beebe & Beyond",
+        "subhead": ""
+      }
+    },
+    "rich_text_JFiNLU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cka8Vb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "isAnchor": "default",
+            "anchorLabel": "",
+            "anchorID": ""
+          }
+        },
+        "text_MNbFwn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cka8Vb",
+        "text_MNbFwn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 80
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "lbt_rwgps_dgT8aq": {
+      "type": "LBT-RWGPS",
+      "name": "LBT RWGPS",
+      "settings": {
+        "headline": "",
+        "copy": "",
+        "RWGPS_embed": "",
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "lbt_headline_block_9e8HxB",
+    "rich_text_JFiNLU",
+    "main",
+    "lbt_rwgps_dgT8aq"
+  ]
+}
