@@ -1,0 +1,78 @@
+{%- style -%}
+  .LBT_Reviews-section {
+    width: 100%;
+    padding: 80px 0;
+  }
+  .LBT_Reviews-wrapper {
+    display: flex;
+    max-width: var(--page-width);
+    padding: var(--Spacing-3xl, 80px) var(--sds-size-space-0);
+    margin: 0 auto;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+  }
+  .LBT_Reviews-content {
+    width: {{ settings.content_width }}px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  @media screen and (max-width: 1380px) {
+    .LBT_Reviews-section {
+      padding: 40px 0;
+    }
+    .LBT_Reviews-content {
+      width: 100%;
+      /* flex-direction: column-reverse; */
+      padding: 0 16px;
+    }
+    .testimonals-wrapper{
+      flex-direction: column;
+      gap:24px;
+    }
+
+  }
+{%- endstyle -%}
+
+<div class="LBT_Reviews-section color-{{ section.settings.color_scheme }}">
+  <iframe
+    id="klaviyo_subscribe_page"
+    src="https://lichenbiketours.com/pages/sign-up&embed=1"
+    seamless="seamless"
+    width="100%"
+    scrolling="no"
+  ></iframe>
+  <script defer type="text/javascript" src="//a.klaviyo.com/media/js/lib/iframeresizer.js"></script>
+  <script type="text/javascript">
+    iFrameResize({}, '#klaviyo_subscribe_page');
+  </script>
+</div>
+
+{% schema %}
+{
+  "name": "LBT Klavio",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "LBT Klavio",
+      "category": "section"
+    }
+  ]
+}
+{% endschema %}
