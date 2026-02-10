@@ -79,7 +79,7 @@
       "settings": {
         "title": "Book Space on Upcoming Trips",
         "heading_size": "h1",
-        "description": "<p>Choose the trip that suits you. Have a look at our <a href=\"/pages/faqs\" title=\"FAQs for LBT Trips\">FAQs for LBT Trips</a></p>",
+        "description": "<p>Have a look at our <a href=\"/pages/faqs\" title=\"FAQs for LBT Trips\">FAQs for LBT Trips</a></p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all-rides",
@@ -108,7 +108,7 @@
         "heading_kN9HJL": {
           "type": "heading",
           "settings": {
-            "heading": "Who Signs Up for Trips Like These?",
+            "heading": "Who rides on a Lichen Bike Tours trip?",
             "heading_size": "h1",
             "isAnchor": "isAnchor",
             "anchorLabel": "Who Signs Up?",
@@ -118,7 +118,7 @@
         "text_j4QPiT": {
           "type": "text",
           "settings": {
-            "text": "<p>Riders fall into 1 of 3 categories: </p><ol><li>Cyclist who wants to do more camping </li><li>Camper who wants to do more cycling </li><li>New to both</li></ol><p>Shorter trips usually have a few first-timers. Everyone on an LBT trip likes riding for hours at a time, being outdoors all day and night, and socializing on bikes and in camp. Riders have been all ages, races and genders. If you're interested in that, then Lichen Bike Tours is right for you!</p>"
+            "text": "<p>Everyone on an LBT trip likes riding for hours at a time, being outdoors all day and night, and socializing on bikes and in camp. Riders have been all ages, races and genders. If you're interested in that, then Lichen Bike Tours is right for you!</p><p>Shorter trips usually have a few first-timers. Are you new to bike tours with camping? You might be:</p><ol><li>A cyclist who wants to do more camping </li><li>A camper who wants to do more cycling</li><li>New to both</li></ol><p> </p>"
           }
         },
         "button_9wkMtf": {
@@ -156,14 +156,14 @@
         "heading_rEpWAw": {
           "type": "heading",
           "settings": {
-            "heading": "Rentals & Advice",
+            "heading": "Rentals",
             "heading_size": "h1"
           }
         },
         "text_NrjEVP": {
           "type": "text",
           "settings": {
-            "text": "<p>Our riders often use their own bicycle, bags, and camping equipment. To reflect this, our trip prices are low, but not too low. </p><p>LBT offers equipment rentals and connects you with a local bike shop that can fit you for a bike rental. Equipment rentals include assistance during the trip and a pre-trip packing session so that we are assured that you have the necessary equipment, it fits on your bike and doesn't interfere with your comfort while riding. </p><h3>Advice</h3><p>If you are very new to doing a camping trip on your bike and you feel like want some help before you take a trip, then honor that feeling and book time with Lichen Bike Tours to receive personalized advice, a list of specific equipment recommendations and a lot of encouragement. These sessions are discounted when purchased with a trip. </p>",
+            "text": "<p>Our riders often use their own bicycle, bags, and camping equipment. To reflect this, our trip prices are low, but not too low. </p><p>LBT offers equipment rentals and connects you with a local bike shop that can fit you for a bike rental. Equipment rentals include assistance during the trip and a pre-trip packing session so that we are assured that you have the necessary equipment, it fits on your bike and doesn't interfere with your comfort while riding. </p><h3>Advice</h3><p>If you are very new to doing a camping trip on your bike and you feel like you want some help before you take a trip, then book time with Lichen Bike Tours to receive personalized advice, a list of specific equipment recommendations, and a lot of encouragement. These sessions are discounted when purchased with a trip. </p>",
             "text_style": "body"
           }
         },
@@ -261,7 +261,7 @@
         "heading_bMYjFx": {
           "type": "heading",
           "settings": {
-            "heading": "Catskills Grand Loop bikepacking route should be your next adventure",
+            "heading": "Bikepacking in the Catskills should be your next adventure",
             "heading_size": "h1",
             "isAnchor": "isAnchor",
             "anchorLabel": "Plan Your Own Bikepacking Trip",
@@ -271,14 +271,14 @@
         "text_rHzAgr": {
           "type": "text",
           "settings": {
-            "text": "<p>The Catskill Forest Preserve is designated as \"forever wild\" in the NY constitution. Following all DEC trail uses, it's possible to ride in a big loop and end up where you started on a combination of paved roads, rough doubletrack trails, and hilly gravel roads, and camp every night in the woods away from the noisy public campgrounds. </p>"
+            "text": "<p>The Catskill Forest Preserve is designated as \"forever wild\" in the NY constitution. Following all DEC trail uses, it's possible to ride in a big loop and end up where you started on a combination of paved roads, rough doubletrack trails, and hilly gravel roads. Along the way you can camp every night in the woods away from the noisy public campgrounds. Plan your next bikepacking adventure in the Catskill Mountains. </p>"
           }
         },
         "button_wBVByr": {
           "type": "button",
           "settings": {
             "button_label": "Catskills Grand Loop bikepacking route",
-            "button_link": "",
+            "button_link": "shopify://pages/catskills-grand-loop-bikepacking-route",
             "button_style_secondary": false,
             "button_new_tab": false,
             "button_label_2": "",

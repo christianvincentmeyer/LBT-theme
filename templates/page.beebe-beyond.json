@@ -15,41 +15,71 @@
       "settings": {
         "heading_size": "h1",
         "headline": "Beebe & Beyond",
-        "subhead": ""
+        "subhead": "a Gravel & MTB Ride organized by Lichen Bike Tours"
+      }
+    },
+    "lbt_support_image_766Bbn": {
+      "type": "LBT-SupportImage",
+      "name": "fern rider support image",
+      "settings": {
+        "image": "shopify://shop_images/Smiling_Shari_on_a_Bike_in_Fern_Covered_Forest.jpg",
+        "color_scheme": ""
       }
     },
     "rich_text_JFiNLU": {
       "type": "rich-text",
       "blocks": {
+        "button_xfKMmp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up for Beebe & Beyond",
+            "button_link": "https://www.bikereg.com/beebe-and-beyond-gravel-ramble",
+            "button_style_secondary": false,
+            "button_new_tab": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        },
         "heading_cka8Vb": {
           "type": "heading",
           "settings": {
-            "heading": "Beebe & Beyond is an All-Day Gravel & Singletrack Ride organized by Lichen Bike Tours",
+            "heading": "Go <strong>Beyond</strong> Gravel Roads - Onto Singletrack Trails - In Beebe Hill State Forest",
             "heading_size": "h1",
-            "isAnchor": "default",
-            "anchorLabel": "",
-            "anchorID": ""
+            "isAnchor": "isAnchor",
+            "anchorLabel": "What Is This",
+            "anchorID": "What"
           }
         },
         "text_MNbFwn": {
           "type": "text",
           "settings": {
-            "text": "<p></p><p>Go <strong>Beyond</strong> Gravel Roads - Onto Singletrack Trails - In Beebe Hill State Forest</p><p>Saturday June 27th and Sunday June 28th | Choose Saturday or Sunday, or come both days!</p><p>Leaving from Hillsdale, NY, we ride up gravel roads, rising to the Taconic Mountains and high points in Beebe Hill and Harvey Mountain state forests. Riders can choose to stay on the gravel-only routes or venture onto chonky singletrack.</p><h2>Entry to Beebe & Beyond Gets You: </h2><ul><li>$5 donation to Columbia County Mountain Bike Association, who designed and maintain the singletrack trails  </li><li>1 post-ride drink ticket for <a href=\"https://roejanbrewing.com/beer-styles/\" target=\"_blank\">a free beer or cider from our hosts at Roe Jan Brewing Co</a>. </li><li>Special Beebe & Beyond t-shirt </li><li>Flexible registration - You can switch your day (Saturday or Sunday) any time</li><li>Reassurance of riding in a fully insured and NYS DEC permitted event </li><li>All day socializing on bikes on a scenic, shaded route around the border of New York and Massachusetts.</li></ul><h2>Rider Paces: </h2><p>Some folks will probably go as fast as they can. But the shorter routes will have a ‘party pace’ 8mph average cluster of riders that will finish with more than 5 hours of riding, plus time enjoyed at the aid station and local landmarks along the route. These landmarks are: </p><ul><li><br/>Rodgers Book Barn for browsing shelves of used books <br/></li><li><br/>Beebe Hill Fire Tower for big vistas. The fire tower is accessible via a 1 mile foot trail, and you can leave your bike at the aid station while you walk <br/></li><li><br/>The author Edna St. Vincent Millay's residence “Steepletop”<br/></li></ul><h2>Bike and Tire Choice: </h2><p>The mountain bike trails are optional, and so are the suspension forks. Every route has enough miles and climbing to make you regret bringing your trail bike, but there's enough chonk on the mtb routes to outmatch your gravel bike. Rigid and hardtail mountain bikes were popular last year.  When you're considering which bike to bring to Beebe & Beyond, bring your klunker, your lugged steel pedaller, your Velo Orange Neutrino, your Santa Cruz Stigmata, that one bike with the lefty front fork, or whatever feels right that day. </p><p>Just please carry your own equipment to fix your tire if it goes flat. If you choose one of the chonky routes then we recommend tires around 2 inches (50mm) in width. Gravel-only routes have a mix of hard packed smooth gravel and loose, rough stone so we recommend tires around 40mm in width.</p><h2>Venue Details: </h2><p>We are happy to be hosted again by <a href=\"https://roejanbrewing.com/gallery/\" target=\"_blank\">Roe Jan Brewing Co</a>. in Hillsdale, NY. Riders will enjoy the pre-ride water, bathrooms, wifi, and covered patio. Post-ride everyone's drink ticket will be good for a free beer or cider from the bar. For food, Roe Jan indoors has a full menu and A/C, and downstairs on the covered patio is a bar snack menu with personal pizzas. Drink tickets could also be used for a coffee from Twisted Sisters Coffee House, located literally next door to Roe Jan Brewing Co. </p><h2>Route Descriptions:</h2><p>This ride is picturesque and mostly shaded. We are running the event on both Saturday and Sunday so that you can choose the day that works best for you. Same ride format and aid stations on both days. Compared to 2025, we've changed the departs and added a second aid station just for the longer routes. This year the aid station for shorter & longer routes is located inside Beebe Hill state forest (can't miss it!). </p><p>Specific routes data will be sent out when it's closer to the last weekend of June. But for now here’s a preview: <a href=\"https://ridewithgps.com/routes/51493948?privacy_code=AvGYFlt0jnpGxODhn08R22CEtGJDHs0Z\" target=\"_blank\">https://ridewithgps.com/routes/51493948?privacy_code=AvGYFlt0jnpGxODhn08R22CEtGJDHs0Z</a> </p><ul><li>Gravel Only - Shorter - 41 miles, 4000ft climbing<br/><br/>Passes by local landmarks like: Rodgers Book Barn, Beebe Hill fire tower (on an optional foot path), and the author Edna St. Vincent Millay's residence \"Steepletop\" <br/><br/></li><li>Chonky Mtn Bike Trails - Shorter - 45 miles, 4500ft climbing. <br/><br/>Most thrills per mile of any route and stops at all the same landmarks. Includes up to 8 trails in Beebe Hill and Harvey Mtn state forests. <br/><br/></li><li>Gravel Only - Longer - 56 miles, 6000ft climbing <br/><br/>2 aid stations, zero mountain bike trails, and way more than a vertical mile of climbing.<br/><br/></li><li>Chonky Mtn Bike Trails - Longer - 61 miles, 6500ft climbing<br/><br/>2 aid stations and includes up to 8 trails in Beebe Hill and Harvey Mtn state forests. The biggest challenge of them all!<br/><br/></li></ul><h2>Parking: </h2><p>Park your vehicle in the large gravel parking area between Roe Jan Brewing Co and Herrington's construction supplies. The closest google maps location is <a href=\"https://www.google.com/maps/place/Harlem+Valley+Rail+Trail+Parking/@42.1778952,-73.527153,218m/data=!3m2!1e3!5s0x89dd891b19bd47ab:0x10465b98f208038f!4m6!3m5!1s0x89dd893bd2af84d7:0xdd17924a92dbe1cb!8m2!3d42.1777313!4d-73.5260295!16s%2Fg%2F11qg3gpg4p!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\">325 White Hill Lane, Hillsdale NY 12529</a></p><h2>Post-Ride Fun: </h2><p>On a hot summer afternoon after a very hilly bicycle ride, head indoors at Roe Jan Brewing to the air conditioned dining room and order off of their full menu. Downstairs at the covered patio there are the same beers and ciders with a limited food menu. </p><p>Stick around until the evening and you will catch the live music crowd. The brewery has a musicians calendar booked months in advance so we can share that Saturday from 7-9pm the performer will be <a href=\"https://www.instagram.com/p/DGbeE3EJBah/\" target=\"_blank\">Mark Phillips and his band Hot Chestnut</a> performing pure classic jazz and Sunday from 5-7pm the performer will be <a href=\"http://www.stumpsongs.com/\" target=\"_blank\">the Bob Stump Band</a> performing lively americana. </p><h2>Overnight Stays:</h2><p>Beebe & Beyond isn't an overnight event, so if you are traveling from out of town you will have to make your own accommodations. Detailed suggestions for overnight stays will be found on the event website. Options include: a nearby glamping spot that is van friendly and has a showers building; an RV campground with quiet tent sites, a pool, and showers; and a very pretty state campground that has swimming and a new showers facility.</p>"
+            "text": "<p>Saturday June 27th and Sunday June 28th | Choose Saturday or Sunday, or come both days!</p><p>Leaving from Hillsdale, NY, we ride up gravel roads, rising to the Taconic Mountains and high points in Beebe Hill and Harvey Mountain state forests. Riders can choose to stay on the gravel-only routes or venture onto chonky singletrack.</p><p>This ride is picturesque and mostly shaded. We are running the event on both Saturday and Sunday so that you can choose the day that works best for you. Same ride format and aid stations on both days. Compared to 2025, we've changed the departs and added a second aid station just for the longer routes </p>"
           }
         }
       },
       "block_order": [
+        "button_xfKMmp",
         "heading_cka8Vb",
         "text_MNbFwn"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "Header",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 80
+        "padding_bottom": 20
+      }
+    },
+    "lbt_support_image_2_6CyqnH": {
+      "type": "LBT-SupportImage-2",
+      "name": "orange bike support image",
+      "settings": {
+        "image": "shopify://shop_images/Serotta_vivid_orange_bicycle_seen_from_drive_side.jpg",
+        "color_scheme": ""
       }
     },
     "main": {
@@ -60,21 +90,170 @@
         "padding_bottom": 28
       }
     },
-    "lbt_rwgps_dgT8aq": {
-      "type": "LBT-RWGPS",
-      "name": "LBT RWGPS",
+    "rich_text_AGtD9Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bn9hBm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entry to Beebe & Beyond Gets You: ",
+            "heading_size": "h1",
+            "isAnchor": "default",
+            "anchorLabel": "",
+            "anchorID": ""
+          }
+        },
+        "text_nNWPbc": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>$5 donation to Columbia County Mountain Bike Association, who designed and maintain the singletrack trails </li><li>1 post-ride drink ticket for <a href=\"https://roejanbrewing.com/beer-styles/\" target=\"_blank\">a free beer or cider from our hosts at Roe Jan Brewing Co</a>. </li><li>100% cotton Beebe & Beyond t-shirt </li><li>Flexible registration - You can switch your day (Saturday or Sunday) any time</li><li>Reassurance of riding in a fully insured and NYS DEC permitted event </li><li>All day socializing on bikes on a scenic, shaded route around the border of New York and Massachusetts.</li></ul><h3>Fellow Riders and Pace Groups: </h3><p>Some folks will probably go as fast as they can, especially on the longer routes. But the shorter routes will have a ‘party pace’ 8mph average cluster of riders that will finish with more than 5 hours of riding, plus time enjoyed at the aid station and local landmarks along the route. </p><h3>Local Landmarks: </h3><p>The shorter routes pass by these 3 optional diversions:</p><ol><li>Rodgers Book Barn for browsing shelves of used books in a very charming building</li><li>Beebe Hill Fire Tower for big vistas. The fire tower is accessible via a 1-mile foot trail, and you can leave your bike at the aid station while you walk </li><li>The author Edna St. Vincent Millay's residence “Steepletop”</li></ol><p></p><h3>Post-Ride Fun: </h3><p>On a hot summer afternoon after a very hilly bicycle ride, head indoors at Roe Jan Brewing to the air conditioned dining room and order off of their full menu. Downstairs at the covered patio there are the same beers and ciders with a limited food menu. </p><p>Stick around until the evening and you will catch the live music crowd. The brewery has a musicians calendar booked months in advance. Saturday from 7-9pm the performer will be <a href=\"https://www.instagram.com/p/DGbeE3EJBah/\" target=\"_blank\">Mark Phillips and his band Hot Chestnut</a> performing pure classic jazz and Sunday from 5-7pm the performer will be <a href=\"http://www.stumpsongs.com/\" target=\"_blank\">the Bob Stump Band</a> performing lively americana. </p>"
+          }
+        },
+        "button_EBmUnR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Register on BikeReg.com",
+            "button_link": "https://www.bikereg.com/beebe-and-beyond-gravel-ramble",
+            "button_style_secondary": false,
+            "button_new_tab": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bn9hBm",
+        "text_nNWPbc",
+        "button_EBmUnR"
+      ],
+      "name": "Entry",
       "settings": {
-        "headline": "",
-        "copy": "",
-        "RWGPS_embed": "",
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "lbt_support_image_3_x8iphd": {
+      "type": "LBT-SupportImage-3",
+      "name": "todd's bike support image",
+      "settings": {
+        "image": "shopify://shop_images/Crust_bikes.jpg",
         "color_scheme": ""
+      }
+    },
+    "rich_text_tKtNic": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wfGVMV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Logistics",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Logistics",
+            "anchorID": "Logistics"
+          }
+        },
+        "text_bdMNNJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Venue Details: </h3><p>We are happy to be hosted again by <a href=\"https://roejanbrewing.com/gallery/\" target=\"_blank\">Roe Jan Brewing Co</a>. in Hillsdale, NY. Riders will enjoy the pre-ride water, bathrooms, wifi, and covered patio. Post-ride everyone's drink ticket will be good for a free beer or cider from the bar. For food, Roe Jan indoors has a full menu and A/C, and downstairs on the covered patio is a bar snack menu with personal pizzas. Drink tickets could also be used for a coffee from Twisted Sisters Coffee House, located literally next door to Roe Jan Brewing Co. </p><h3>Event Start:</h3><ul><li>7:30am Folks start gathering </li><li>8:30am Longer Routes Depart </li><li>8:45am Shorter Routes Depart </li></ul><h3>Parking: </h3><p>Park your vehicle in the large gravel parking area between Roe Jan Brewing Co and Herrington's construction supplies. The closest google maps location is <a href=\"https://www.google.com/maps/place/Harlem+Valley+Rail+Trail+Parking/@42.1778952,-73.527153,218m/data=!3m2!1e3!5s0x89dd891b19bd47ab:0x10465b98f208038f!4m6!3m5!1s0x89dd893bd2af84d7:0xdd17924a92dbe1cb!8m2!3d42.1777313!4d-73.5260295!16s%2Fg%2F11qg3gpg4p!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\">325 White Hill Lane, Hillsdale NY 12529</a></p><h3>Route Descriptions:</h3><p>Specific routes data will be sent out when it's closer to the last weekend of June. But for now <a href=\"https://ridewithgps.com/routes/51493948?privacy_code=AvGYFlt0jnpGxODhn08R22CEtGJDHs0Z\" target=\"_blank\" title=\"https://ridewithgps.com/routes/51493948?privacy_code=AvGYFlt0jnpGxODhn08R22CEtGJDHs0Z\">here’s a preview</a>. </p><ul><li>Gravel Only - Shorter - 41 miles, 4000ft climbing. Passes by local landmarks like: Rodgers Book Barn, Beebe Hill fire tower (on an optional foot path), and the author Edna St. Vincent Millay's residence \"Steepletop\" <br/></li><li>Chonky Mtn Bike Trails - Shorter - 45 miles, 4500ft climbing. Most thrills per mile of any route and stops at all the same landmarks. Includes up to 8 trails in Beebe Hill and Harvey Mtn state forests. <br/></li><li>Gravel Only - Longer - 56 miles, 6000ft climbing. 2 aid stations, zero mountain bike trails, and way more than a vertical mile of climbing.<br/></li><li>Chonky Mtn Bike Trails - Longer - 61 miles, 6500ft climbing. 2 aid stations and includes up to 8 trails in Beebe Hill and Harvey Mtn state forests. The biggest challenge of them all!</li></ul><h3>Bike and Tire Choice: </h3><p>The mountain bike trails are optional, and so are the suspension forks. Every route has enough miles and climbing to make you regret bringing your trail bike, but there's enough chonk on the mtb routes to outmatch your gravel bike. Rigid and hardtail mountain bikes were popular last year.  When you're considering which bike to bring to Beebe & Beyond, bring your klunker, your lugged steel pedaller, your Velo Orange Neutrino, your Santa Cruz Stigmata, that one bike with the lefty front fork, or whatever feels right that day. </p><p>Just please carry your own equipment to fix your tire if it goes flat. If you choose one of the chonky routes then we recommend tires around 2 inches (50mm) in width. Gravel-only routes have a mix of hard packed smooth gravel and loose, rough stone so we recommend tires around 40mm in width.</p>"
+          }
+        },
+        "button_pPbB7q": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_new_tab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wfGVMV",
+        "text_bdMNNJ",
+        "button_pPbB7q"
+      ],
+      "name": "Logistics",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_t6tYrd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rz8izE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Overnight Stays:",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Overnight Stays",
+            "anchorID": "Overnight"
+          }
+        },
+        "text_LBMeJB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beebe & Beyond isn't an overnight event, so if you are traveling from out of town you will have to make your own accommodations. Detailed suggestions for overnight stays will be found on the event website. Options include: a nearby glamping spot that is van friendly and has a showers building; an RV campground with quiet tent sites, a pool, and showers; and a very pretty state campground that has swimming and a new showers facility.</p>"
+          }
+        },
+        "button_dhJQja": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_new_tab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rz8izE",
+        "text_LBMeJB",
+        "button_dhJQja"
+      ],
+      "name": "Overnight",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "lbt_headline_block_9e8HxB",
+    "lbt_support_image_766Bbn",
     "rich_text_JFiNLU",
+    "lbt_support_image_2_6CyqnH",
     "main",
-    "lbt_rwgps_dgT8aq"
+    "rich_text_AGtD9Q",
+    "lbt_support_image_3_x8iphd",
+    "rich_text_tKtNic",
+    "rich_text_t6tYrd"
   ]
 }
