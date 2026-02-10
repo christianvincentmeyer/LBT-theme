@@ -18,6 +18,10 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  #{{ section.id }} .LBT-Photo-Credit {
+    max-width: {{ settings.content_width }}px;
+  }
 {%- endstyle -%}
 
 <div id="{{ section.id }}" class="LBT_supportImageSection color-{{ section.settings.color_scheme }}">
@@ -25,8 +29,12 @@
     <div class="supportImage"></div>
     {% comment %} <img class="supportImage" src="{{ section.settings.image | img_url: "master"}}"> {% endcomment %}
   </div>
+  {%- if section.settings.photo_credit != blank -%}
+    <p class="LBT-Photo-Credit">
+      {{ section.settings.photo_credit }}
+    </p>
+  {%- endif -%}
 </div>
-
 
 {% schema %}
 {
@@ -41,6 +49,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "photo_credit",
+      "label": "Photo Credit"
     },
     {
       "type": "color_scheme",
