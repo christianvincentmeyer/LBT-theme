@@ -238,16 +238,16 @@
                       <span>
                         <img class="icon" src="{{'icon-fitness.png' | asset_img_url}}">
                       </span>
-                      {%- if product.metafields.custom.recommended_fitness == 1 -%}
-                        Level 1 fitness
-                      {%- elsif product.metafields.custom.recommended_fitness == 2 -%}
-                        Level 2 fitness
-                      {%- elsif product.metafields.custom.recommended_fitness == 3 -%}
-                        Level 3 fitness
-                      {%- elsif product.metafields.custom.recommended_fitness == 4 -%}
-                        Level 4 fitness
+                      {%- if card_product.metafields.custom.recommended_fitness == 1 -%}
+                        Very flat
+                      {%- elsif card_product.metafields.custom.recommended_fitness == 2 -%}
+                        Few hills
+                      {%- elsif card_product.metafields.custom.recommended_fitness == 3 -%}
+                        Some hills
+                      {%- elsif card_product.metafields.custom.recommended_fitness == 4 -%}
+                        Hilly
                       {%- else -%}
-                        Level 5 fitness
+                        Very hilly
                       {%- endif -%}
                     </div>
                     <a class="link-to-FAQ" href="https://lichenbiketours.com/pages/faqs#fitness">
