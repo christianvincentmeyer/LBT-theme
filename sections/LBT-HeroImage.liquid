@@ -24,7 +24,7 @@
   }
 {%- endstyle -%}
 
-<div class="LBT_heroImageSection color-{{ section.settings.color_scheme }}">
+<div id="{{ section.id }}" class="LBT_heroImageSection color-{{ section.settings.color_scheme }}">
   <div class="LBT_heroImageSection-content">
     <div class="heroImage"></div>
     {% comment %} <img class="heroImage" src="{{ section.settings.image | img_url: "master"}}"> {% endcomment %}

@@ -23,6 +23,7 @@
       "name": "LBT HeroImage",
       "settings": {
         "image": "shopify://shop_images/Website_Hero_Image_169_3.jpg",
+        "photo_credit": "Tyler",
         "color_scheme": "scheme-1"
       }
     },
@@ -252,6 +253,7 @@
       "name": "Beebe SupportImage",
       "settings": {
         "image": "shopify://shop_images/6_2d4c9223-2494-40fd-971a-bfa53a98f284.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -308,6 +310,7 @@
       "name": "Bikepacking SupportImage",
       "settings": {
         "image": "shopify://shop_images/4_87afcf4c-4543-4bad-a6ca-7d005e744ba8.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -345,6 +348,7 @@
       "name": "LBT SupportImage-2",
       "settings": {
         "image": "shopify://shop_images/Website_Hero_Image_169.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -354,6 +358,7 @@
       "name": "LBT SupportImage-3",
       "settings": {
         "image": "shopify://shop_images/11.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -363,6 +368,7 @@
       "name": "LBT SupportImage-4",
       "settings": {
         "image": "shopify://shop_images/4.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -372,6 +378,7 @@
       "name": "LBT SupportImage-5",
       "settings": {
         "image": "shopify://shop_images/27956edf-137b-4c60-8528-6a9bfdb5d641.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },

@@ -3782,5 +3782,8 @@ details-disclosure>details {
 }
 
 .LBT-Photo-Credit{
-  margin: 4px auto;
+  color: lightslategray;
+  margin: 8px auto;
+  padding: 0 16px;
+  font-style: italic;
 }
