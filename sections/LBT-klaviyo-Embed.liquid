@@ -21,6 +21,10 @@
     padding: 0 16px;
   }
 
+  #klaviyo_subscribe_page{
+    border:none;
+  }
+
   @media screen and (max-width: 1380px) {
     .LBT_Reviews-section {
       padding: 40px 0;
@@ -30,23 +34,19 @@
       /* flex-direction: column-reverse; */
       padding: 0 16px;
     }
-    .testimonals-wrapper{
-      flex-direction: column;
-      gap:24px;
-    }
-
   }
 {%- endstyle -%}
 
 <div class="LBT_Reviews-section color-{{ section.settings.color_scheme }}">
   <iframe
+    height="1100"
     id="klaviyo_subscribe_page"
     src="https://manage.kmail-lists.com/subscriptions/subscribe?a=QYRzjb&g=W4NGxL"
     seamless="seamless"
     width="100%"
     scrolling="no"
   ></iframe>
-  <script defer type="text/javascript" src="//a.klaviyo.com/media/js/lib/iframeresizer.js"></script>
+  <script type="text/javascript" src="//a.klaviyo.com/media/js/lib/iframeresizer.js"></script>
   <script type="text/javascript">
     iFrameResize({}, '#klaviyo_subscribe_page');
   </script>

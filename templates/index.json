@@ -23,7 +23,7 @@
       "name": "LBT HeroImage",
       "settings": {
         "image": "shopify://shop_images/Website_Hero_Image_169_3.jpg",
-        "photo_credit": "Tyler",
+        "photo_credit": "",
         "color_scheme": "scheme-1"
       }
     },
@@ -458,6 +458,13 @@
         "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
         "color_scheme": "scheme-3"
       }
+    },
+    "lbt_klaviyo_embed_EXmd7h": {
+      "type": "LBT-klaviyo-Embed",
+      "name": "LBT Klavio",
+      "settings": {
+        "color_scheme": ""
+      }
     }
   },
   "order": [
@@ -479,6 +486,7 @@
     "lbt_reviews_YB8XcB",
     "lbt_rwgps_hWDhXL",
     "lbt_rotation_cta_alt_TtCbpL",
-    "lbt_rotation_cta_JRGmBa"
+    "lbt_rotation_cta_JRGmBa",
+    "lbt_klaviyo_embed_EXmd7h"
   ]
 }
