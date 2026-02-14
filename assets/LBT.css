@@ -332,8 +332,8 @@ a.header__menu-item {
 
 .footer__content-top {
     display: flex !important;
-    justify-content: space-between;
-    padding: 0px 96px 120px !important;
+    justify-content: center;
+    padding: 0px 96px 32px !important;
 }
 
 .footer__content-bottom-wrapper--center {

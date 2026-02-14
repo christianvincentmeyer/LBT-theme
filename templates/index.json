@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "lbt_headline_block_EWYMiR": {
@@ -22,7 +13,7 @@
       "type": "LBT-HeroImage",
       "name": "LBT HeroImage",
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_Image_169_3.jpg",
+        "image": "shopify:\/\/shop_images\/Website_Hero_Image_169_3.jpg",
         "photo_credit": "",
         "color_scheme": "scheme-1"
       }
@@ -43,7 +34,7 @@
         "text_QiQHL3": {
           "type": "text",
           "settings": {
-            "text": "<p>Lichen Bike Tours offers small group guided cycling trips with overnight camping where riders are using the frame of their bicycle to carry their own shelter, sleep, and meals. LBT takes care of every detail before and during the trip so that riders can focus on enjoying the adventure with their fellow riders. </p><p>Our 2026 season includes:</p><ul><li>Three WEEKEND OVERNIGHTERS that are BEGINNER FRIENDLY</li><li>6 Days, 5 Nights of CYCLING, CAMPING & SWIMMING in the Catskill Mountains </li><li>One vehicle supported COMFY OVERNIGHTER with COOKED MEALS</li><li>Gravel + MTB Riding in the Taconic Mountains -- No Overnight Required! </li><li>CUSTOM PRIVATE BIKEPACKING TOURS For Hire</li></ul><p>Our trips depart on 2 wheels from Hudson, NY, which is train-accessible on Amtrak</p>"
+            "text": "<p>Lichen Bike Tours offers small group guided cycling trips with overnight camping where riders are using the frame of their bicycle to carry their own shelter, sleep, and meals. LBT takes care of every detail before and during the trip so that riders can focus on enjoying the adventure with their fellow riders. <\/p><p>Our 2026 season includes:<\/p><ul><li>Three WEEKEND OVERNIGHTERS that are BEGINNER FRIENDLY<\/li><li>6 Days, 5 Nights of CYCLING, CAMPING & SWIMMING in the Catskill Mountains <\/li><li>One vehicle supported COMFY OVERNIGHTER with COOKED MEALS<\/li><li>Gravel + MTB Riding in the Taconic Mountains -- No Overnight Required! <\/li><li>CUSTOM PRIVATE BIKEPACKING TOURS For Hire<\/li><\/ul><p>Our trips depart on 2 wheels from Hudson, NY, which is train-accessible on Amtrak<\/p>"
           }
         },
         "button_CCJkdK": {
@@ -80,7 +71,7 @@
       "settings": {
         "title": "Book Space on Upcoming Trips",
         "heading_size": "h1",
-        "description": "<p>Have a look at our <a href=\"/pages/faqs\" title=\"FAQs for LBT Trips\">FAQs for LBT Trips</a></p>",
+        "description": "<p>Have a look at our <a href=\"\/pages\/faqs\" title=\"FAQs for LBT Trips\">FAQs for LBT Trips<\/a><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all-rides",
@@ -119,7 +110,7 @@
         "text_j4QPiT": {
           "type": "text",
           "settings": {
-            "text": "<p>Everyone on an LBT trip likes riding for hours at a time, being outdoors all day and night, and socializing on bikes and in camp. Riders have been all ages, races and genders. If you're interested in that, then Lichen Bike Tours is right for you!</p><p>Shorter trips usually have a few first-timers. Are you new to bike tours with camping? You might be:</p><ol><li>A cyclist who wants to do more camping </li><li>A camper who wants to do more cycling</li><li>New to both</li></ol><p> </p>"
+            "text": "<p>Everyone on an LBT trip likes riding for hours at a time, being outdoors all day and night, and socializing on bikes and in camp. Riders have been all ages, races and genders. If you're interested in that, then Lichen Bike Tours is right for you!<\/p><p>Shorter trips usually have a few first-timers. Are you new to bike tours with camping? You might be:<\/p><ol><li>A cyclist who wants to do more camping <\/li><li>A camper who wants to do more cycling<\/li><li>New to both<\/li><\/ol><p> <\/p>"
           }
         },
         "button_9wkMtf": {
@@ -164,7 +155,7 @@
         "text_NrjEVP": {
           "type": "text",
           "settings": {
-            "text": "<p>Our riders often use their own bicycle, bags, and camping equipment. To reflect this, our trip prices are low, but not too low. </p><p>LBT offers equipment rentals and connects you with a local bike shop that can fit you for a bike rental. Equipment rentals include assistance during the trip and a pre-trip packing session so that we are assured that you have the necessary equipment, it fits on your bike and doesn't interfere with your comfort while riding. </p><h3>Advice</h3><p>If you are very new to doing a camping trip on your bike and you feel like you want some help before you take a trip, then book time with Lichen Bike Tours to receive personalized advice, a list of specific equipment recommendations, and a lot of encouragement. These sessions are discounted when purchased with a trip. </p>",
+            "text": "<p>Our riders often use their own bicycle, bags, and camping equipment. To reflect this, our trip prices are low, but not too low. <\/p><p>LBT offers equipment rentals and connects you with a local bike shop that can fit you for a bike rental. Equipment rentals include assistance during the trip and a pre-trip packing session so that we are assured that you have the necessary equipment, it fits on your bike and doesn't interfere with your comfort while riding. <\/p><h3>Advice<\/h3><p>If you are very new to doing a camping trip on your bike and you feel like you want some help before you take a trip, then book time with Lichen Bike Tours to receive personalized advice, a list of specific equipment recommendations, and a lot of encouragement. These sessions are discounted when purchased with a trip. <\/p>",
             "text_style": "body"
           }
         },
@@ -185,7 +176,7 @@
       ],
       "name": "Rentals and Advice block",
       "settings": {
-        "image": "shopify://shop_images/8.jpg",
+        "image": "shopify:\/\/shop_images\/8.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -216,18 +207,18 @@
         "text_aCigEV": {
           "type": "text",
           "settings": {
-            "text": "<p>Go <strong>Beyond</strong> Gravel Roads  -   Onto Singletrack Trails  -   In Beebe Hill State Forest </p><p>Saturday June 27th and Sunday June 28th | Choose Saturday or Sunday, or come both days! </p><p>Leaving from Hillsdale, NY, we ride up gravel roads, rising to the Taconic Mountains and high points in Beebe Hill and Harvey Mountain state forests. Riders can choose to stay on the gravel-only routes or venture onto chonky singletrack.</p>"
+            "text": "<p>Go <strong>Beyond<\/strong> Gravel Roads  -   Onto Singletrack Trails  -   In Beebe Hill State Forest <\/p><p>Saturday June 27th and Sunday June 28th | Choose Saturday or Sunday, or come both days! <\/p><p>Leaving from Hillsdale, NY, we ride up gravel roads, rising to the Taconic Mountains and high points in Beebe Hill and Harvey Mountain state forests. Riders can choose to stay on the gravel-only routes or venture onto chonky singletrack.<\/p>"
           }
         },
         "button_baga8f": {
           "type": "button",
           "settings": {
             "button_label": "All The Details",
-            "button_link": "shopify://pages/beebe-beyond",
+            "button_link": "shopify:\/\/pages\/beebe-beyond",
             "button_style_secondary": false,
             "button_new_tab": false,
             "button_label_2": "Sign Up on BikeReg.com",
-            "button_link_2": "https://www.bikereg.com/beebe-and-beyond-gravel-ramble",
+            "button_link_2": "https:\/\/www.bikereg.com\/beebe-and-beyond-gravel-ramble",
             "button_style_secondary_2": false,
             "button_new_tab_secondary": true
           }
@@ -252,7 +243,7 @@
       "type": "LBT-SupportImage",
       "name": "Beebe SupportImage",
       "settings": {
-        "image": "shopify://shop_images/6_2d4c9223-2494-40fd-971a-bfa53a98f284.jpg",
+        "image": "shopify:\/\/shop_images\/6_2d4c9223-2494-40fd-971a-bfa53a98f284.jpg",
         "photo_credit": "",
         "color_scheme": ""
       }
@@ -273,14 +264,14 @@
         "text_rHzAgr": {
           "type": "text",
           "settings": {
-            "text": "<p>The Catskill Forest Preserve is designated as \"forever wild\" in the NY constitution. Following all DEC trail uses, it's possible to ride in a big loop and end up where you started on a combination of paved roads, rough doubletrack trails, and hilly gravel roads. Along the way you can camp every night in the woods away from the noisy public campgrounds. Plan your next bikepacking adventure in the Catskill Mountains. </p>"
+            "text": "<p>The Catskill Forest Preserve is designated as \"forever wild\" in the NY constitution. Following all DEC trail uses, it's possible to ride in a big loop and end up where you started on a combination of paved roads, rough doubletrack trails, and hilly gravel roads. Along the way you can camp every night in the woods away from the noisy public campgrounds. Plan your next bikepacking adventure in the Catskill Mountains. <\/p>"
           }
         },
         "button_wBVByr": {
           "type": "button",
           "settings": {
             "button_label": "Catskills Grand Loop bikepacking route",
-            "button_link": "shopify://pages/catskills-grand-loop-bikepacking-route",
+            "button_link": "shopify:\/\/pages\/catskills-grand-loop-bikepacking-route",
             "button_style_secondary": false,
             "button_new_tab": false,
             "button_label_2": "",
@@ -309,7 +300,7 @@
       "type": "LBT-SupportImage",
       "name": "Bikepacking SupportImage",
       "settings": {
-        "image": "shopify://shop_images/4_87afcf4c-4543-4bad-a6ca-7d005e744ba8.jpg",
+        "image": "shopify:\/\/shop_images\/4_87afcf4c-4543-4bad-a6ca-7d005e744ba8.jpg",
         "photo_credit": "",
         "color_scheme": ""
       }
@@ -327,7 +318,7 @@
         "paragraph_t34nPC": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about social rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics</p>"
+            "text": "<p>Be the first to know about social rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics<\/p>"
           }
         }
       },
@@ -347,7 +338,7 @@
       "disabled": true,
       "name": "LBT SupportImage-2",
       "settings": {
-        "image": "shopify://shop_images/Website_Hero_Image_169.jpg",
+        "image": "shopify:\/\/shop_images\/Website_Hero_Image_169.jpg",
         "photo_credit": "",
         "color_scheme": ""
       }
@@ -357,7 +348,7 @@
       "disabled": true,
       "name": "LBT SupportImage-3",
       "settings": {
-        "image": "shopify://shop_images/11.jpg",
+        "image": "shopify:\/\/shop_images\/11.jpg",
         "photo_credit": "",
         "color_scheme": ""
       }
@@ -367,7 +358,7 @@
       "disabled": true,
       "name": "LBT SupportImage-4",
       "settings": {
-        "image": "shopify://shop_images/4.jpg",
+        "image": "shopify:\/\/shop_images\/4.jpg",
         "photo_credit": "",
         "color_scheme": ""
       }
@@ -377,7 +368,7 @@
       "disabled": true,
       "name": "LBT SupportImage-5",
       "settings": {
-        "image": "shopify://shop_images/27956edf-137b-4c60-8528-6a9bfdb5d641.jpg",
+        "image": "shopify:\/\/shop_images\/27956edf-137b-4c60-8528-6a9bfdb5d641.jpg",
         "photo_credit": "",
         "color_scheme": ""
       }
@@ -388,7 +379,7 @@
         "column_nPdM9n": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "image": "shopify:\/\/shop_images\/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
             "name": "Henry",
             "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
@@ -396,7 +387,7 @@
         "column_CNXxxx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "image": "shopify:\/\/shop_images\/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
             "name": "Henry",
             "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
@@ -404,7 +395,7 @@
         "column_QapUCM": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+            "image": "shopify:\/\/shop_images\/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
             "name": "Henry",
             "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
@@ -429,8 +420,8 @@
       "name": "LBT RWGPS",
       "settings": {
         "headline": "RIDE",
-        "copy": "This is a train-accessible route from the Amtrak station in Hudson, NY and from the Amtrak/MetroNorth station in Poughkeepsie, NY. The Catskills Grand Loop is a complete clockwise loop that averages out to 900ft of climbing and 900ft of descending per 10 miles of distance. Catskills Grand Loop is quite scenic and you feel close to the mountains and close to nature. In addition to hiking, there are a couple of opportunities for swimming along the way. For the anglers, there is ample opportunity for trout fishing in the Willowemoc and Beaverkill creeks. Near the start/end is Roundtopia mountain bike trails for some extracurricular riding and early on you really ought to stop at the giant earthwork sculpture grounds Opus 40. The route is best experienced in Summer through early Fall when it’s 50% shaded.",
-        "RWGPS_embed": "<iframe src=\"https://ridewithgps.com/embeds?type=route&amp;id=51606587&amp;sampleGraph=true\" style=\"width: 1px; min-width: 100%; height: 700px; border: none;\" scrolling=\"no\"></iframe>",
+        "copy": "This is a train-accessible route from the Amtrak station in Hudson, NY and from the Amtrak\/MetroNorth station in Poughkeepsie, NY. The Catskills Grand Loop is a complete clockwise loop that averages out to 900ft of climbing and 900ft of descending per 10 miles of distance. Catskills Grand Loop is quite scenic and you feel close to the mountains and close to nature. In addition to hiking, there are a couple of opportunities for swimming along the way. For the anglers, there is ample opportunity for trout fishing in the Willowemoc and Beaverkill creeks. Near the start\/end is Roundtopia mountain bike trails for some extracurricular riding and early on you really ought to stop at the giant earthwork sculpture grounds Opus 40. The route is best experienced in Summer through early Fall when it’s 50% shaded.",
+        "RWGPS_embed": "<iframe src=\"https:\/\/ridewithgps.com\/embeds?type=route&amp;id=51606587&amp;sampleGraph=true\" style=\"width: 1px; min-width: 100%; height: 700px; border: none;\" scrolling=\"no\"><\/iframe>",
         "color_scheme": "scheme-97888ef9-948c-4574-be66-7bf40393832c"
       }
     },
@@ -455,12 +446,13 @@
         "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "buttonLabel": "Test Label right here",
         "buttonLink": "",
-        "image": "shopify://shop_images/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
+        "image": "shopify:\/\/shop_images\/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
         "color_scheme": "scheme-3"
       }
     },
     "lbt_klaviyo_embed_EXmd7h": {
       "type": "LBT-klaviyo-Embed",
+      "disabled": true,
       "name": "LBT Klavio",
       "settings": {
         "color_scheme": ""

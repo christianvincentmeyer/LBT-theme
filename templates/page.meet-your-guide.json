@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -30,7 +21,7 @@
       "type": "LBT-SupportImage-2",
       "name": "LBT SupportImage-2",
       "settings": {
-        "image": "shopify://shop_images/Meet_Your_Guide_mile_marker_on_c_and_o_canal.jpg",
+        "image": "shopify:\/\/shop_images\/Meet_Your_Guide_mile_marker_on_c_and_o_canal.jpg",
         "color_scheme": ""
       }
     },
@@ -50,7 +41,7 @@
         "text_MNbFwn": {
           "type": "text",
           "settings": {
-            "text": "<p>I share details about my guide qualifications and license on <a href=\"/pages/faqs\" title=\"FAQs for LBT Trips\">the FAQs page</a>.</p><p>I come to bikepacking from the camping and outdoors side of things. I'm not a racer, not an endurance athlete, and I'm pretty much done with jogging after working up to a marathon in 2019 (NYC). I grew up outdoors on monthly weekend outings with the scouts, and twice with them I rode the C&O Canal (vehicle supported), camping in wind and lightning storms and heaving bikes over downed trees. </p><p>In 2020, I started with a solo trip using my commuting equipment: steel gravel bike, rear rack, massive Ortleib panniers, a Kryptonite U-lock (completely unnecessary), and some handlebar wobbles (inevitable with that setup, yikes). On my bike I felt disburdened and joyful, trusting that everything is already ok because I'm carrying whatever shelter and food I could need. I already really liked bikin', but that first trip helped me remember something about myself. In 2023 I went back to the C&O on a Pittsburgh-&gt;DC tour with <a href=\"https://www.718outdoors.com/\" target=\"_blank\" title=\"https://www.718outdoors.com/\">718 Outdoors</a> and experienced how multi-day cycling and camping trips are a fun, safe, social, and not necessarily physically draining way to travel or take a vacation. </p>"
+            "text": "<p>I share details about my guide qualifications and license on <a href=\"\/pages\/faqs\" title=\"FAQs for LBT Trips\">the FAQs page<\/a>.<\/p><p>I come to bikepacking from the camping and outdoors side of things. I'm not a racer, not an endurance athlete, and I'm pretty much done with jogging after working up to a marathon in 2019 (NYC). I grew up outdoors on monthly weekend outings with the scouts, and twice with them I rode the C&O Canal (vehicle supported), camping in wind and lightning storms and heaving bikes over downed trees. <\/p><p>In 2020, I started with a solo trip using my commuting equipment: steel gravel bike, rear rack, massive Ortleib panniers, a Kryptonite U-lock (completely unnecessary), and some handlebar wobbles (inevitable with that setup, yikes). On my bike I felt disburdened and joyful, trusting that everything is already ok because I'm carrying whatever shelter and food I could need. I already really liked bikin', but that first trip helped me remember something about myself. In 2023 I went back to the C&O on a Pittsburgh-&gt;DC tour with <a href=\"https:\/\/www.718outdoors.com\/\" target=\"_blank\" title=\"https:\/\/www.718outdoors.com\/\">718 Outdoors<\/a> and experienced how multi-day cycling and camping trips are a fun, safe, social, and not necessarily physically draining way to travel or take a vacation. <\/p>"
           }
         }
       },
@@ -84,7 +75,7 @@
         "text_rEpDXY": {
           "type": "text",
           "settings": {
-            "text": "<p>After moving closer to the Catskill Mountains and getting to hike the 33 publicly accessible high peaks over 3500ft (and in winter), I found that a lot of outdoorsy people are mostly disinterested in spending the night in a tent or hammock. This helped me to realize that my skill with campsite selection, route design, and contingency planning is what's going to allow other people to have new adventures in the woods. Bringing beginner riders and campers on their first trips is part of the reason that LBT exists at all. I started Lichen Bike Tours as a platform for many types of cycling adventures, but always with the purpose of bringing people closer to nature. At whatever age or stage of life we're in, we can observe infinitesimal wonders in the natural world we live with. </p><p>I formed the business at the end of 2023 and in 2024 I started sharing about these kinds of adventures with locals in Hudson, Catskill, Kinderhook, Chatham, Hillsdale, Troy, and Albany. 2025 was the first season of trips with a name, logo, and website. It's also the year that I got <a href=\"https://bikepackingroots.org/project/catskills-grand-loop/\" target=\"_blank\" title=\"https://bikepackingroots.org/project/catskills-grand-loop/\">a bikepacking route</a> published on <a href=\"https://bikepackingroots.org/about/\" target=\"_blank\" title=\"https://bikepackingroots.org/about/\">BikepackingRoots.org</a> as part of their <a href=\"https://bikepackingroots.org/ride/#community-routes\" target=\"_blank\" title=\"https://bikepackingroots.org/ride/#community-routes\">Community Routes Project</a>. I now volunteer as a community steward and route steward with the 501(c)3 Bikepacking Roots and got to meet a lot of folks at the east coast bikepacking summit in July 2025. </p><p>In 2026 I pivoted my trips towards more approachable and enjoyable experiences that are about sharing experiences and building community. Folks who want less leisure and more intensity could contact me for guiding a personalized, private bikepacking tour. Or you could plan your own bikepacking trip following Catskills Grand Loop, or a variant. </p>"
+            "text": "<p>After moving closer to the Catskill Mountains and getting to hike the 33 publicly accessible high peaks over 3500ft (and in winter), I found that a lot of outdoorsy people are mostly disinterested in spending the night in a tent or hammock. This helped me to realize that my skill with campsite selection, route design, and contingency planning is what's going to allow other people to have new adventures in the woods. Bringing beginner riders and campers on their first trips is part of the reason that LBT exists at all. I started Lichen Bike Tours as a platform for many types of cycling adventures, but always with the purpose of bringing people closer to nature. At whatever age or stage of life we're in, we can observe infinitesimal wonders in the natural world we live with. <\/p><p>I formed the business at the end of 2023 and in 2024 I started sharing about these kinds of adventures with locals in Hudson, Catskill, Kinderhook, Chatham, Hillsdale, Troy, and Albany. 2025 was the first season of trips with a name, logo, and website. It's also the year that I got <a href=\"https:\/\/bikepackingroots.org\/project\/catskills-grand-loop\/\" target=\"_blank\" title=\"https:\/\/bikepackingroots.org\/project\/catskills-grand-loop\/\">a bikepacking route<\/a> published on <a href=\"https:\/\/bikepackingroots.org\/about\/\" target=\"_blank\" title=\"https:\/\/bikepackingroots.org\/about\/\">BikepackingRoots.org<\/a> as part of their <a href=\"https:\/\/bikepackingroots.org\/ride\/#community-routes\" target=\"_blank\" title=\"https:\/\/bikepackingroots.org\/ride\/#community-routes\">Community Routes Project<\/a>. I now volunteer as a community steward and route steward with the 501(c)3 Bikepacking Roots and got to meet a lot of folks at the east coast bikepacking summit in July 2025. <\/p><p>In 2026 I pivoted my trips towards more approachable and enjoyable experiences that are about sharing experiences and building community. Folks who want less leisure and more intensity could contact me for guiding a personalized, private bikepacking tour. Or you could plan your own bikepacking trip following Catskills Grand Loop, or a variant. <\/p>"
           }
         },
         "button_mwAKJH": {
@@ -120,7 +111,7 @@
       "type": "LBT-SupportImage-3",
       "name": "LBT SupportImage-3",
       "settings": {
-        "image": "shopify://shop_images/Lichen_on_tree_bark.jpg",
+        "image": "shopify:\/\/shop_images\/Lichen_on_tree_bark.jpg",
         "color_scheme": ""
       }
     },
@@ -140,7 +131,7 @@
         "text_73QM3y": {
           "type": "text",
           "settings": {
-            "text": "<p>Lichen sounds like Likin'. As in, I'm Likin' Bikin'</p><p>Lichens are the colorful little patches that tend to grow on natural surfaces. When you start noticing them on tree bark, rock faces, and fence posts, you start to see them <em>everywhere</em>. I named this bicycle tour and camping company 'Lichen' because of their ubiquity in the forested areas that I bring riders through. </p><p>Each lichen that you see is a collaborative effort of 2 living organisms: first some variety of a fungus, which brings physical structure and shape, and then there's an algae which generates biological energy through photosynthesis. They symbiotically co-create the environment that allows the whole system to thrive and sustain itself year after year. </p>"
+            "text": "<p>Lichen sounds like Likin'. As in, I'm Likin' Bikin'<\/p><p>Lichens are the colorful little patches that tend to grow on natural surfaces. When you start noticing them on tree bark, rock faces, and fence posts, you start to see them <em>everywhere<\/em>. I named this bicycle tour and camping company 'Lichen' because of their ubiquity in the forested areas that I bring riders through. <\/p><p>Each lichen that you see is a collaborative effort of 2 living organisms: first some variety of a fungus, which brings physical structure and shape, and then there's an algae which generates biological energy through photosynthesis. They symbiotically co-create the environment that allows the whole system to thrive and sustain itself year after year. <\/p>"
           }
         },
         "button_Rbchi6": {

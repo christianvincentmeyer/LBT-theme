@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
@@ -26,47 +17,13 @@
         "subhead": "We'd also love for you to share your camping preferences "
       }
     },
-    "rich_text_JFiNLU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cka8Vb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Be the first to know about social rides and receive calendars of bikepacking and cycling events in the Catskills and Taconics.",
-            "heading_size": "h1",
-            "isAnchor": "default",
-            "anchorLabel": "",
-            "anchorID": ""
-          }
-        },
-        "text_MNbFwn": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_cka8Vb",
-        "text_MNbFwn"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 80
-      }
-    },
     "17700566470b11487d": {
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_x47TzC": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-VHDMUb\"></div>"
+            "formId": "VHDMUb"
           }
         }
       },
@@ -81,7 +38,6 @@
   "order": [
     "main",
     "lbt_headline_block_9e8HxB",
-    "rich_text_JFiNLU",
     "17700566470b11487d"
   ]
 }
