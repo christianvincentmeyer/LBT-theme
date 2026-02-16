@@ -24,6 +24,7 @@
       "name": "getting started image",
       "settings": {
         "image": "shopify:\/\/shop_images\/4_87afcf4c-4543-4bad-a6ca-7d005e744ba8.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -66,6 +67,7 @@
       "name": "bike choice support image",
       "settings": {
         "image": "shopify:\/\/shop_images\/PXL_20250720_184656203.RAW-01.COVER_-_Edited.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -75,6 +77,64 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_TEXGm6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nJAfwV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Highlights of Catskills Grand Loop",
+            "heading_size": "h1",
+            "isAnchor": "isAnchor",
+            "anchorLabel": "Route Highlights",
+            "anchorID": "Highlights"
+          }
+        },
+        "text_Hkw4Lc": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Geology:<\/h3><p>This region is defined by sedimentary rocks, steep ridgelines covered in forests, and wide open slightly sloped glacial floodplains covered in rich soil. In fact, the Catskills have supported forest life for a long time. The <a href=\"https:\/\/www.binghamton.edu\/news\/story\/3780\/the-first-trees-preserving-the-worlds-oldest-forest-in-upstate-new-york\" target=\"_blank\" title=\"https:\/\/www.binghamton.edu\/news\/story\/3780\/the-first-trees-preserving-the-worlds-oldest-forest-in-upstate-new-york\">oldest fossilized evidence of forests<\/a> on our planet that we’ve uncovered so far (385,000,000ya) has been found right near the start\/end point of the route (not open to the public). There is <a href=\"https:\/\/www.gilboafossils.org\/\" target=\"_blank\" title=\"https:\/\/www.gilboafossils.org\/\">a natural history museum<\/a> just a few miles off-route in the town of Gilboa (around mile 170) where you can examine specimens. <\/p><h3>Diversions and Attractions: <\/h3><ul><li>Mile 2 Roundtopia Mountain Bike Trails in Round Top, NY<\/li><li>Mile 19 <a href=\"https:\/\/opus40.org\/\" target=\"_blank\" title=\"https:\/\/opus40.org\/\">Opus 40 Earthwork and Music Space<\/a> in West Saugerties <\/li><li>Mile 34 vista across Ashokan Reservoir  <\/li><li>Mile 48 one mile side trail to Vernooy Kill Falls for washing and swimming<\/li><li>Mile 67 beautiful fern covered forests on top of Denman Mountain <\/li><li>Mile 74 enter the Willowemoc Creek watershed, which is one of the most celebrated fly fishing sites in North America<\/li><li>Mile 95 covered bridge outside of Livingston Manor <\/li><li>Mile 99 enter the Beaverkill Creek watershed, which is another venerated fly fishing stream<\/li><li>Mile 108 large pond for swimming and washing <\/li><li>Mile 123 campsites with very dark skies for star gazing <\/li><li>Mile 127 four-mile round trip foot trail to the fire tower on the high peak Balsam Lake Mountain<\/li><li>Mile 155 the highest elevation point of the entire route on South Vly Mountain is 2871ft <\/li><li>Mile 170 side road to the Gilboa Museum, which has a natural history exhibition on fossilized forests that have been uncovered in the Catskills<\/li><li>Mile 183 is the final high point before the big descent off the Catskill Plateau into the Durham Valley<\/li><\/ul><h3>Food Highlights: <\/h3><ul><li>Mile 8 <a href=\"https:\/\/www.circlewmarket.com\/\" target=\"_blank\" title=\"https:\/\/www.circlewmarket.com\/\">Circle W<\/a> sandwich shop in Palenville<\/li><li>Mile 43 <a href=\"https:\/\/www.tettasmarket.com\/home\" target=\"_blank\" title=\"https:\/\/www.tettasmarket.com\/home\">Tetta's Market<\/a> deli and pizzas in Samsonville<\/li><li>Mile 61 <a href=\"https:\/\/www.google.com\/maps\/place\/The+Grahamsville+Deli\/@41.8463939,-74.5450304,20.85z\/data=!4m6!3m5!1s0x89dcea5614bce00d:0x8c179b42a908020f!8m2!3d41.8463203!4d-74.544949!16s%2Fg%2F11c4b656y0!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/The+Grahamsville+Deli\/@41.8463939,-74.5450304,20.85z\/data=!4m6!3m5!1s0x89dcea5614bce00d:0x8c179b42a908020f!8m2!3d41.8463203!4d-74.544949!16s%2Fg%2F11c4b656y0!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D\">Grahamsville Deli<\/a> breakfast and bodega sandwiches in Grahamsville <\/li><li>Mile 93 town of Livingston Manor for a grocery store and many restaurants<\/li><li>Mile 136 town of Arkville with a grocery store and many restaurants 2 miles away in town of Margaretville<\/li><li>Mile 144 town of Fleischmanns is the last stop before the most difficult mountain pass of the entire route<\/li><li>Mile 168 town of Prattsville has a diner and a grocery store with a deli counter in the back. The bridge you cross before entering town is the last place to reliably refill water for the next 40 miles<\/li><li>Mile 193 short side road to <a href=\"https:\/\/www.facebook.com\/THEMILKRUNDURHAMNY\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/THEMILKRUNDURHAMNY\/\">The Milk Run<\/a> in the town of Durham <\/li><\/ul>"
+          }
+        },
+        "button_RfbrKU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_new_tab": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nJAfwV",
+        "text_Hkw4Lc",
+        "button_RfbrKU"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "lbt_support_image_4_QdghLx": {
+      "type": "LBT-SupportImage-4",
+      "name": "highlights support image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Curvy_Paved_Road.jpg",
+        "photo_credit": "",
+        "color_scheme": ""
       }
     },
     "rich_text_dF8WYf": {
@@ -130,6 +190,7 @@
       "name": "lean to support image",
       "settings": {
         "image": "shopify:\/\/shop_images\/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -142,14 +203,14 @@
             "heading": "Water, Food and Animals",
             "heading_size": "h1",
             "isAnchor": "isAnchor",
-            "anchorLabel": "Water, Food, Animals & Terrain",
+            "anchorLabel": "Water, Food & Animals",
             "anchorID": "Stuff"
           }
         },
         "text_xg3hay": {
           "type": "text",
           "settings": {
-            "text": "<h3>Watersheds and the Catskills:<\/h3><p>You would be just as correct in referring to regions of the Catskill Mountains by their watershed as by their high peak names. These days most of the meandering streams flow into dammed-up NYC water supply reservoirs, and on this route you will see 3 of them (Ashokan, Rondout, Pepacton). The route almost touches 2 more (Neversink, Schoharie) but instead turns away and begins a climb up the least likely road. <\/p><ul><li><a href=\"https:\/\/dec.ny.gov\/environmental-protection\/water\/water-quantity\/drought\/current-drought-conditions\" target=\"_blank\" title=\"https:\/\/dec.ny.gov\/environmental-protection\/water\/water-quantity\/drought\/current-drought-conditions\">NYS drought conditions<\/a> and <a href=\"https:\/\/www.nyc.gov\/site\/dep\/water\/reservoir-levels.page#\" target=\"_blank\" title=\"https:\/\/www.nyc.gov\/site\/dep\/water\/reservoir-levels.page#\">NYC water reservoir levels<\/a> provide context about possible drought conditions <\/li><\/ul><h3>Water: <\/h3><p>Flowing surface water is plentiful in the Catskill Mountains. With a filter or purification, you won’t be worried about running out of water. During drought conditions, moving surface water is still common but not ubiquitous and you might want to carry more water capacity<\/p><ul><li>April to October <a href=\"https:\/\/detteflies.com\/\" target=\"_blank\" title=\"https:\/\/detteflies.com\/\">Dette Flies<\/a> fly fishing store (on the route in the town of Livingston Manor) has <a href=\"https:\/\/detteflies.com\/pages\/daily-fishing-report\" target=\"_blank\" title=\"https:\/\/detteflies.com\/pages\/daily-fishing-report\">Daily Fishing Reports<\/a> that give very specific descriptions of the Willowemoc and Beaverkill creeks that we ride past from approximately mile 75 to 105  <\/li><\/ul><h3>Food & Meal Prep: <\/h3><p>Every 50 miles there is at least one significant town with a grocery store and other food options, so meal planning and resupplying are as simple as you want them to be. You could prep all your dried meals beforehand and skip stopping in town. Or you can easily carry snacks and purchase prepared foods or groceries each day. Lots of details are in the RideWithGPS route.<\/p><h3>Food Highlights: <\/h3><ul><li>Mile 8 <a href=\"https:\/\/www.circlewmarket.com\/\" target=\"_blank\" title=\"https:\/\/www.circlewmarket.com\/\">Circle W<\/a> sandwich shop in Palenville<\/li><li>Mile 43 <a href=\"https:\/\/www.tettasmarket.com\/home\" target=\"_blank\" title=\"https:\/\/www.tettasmarket.com\/home\">Tetta's Market<\/a> deli and pizzas in Samsonville<\/li><li>Mile 61 <a href=\"https:\/\/www.google.com\/maps\/place\/The+Grahamsville+Deli\/@41.8463939,-74.5450304,20.85z\/data=!4m6!3m5!1s0x89dcea5614bce00d:0x8c179b42a908020f!8m2!3d41.8463203!4d-74.544949!16s%2Fg%2F11c4b656y0!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/The+Grahamsville+Deli\/@41.8463939,-74.5450304,20.85z\/data=!4m6!3m5!1s0x89dcea5614bce00d:0x8c179b42a908020f!8m2!3d41.8463203!4d-74.544949!16s%2Fg%2F11c4b656y0!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D\">Grahamsville Deli<\/a> breakfast and bodega sandwiches in Grahamsville <\/li><li>Mile 93 town of Livingston Manor for a grocery store and many restaurants<\/li><li>Mile 136 town of Arkville with a grocery store and many restaurants 2 miles away in town of Margaretville<\/li><li>Mile 144 town of Fleischmanns is the last stop before the most difficult mountain pass of the entire route<\/li><li>Mile 168 town of Prattsville has a diner and a grocery store with a deli counter in the back. The bridge you cross before entering town is the last place to reliably refill water for the next 40 miles<\/li><li>Mile 193 short side road to <a href=\"https:\/\/www.facebook.com\/THEMILKRUNDURHAMNY\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/THEMILKRUNDURHAMNY\/\">The Milk Run<\/a> in the town of Durham <\/li><\/ul><h3>Bears and Animals: <\/h3><p>In comparison with big campgrounds, the campsites highlighted on this route are not constant sources of food for bears and other mammals. Let’s keep them this way. On this route you are more likely to encounter opportunistic mice and deer before you encounter a bear, but please know that black bears are present throughout the Catskills. Because of food smells, every night it’s important to take precautions which prevent smaller mammals from eating into your shelter, such as hanging your food from a tree branch sufficiently far away. A bear canister is not necessary but would be useful if you are in a small group and you all choose to consolidate your food into the canister. <\/p>"
+            "text": "<h3>Watersheds and the Catskills:<\/h3><p>You would be just as correct in referring to regions of the Catskill Mountains by their watershed as by their high peak names. These days most of the meandering streams flow into dammed-up NYC water supply reservoirs, and on this route you will see 3 of them (Ashokan, Rondout, Pepacton). The route almost touches 2 more (Neversink, Schoharie) but instead turns away and begins a climb up the least likely road. <\/p><ul><li><a href=\"https:\/\/dec.ny.gov\/environmental-protection\/water\/water-quantity\/drought\/current-drought-conditions\" target=\"_blank\" title=\"https:\/\/dec.ny.gov\/environmental-protection\/water\/water-quantity\/drought\/current-drought-conditions\">NYS drought conditions<\/a> and <a href=\"https:\/\/www.nyc.gov\/site\/dep\/water\/reservoir-levels.page#\" target=\"_blank\" title=\"https:\/\/www.nyc.gov\/site\/dep\/water\/reservoir-levels.page#\">NYC water reservoir levels<\/a> provide context about possible drought conditions <\/li><\/ul><h3>Water: <\/h3><p>Flowing surface water is plentiful in the Catskill Mountains. With a filter or purification, you won’t be worried about running out of water. During drought conditions, moving surface water is still common but not ubiquitous and you might want to carry more water capacity<\/p><ul><li>April to October <a href=\"https:\/\/detteflies.com\/\" target=\"_blank\" title=\"https:\/\/detteflies.com\/\">Dette Flies<\/a> fly fishing store (on the route in the town of Livingston Manor) has <a href=\"https:\/\/detteflies.com\/pages\/daily-fishing-report\" target=\"_blank\" title=\"https:\/\/detteflies.com\/pages\/daily-fishing-report\">Daily Fishing Reports<\/a> that give very specific descriptions of the Willowemoc and Beaverkill creeks that we ride past from approximately mile 75 to 105  <\/li><\/ul><h3>Food & Meal Prep: <\/h3><p>Every 50 miles there is at least one significant town with a grocery store and other food options, so meal planning and resupplying are as simple as you want them to be. You could prep all your dried meals beforehand and skip stopping in town. Or you can easily carry snacks and purchase prepared foods or groceries each day. Lots of details are in the RideWithGPS route.<\/p><h3>Bears and Animals: <\/h3><p>In comparison with big campgrounds, the campsites highlighted on this route are not constant sources of food for bears and other mammals. Let’s keep them this way. On this route you are more likely to encounter opportunistic mice and deer before you encounter a bear, but please know that black bears are present throughout the Catskills. Because of food smells, every night it’s important to take precautions which prevent smaller mammals from eating into your shelter, such as hanging your food from a tree branch sufficiently far away. A bear canister is not necessary but would be useful if you are in a small group and you all choose to consolidate your food into the canister. <\/p>"
           }
         },
         "button_kYyaV8": {
@@ -180,63 +241,6 @@
         "padding_top": 16,
         "padding_bottom": 40
       }
-    },
-    "lbt_support_image_4_QdghLx": {
-      "type": "LBT-SupportImage-4",
-      "name": "highlights support image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Curvy_Paved_Road.jpg",
-        "color_scheme": ""
-      }
-    },
-    "rich_text_TEXGm6": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_nJAfwV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Highlights of Catskills Grand Loop",
-            "heading_size": "h1",
-            "isAnchor": "isAnchor",
-            "anchorLabel": "Route Highlights",
-            "anchorID": "Highlights"
-          }
-        },
-        "text_Hkw4Lc": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Geology:<\/h3><p>This region is defined by sedimentary rocks, steep ridgelines covered in forests, and wide open slightly sloped glacial floodplains covered in rich soil. In fact, the Catskills have supported forest life for a long time. The <a href=\"https:\/\/www.binghamton.edu\/news\/story\/3780\/the-first-trees-preserving-the-worlds-oldest-forest-in-upstate-new-york\" target=\"_blank\" title=\"https:\/\/www.binghamton.edu\/news\/story\/3780\/the-first-trees-preserving-the-worlds-oldest-forest-in-upstate-new-york\">oldest fossilized evidence of forests<\/a> on our planet that we’ve uncovered so far (385,000,000ya) has been found right near the start\/end point of the route. There is <a href=\"https:\/\/www.gilboafossils.org\/\" target=\"_blank\" title=\"https:\/\/www.gilboafossils.org\/\">a natural history museum<\/a> just a few miles off-route in the town of Gilboa (around mile 170) where you can examine specimens. <\/p><h3>Diversions and Attractions: <\/h3><ul><li>Mile 2 Roundtopia Mountain Bike Trails in Round Top, NY<\/li><li>Mile 19 <a href=\"https:\/\/opus40.org\/\" target=\"_blank\" title=\"https:\/\/opus40.org\/\">Opus 40 Earthwork and Music Space<\/a> in West Saugerties <\/li><li>Mile 34 vista across Ashokan Reservoir  <\/li><li>Mile 48 one mile side trail to Vernooy Kill Falls for washing and swimming<\/li><li>Mile 67 beautiful fern covered forests on top of Denman Mountain <\/li><li>Mile 74 enter the Willowemoc Creek watershed, which is one of the most celebrated fly fishing sites in North America<\/li><li>Mile 95 covered bridge outside of Livingston Manor <\/li><li>Mile 99 enter the Beaverkill Creek watershed, which is another venerated fly fishing stream<\/li><li>Mile 108 large pond for swimming and washing <\/li><li>Mile 123 campsites with very dark skies for star gazing <\/li><li>Mile 127 four-mile round trip foot trail to the fire tower on the high peak Balsam Lake Mountain<\/li><li>Mile 155 the highest elevation point of the entire route on South Vly Mountain is 2871ft <\/li><li>Mile 170 side road to the Gilboa Museum, which has a natural history exhibition on fossilized forests that have been uncovered in the Catskills<\/li><li>Mile 183 is the final high point before the big descent off the Catskill Plateau into the Durham Valley<\/li><\/ul><p><\/p><p><\/p><p>   <\/p>"
-          }
-        },
-        "button_RfbrKU": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_new_tab": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_new_tab_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_nJAfwV",
-        "text_Hkw4Lc",
-        "button_RfbrKU"
-      ],
-      "name": "Highlights",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
@@ -246,10 +250,10 @@
     "rich_text_JFiNLU",
     "lbt_support_image_2_CwG6nf",
     "main",
+    "rich_text_TEXGm6",
+    "lbt_support_image_4_QdghLx",
     "rich_text_dF8WYf",
     "lbt_support_image_EW3BjA",
-    "rich_text_4WatWK",
-    "lbt_support_image_4_QdghLx",
-    "rich_text_TEXGm6"
+    "rich_text_4WatWK"
   ]
 }

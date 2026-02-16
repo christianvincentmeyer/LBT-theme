@@ -1206,9 +1206,9 @@ summary::-webkit-details-marker {
     min-width: 35%;
   }
 
-  .grid--peek.slider .grid__item:first-of-type {
+  /* .grid--peek.slider .grid__item:first-of-type {
     margin-left: 1.5rem;
-  }
+  } */
 
   /* Fix to show some space at the end of our sliders in all browsers */
   .grid--peek.slider:after {
@@ -3821,4 +3821,8 @@ details-disclosure>details {
     flex-direction: column;
     width: 100%;
   }
+}
+
+.breakout-info h4{
+  display: none;
 }
