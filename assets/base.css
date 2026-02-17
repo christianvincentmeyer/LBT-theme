@@ -2626,7 +2626,7 @@ input[type='checkbox'] {
 
   .header__heading,
   .header__heading-link {
-    justify-self: start;
+    justify-self: center;
   }
 
   .header--middle-center .header__heading-link,
@@ -3872,12 +3872,13 @@ details-disclosure>details {
   padding: 24px 0 0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1380px) {
   .LBT_RWGPS-copy{
     margin: 16px 0 16px !important;
   }
 }
 
 .klaviyo-form{
-  margin: 24px 0 48px !important;
+  margin: 24px auto 48px !important;
+  max-width: 640px;
 }
