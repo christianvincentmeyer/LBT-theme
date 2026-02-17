@@ -13,21 +13,20 @@
       "blocks": {
         "ride_listing_g9VWTE": {
           "type": "ride_listing",
-          "name": "Catskills 190",
+          "name": "Catskills Grand Loop",
           "settings": {
             "image": "shopify:\/\/shop_images\/PXL_20250720_185329100.RAW-01.COVER_-_Edited.jpg",
-            "ride_name": "The Catskills 190",
-            "desc": "Throughout the route riders will go from valley to valley, watershed to watershed, guided up and over mountain passes with a strong preference for doubletrack and rough gravel. The rest of the miles are on paved roads, which is just a fact of riding in this region. This route follows all designated trail uses, which means that we avoid foot trails. Notes in the route indicate optional excursions along disused logging roads, rugged snowmobile trails, and occasional mountain biking areas. While the majority of the miles are on paved surfaces, the route brings you past dead-end dirt'n'gravel roads that climb up a valley before turning into foot trail, often with great camping sites and vistas. We could include those roads to make the route appear more gravel-y, but have decided to not include them because a good loop should not require backtracking and out-and-back sections.",
-            "mileage": "190 miles",
-            "elevation": "18,000ft Climbing",
-            "fitness": "Ride fitness",
+            "ride_name": "Catskills Grand Loop",
+            "desc": "You would find this route a good fit if you are looking for a multi-day trip that’s physically demanding, not the biggest time commitment, and you want to experience the challenges of trail riding and Leave No Trace camping. Catskills Grand Loop is a complete clockwise loop. You can choose to start at any point, but most start near the town of Cairo (\"Kay-ro\"), NY because it's a good spot for multi-night vehicle parking. This bikepacking route is train-accessible and can also be reached by bicycle from the Empire State Trail in Hudson, Kingston, and New Paltz. On this route you will feel like you really roughed it with the camping, you'll be grateful those grocery stores were there, and hopefully feel like you got to participate in what makes the Catskill Mountains special.",
+            "mileage": "208 miles",
+            "elevation": "19,000ft Climbing",
+            "fitness": "Very Hilly",
             "strava_link": "",
             "RWGPS_link": "https:\/\/ridewithgps.com\/routes\/51606587"
           }
         },
         "ride_listing_WPTF7D": {
           "type": "ride_listing",
-          "disabled": true,
           "settings": {
             "ride_name": "Ride name",
             "desc": "Ride description here",
@@ -74,7 +73,7 @@
       "name": "LBT Region listings",
       "settings": {
         "Region_headline": "Catskill Mountains Bikepacking",
-        "Region_copy": "This bikepacking loop brings riders through the valleys, mountain ridges, and watersheds that define the Catskill Mountains. Avoiding all major highways forces us to look for alternative passes through the mountains. This is a majority-paved route with segments of rough gravel and 4x4 roads. All camping on this route is on public lands at lean-tos and other dispersed campsites, and there are daily grocery resupply points. You would find this route a good fit if you are looking for a multi-day trip that’s physically demanding, not the biggest time commitment, and you want to experience the challenges of trail riding and Leave No Trace camping. It’s a really enjoyable route through one of the largest forest preserves in the Northeast."
+        "Region_copy": "Check out our bikepacking routes through one of the largest forest preserves in the Northeast. Avoiding all major highways forces us to look for alternative passes through the mountains. These are majority-paved route with segments of rough gravel and 4x4 roads. All camping on this route is on public lands at lean-tos and other primitive campsites, and there are daily grocery resupply points."
       }
     }
   },

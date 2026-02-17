@@ -14,25 +14,13 @@
       "name": "fern rider support image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Smiling_Shari_on_a_Bike_in_Fern_Covered_Forest.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
     "rich_text_JFiNLU": {
       "type": "rich-text",
       "blocks": {
-        "button_xfKMmp": {
-          "type": "button",
-          "settings": {
-            "button_label": "Sign Up for Beebe & Beyond",
-            "button_link": "https:\/\/www.bikereg.com\/beebe-and-beyond-gravel-ramble",
-            "button_style_secondary": false,
-            "button_new_tab": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false,
-            "button_new_tab_secondary": false
-          }
-        },
         "heading_cka8Vb": {
           "type": "heading",
           "settings": {
@@ -48,12 +36,25 @@
           "settings": {
             "text": "<p>Saturday June 27th and Sunday June 28th | Choose Saturday or Sunday, or come both days!<\/p><p>Leaving from Hillsdale, NY, we ride up gravel roads, rising to the Taconic Mountains and high points in Beebe Hill and Harvey Mountain state forests. Riders can choose to stay on the gravel-only routes or venture onto chonky singletrack.<\/p><p>This ride is picturesque and mostly shaded. We are running the event on both Saturday and Sunday so that you can choose the day that works best for you. Same ride format and aid stations on both days. Compared to 2025, we've changed the departs and added a second aid station just for the longer routes <\/p>"
           }
+        },
+        "button_xfKMmp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up for Beebe & Beyond",
+            "button_link": "https:\/\/www.bikereg.com\/beebe-and-beyond-gravel-ramble",
+            "button_style_secondary": false,
+            "button_new_tab": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "button_new_tab_secondary": false
+          }
         }
       },
       "block_order": [
-        "button_xfKMmp",
         "heading_cka8Vb",
-        "text_MNbFwn"
+        "text_MNbFwn",
+        "button_xfKMmp"
       ],
       "name": "Header",
       "settings": {
@@ -70,6 +71,7 @@
       "name": "orange bike support image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Serotta_vivid_orange_bicycle_seen_from_drive_side.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },
@@ -134,6 +136,7 @@
       "name": "todd's bike support image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Crust_bikes.jpg",
+        "photo_credit": "",
         "color_scheme": ""
       }
     },

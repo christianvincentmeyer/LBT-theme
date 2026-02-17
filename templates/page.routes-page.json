@@ -23,10 +23,10 @@
         "region_w3hDr6": {
           "type": "region",
           "settings": {
-            "title": "Catskills Bikepacking",
-            "image": "shopify:\/\/shop_images\/PXL_20250503_190007809.RAW-01.COVER_-_Edited.jpg",
-            "desc": "Cycling on roads and doubletrack and dispersed camping in the public forests of the Catskill Mountains.",
-            "region_link": "shopify:\/\/pages\/catskillsbikepacking"
+            "title": "Kinderhook-Valatie Day Rides",
+            "image": "shopify:\/\/shop_images\/DJ_and_Megan_on_gravel_roads_in_Columbia_County_NY.jpg",
+            "desc": "Cycling on paved and gravel roads on the flat lowlands around Kinderhook Creek",
+            "region_link": ""
           }
         },
         "region_QiPNag": {
@@ -76,10 +76,10 @@
       ],
       "name": "LBT Routes",
       "settings": {
-        "Routes_hero": "shopify:\/\/shop_images\/clifftop_silhouette.jpg",
-        "Routes_headline": "Cycling Routes",
-        "Routes_copy": "Come to town... and bring your bike! Lichen Bike Tours chooses roads that are always scenic, sometimes unpaved, and especially avoid roads that carry a lot of vehicle traffic. In our routes we have a strong preference for loops over out 'n backs",
-        "Regions_blurb": "Keep checking back for new towns. Bikepacking routes are separated from the town-specific collections of rides."
+        "Routes_hero": "shopify:\/\/shop_images\/Low_Speed_Limit_Sign_for_Routes_Page.jpg",
+        "Routes_headline": "Day Rides for Local Towns",
+        "Routes_copy": "Come to town... and bring your bike! Lichen Bike Tours chooses roads that are always scenic, sometimes unpaved, and especially avoid roads that carry a lot of vehicle traffic.",
+        "Regions_blurb": "Each town has a variety of suggested rides with links to navigation on both Strava and RideWithGPS"
       }
     }
   },
