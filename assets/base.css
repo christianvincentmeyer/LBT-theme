@@ -3826,3 +3826,58 @@ details-disclosure>details {
 .breakout-info h4{
   display: none;
 }
+
+.rich-text{
+  padding-bottom: 64px !important;
+}
+
+.rich-text__buttons{
+  margin-top: 32px !important;
+}
+
+.newsletter__wrapper {
+  padding: 32px 0 64px !important
+}
+
+.image-with-text__media img{
+  aspect-ratio: 4/3 !important; 
+  height: auto !important;
+}
+.image-with-text__media{
+  aspect-ratio: 4/3 !important; 
+  height: -webkit-min-content;
+}
+
+.product__info-container>*+* {
+  margin: 0 !important;
+}
+
+.price.price--large{
+  padding: 32px 0 16px;
+}
+
+.product__description{
+  padding: 24px 0 0;
+}
+
+.metafield-rich_text_field{
+  padding: 32px 0 16px;
+}
+
+.LBT_supportImageSection-content{
+  padding: 0 0 24px;
+}
+
+.page-title{
+  padding: 24px 0 0;
+}
+
+@media screen and (max-width: 750px) {
+  .LBT_RWGPS-copy{
+    margin: 16px 0 16px !important;
+  }
+}
+
+.klaviyo-form{
+  margin: 24px 0 48px !important;
+}
