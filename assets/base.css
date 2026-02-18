@@ -88,6 +88,12 @@
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
+  padding: 0 32px;
+}
+@media screen and (max-width: 750px) {
+  .page-width {
+    padding: 0 16px;
+  }
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
@@ -109,9 +115,6 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 @media screen and (min-width: 750px) {
-  .page-width {
-    padding: 0 5rem;
-  }
 
   .header.page-width,
   .utility-bar__grid.page-width {
@@ -134,8 +137,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .page-width--narrow {
