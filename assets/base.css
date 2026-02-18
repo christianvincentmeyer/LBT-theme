@@ -88,7 +88,6 @@
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
@@ -135,8 +134,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .page-width--narrow {
@@ -1110,7 +1109,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet .grid__item {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    /* width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2); */
   }
 }
 
@@ -1241,7 +1240,7 @@ summary::-webkit-details-marker {
 
   .slider--tablet.grid--peek.grid--2-col-tablet .grid__item,
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem);
+    /* width: calc(50% - var(--grid-desktop-horizontal-spacing) - 3rem); */
   }
 
   .slider--tablet.grid--peek .grid__item:first-of-type {
@@ -3881,4 +3880,19 @@ details-disclosure>details {
 .klaviyo-form{
   margin: 24px auto 48px !important;
   max-width: 640px;
+}
+
+.product__media-list.slider--mobile{
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.product__info-wrapper {
+  padding: 0 0 0;
+}
+
+@media screen and (max-width: 1380px) {
+  .product__info-container{
+    margin: 40px 0 0px !important;
+  }
 }

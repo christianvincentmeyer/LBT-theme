@@ -150,7 +150,6 @@ button,
     align-items: center;
     gap: 10px;
     align-self: stretch;
-    min-width: 120px;
     border-radius: var(--Spacing-2xs, 4px);
     background-color: var(--Colors-Green-Light, #7BC36B);
     /* width: 100%; */
