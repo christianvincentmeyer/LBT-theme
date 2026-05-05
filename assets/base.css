@@ -3899,3 +3899,10 @@ details-disclosure>details {
     margin: 40px 0 0px !important;
   }
 }
+
+
+/* TEMPORARY EXCEPTION STYLES */
+
+#template--20879357935773__lbt_support_image_766Bbn .supportImage{
+  aspect-ratio: 4/5 !important;
+}
