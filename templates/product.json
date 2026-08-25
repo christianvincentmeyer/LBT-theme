@@ -18,6 +18,14 @@
             "swatch_shape": "circle"
           }
         },
+        "inventory_Kh4D3G": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -38,6 +46,7 @@
         "title",
         "price",
         "variant_picker",
+        "inventory_Kh4D3G",
         "quantity_selector",
         "buy_buttons",
         "description"

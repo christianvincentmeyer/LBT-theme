@@ -170,8 +170,8 @@
       ],
       "name": "tshirt image banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/full_t_shirt.jpg",
-        "image_2": "shopify:\/\/shop_images\/bike_design.jpg",
+        "image": "shopify:\/\/shop_images\/Beebe_Full_Color_Background_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/Beebe_Full_Color_Background.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
